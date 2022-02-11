@@ -1,4 +1,4 @@
-.why-taxila-container {
+.key-points-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -8,7 +8,7 @@
   height: 40.8rem;
 }
 
-.why-taxila-mono-card {
+.key-points-mono-card {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -17,19 +17,19 @@
   padding: 5.8rem 3.5rem 0 5.3rem;
 }
 
-.why-taxila-vertical-seperation {
+.key-points-vertical-seperation {
   height: 100%;
   width: 0.5px;
 }
 
-.why-taxila-mono-card > h4 {
+.key-points-mono-card > h4 {
   font-size: 2rem;
   font-weight: 600;
   color: #707070;
   margin: 3rem 0 2rem 0;
 }
 
-.why-taxila-mono-card > p {
+.key-points-mono-card > p {
   font-size: 1.4rem;
   color: #a09f9d;
 }

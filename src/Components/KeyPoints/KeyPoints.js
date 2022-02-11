@@ -46,10 +46,10 @@ function KeyPoints() {
   ];
 
   return (
-    <div className="why-taxila-container">
+    <div className="key-points-container">
       {keyPoints.map((point, index) => (
         <>
-          <div key={point.id} className="why-taxila-mono-card">
+          <div key={point.id} className="key-points-mono-card">
             <div className="key-img-box">
               <img src={point.image} alt={point.title} />
             </div>
@@ -59,7 +59,7 @@ function KeyPoints() {
           {keyPoints.length - 1 == index ? (
             ""
           ) : (
-            <hr className="why-taxila-vertical-seperation"></hr>
+            <hr className="key-points-vertical-seperation"></hr>
           )}
         </>
       ))}
