@@ -1,0 +1,83 @@
+.contact-form-container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 9.6rem 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-form-content {
+  display: flex;
+  flex-direction: column;
+  width: 34.2rem;
+}
+
+.contact-form-head > h4 {
+  font-size: 4rem;
+  margin: 0 0 4rem 0;
+}
+
+.contact-form-head > h4 > span {
+  font-size: 4rem;
+  color: red;
+}
+
+.contact-form-subhead {
+  font-size: 1.8rem;
+}
+
+.contact-form-input-box {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 57.6rem;
+}
+
+.input-wrapper > input {
+  width: 100%;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid black;
+  border-left: 0px;
+  padding: 0 0 1.6rem 0;
+  margin: 2rem 0 0 0;
+}
+
+.input-wrapper > textarea {
+  width: 100%;
+
+  padding: 0 0 1.6rem 0;
+}
+
+.input-wrapper > label {
+  margin: 3rem 0 0 0;
+}
+
+.input-wrapper > input ::placeholder {
+  font-size: 1.4rem;
+  padding: 0 0 1.6rem 0;
+}
+
+.input-wrapper > label {
+  font-size: 1.4rem;
+  padding: 0 0 1.6rem 0;
+}
+
+.contact-form-quote-btn {
+  width: 22rem;
+  height: 6.4rem;
+  margin: 6.2rem 0 0 0;
+
+  font-size: 2rem;
+  color: red;
+  background-color: #fff;
+  border: 0px;
+  cursor: pointer;
+  align-self: flex-end;
+}
