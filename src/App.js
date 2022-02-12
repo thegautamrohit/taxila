@@ -4,6 +4,7 @@ import Footer from "./Components/CommonComponents/Footer/Footer";
 import Header from "./Components/CommonComponents/Header/Header";
 import HeroBanner from "./Components/HeroBanner/HeroBanner";
 import KeyPoints from "./Components/KeyPoints/KeyPoints";
+import MarbleSection from "./Components/MarbleSection/MarbleSection";
 import MarqueeSection from "./Components/MarqueeSection/MarqueeSection";
 import ShopLink from "./Components/ShopLink/ShopLink";
 import WhyTaxila from "./Components/WhyTaxila/WhyTaxila";
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <HeroBanner />
       <MarqueeSection />
+      <MarbleSection />
       <WhyTaxila />
       <ShopLink />
       <KeyPoints />

@@ -16,15 +16,20 @@
 .contact-form-head > h4 {
   font-size: 4rem;
   margin: 0 0 4rem 0;
+  font-family: var(--playfair-text);
 }
 
 .contact-form-head > h4 > span {
   font-size: 4rem;
-  color: red;
+  font-family: var(--playfair-text);
+
+  color: #ff1000;
 }
 
 .contact-form-subhead {
   font-size: 1.8rem;
+  color: #a09f9d;
+  font-family: var(--open-sans-text);
 }
 
 .contact-form-input-box {
@@ -59,14 +64,22 @@
   margin: 3rem 0 0 0;
 }
 
-.input-wrapper > input ::placeholder {
+.input-wrapper > input::placeholder {
   font-size: 1.4rem;
   padding: 0 0 1.6rem 0;
+  font-family: var(--open-sans-text);
+  color: #a09f9d;
+}
+
+.input-wrapper > input:focus {
+  outline: none;
 }
 
 .input-wrapper > label {
   font-size: 1.4rem;
   padding: 0 0 1.6rem 0;
+  font-family: var(--open-sans-text);
+  color: #a09f9d;
 }
 
 .contact-form-quote-btn {

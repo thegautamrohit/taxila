@@ -12,6 +12,7 @@
 .shop-link-container > h4 {
   font-size: 4rem;
   color: #6c6c6c;
+  font-family: var(--playfair-text);
 }
 
 .shop-link-container > h4 > span {
@@ -24,6 +25,7 @@
   color: #ddd5c9;
   text-align: center;
   line-height: 1.6;
+  font-family: var(--open-sans-text);
 
   margin: 2.3rem 0 4rem 0;
 }

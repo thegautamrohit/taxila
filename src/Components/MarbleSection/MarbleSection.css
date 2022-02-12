@@ -1,0 +1,164 @@
+.Marble-section-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  /* padding: 0 3%; */
+  background-color: #f2f2f2;
+  border: 2px solid transparent;
+  margin: 7.6rem 0 0 0;
+}
+
+.marble-section-tile-1 {
+  background-image: url("../../Assets/images/HomePage/Marble-1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60rem;
+  width: 29rem;
+  position: relative;
+  z-index: 8;
+  /* border: 2px solid red; */
+}
+
+.marble-section-tile-2 {
+  background-image: url("../../Assets/images/HomePage/Marble-2.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60rem;
+  width: 29rem;
+  position: relative;
+  z-index: 8;
+  /* border: 2px solid red; */
+}
+
+.marble-section-tile-3 {
+  background-image: url("../../Assets/images/HomePage/Marble-3.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60rem;
+  width: 29rem;
+  position: relative;
+  z-index: 8;
+  /* border: 2px solid red; */
+}
+
+.marble-section-tile-4 {
+  background-image: url("../../Assets/images/HomePage/Marble-4.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60rem;
+  width: 29rem;
+  position: relative;
+  z-index: 8;
+  /* border: 2px solid red; */
+}
+
+.marble-section-tile-5 {
+  background-image: url("../../Assets/images/HomePage/Marble-5.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 60rem;
+  width: 29rem;
+  position: relative;
+  z-index: 8;
+  /* border: 2px solid red; */
+}
+
+.outer-block {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+
+.outer-block > span {
+  position: absolute;
+  left: 15%;
+  bottom: 10%;
+  font-size: 1.8rem;
+  color: #6c6c6c;
+  z-index: 10;
+  font-family: var(--playfair-text);
+}
+
+.overlay-content {
+  position: absolute;
+  left: 0%;
+  bottom: 6%;
+  font-size: 1.8rem;
+  color: #fff;
+  z-index: 10;
+  font-family: var(--playfair-text);
+}
+
+.overlay-section {
+  position: absolute;
+  top: 20%;
+  left: 15%;
+  right: 15%;
+  bottom: 0%;
+  background-color: rgba(255, 16, 0, 0.5);
+  z-index: 5;
+  opacity: 0;
+}
+
+.view-collection-link {
+  font-size: 1.6rem;
+  text-decoration: underline;
+  margin: 0.8rem 0 0 0;
+}
+
+.outer-block > span {
+  text-align: left;
+}
+
+.background-outer {
+  height: 60%;
+  width: 70%;
+}
+
+.background-outer > img {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.marble-section-tile-1:hover {
+  cursor: pointer;
+}
+
+.marble-section-tile-1:hover > .outer-block,
+.marble-section-tile-2:hover > .outer-block,
+.marble-section-tile-3:hover > .outer-block,
+.marble-section-tile-4:hover > .outer-block,
+.marble-section-tile-5:hover > .outer-block {
+  animation: opacity 0.3s;
+  animation-fill-mode: forwards;
+}
+
+.marble-section-tile-1:hover > .overlay-section,
+.marble-section-tile-2:hover > .overlay-section,
+.marble-section-tile-3:hover > .overlay-section,
+.marble-section-tile-4:hover > .overlay-section,
+.marble-section-tile-5:hover > .overlay-section {
+  opacity: 1;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}

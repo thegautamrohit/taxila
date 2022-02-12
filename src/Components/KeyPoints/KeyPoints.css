@@ -27,11 +27,13 @@
   font-weight: 600;
   color: #707070;
   margin: 3rem 0 2rem 0;
+  font-family: var(--playfair-text);
 }
 
 .key-points-mono-card > p {
   font-size: 1.4rem;
   color: #a09f9d;
+  font-family: var(--open-sans-text);
 }
 
 .key-img-box {

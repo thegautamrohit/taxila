@@ -32,6 +32,8 @@
   font-size: 1.4rem;
   margin: 0 0 0 3.9rem;
   color: #ddd5c9;
+  letter-spacing: 0.5px;
+  font-family: var(--playfair-text);
 }
 
 .mono-quick-link:hover {

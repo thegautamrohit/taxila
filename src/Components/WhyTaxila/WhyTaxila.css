@@ -23,6 +23,7 @@
   font-size: 4rem;
   color: black;
   margin: 6rem 0 0 0;
+  font-family: var(--playfair-text);
 }
 
 .why-taxila-grid-2 {
@@ -31,12 +32,7 @@
 
 .why-taxila-grid-head > span {
   font-size: 4rem;
-  color: red;
-}
-
-.why-taxila-grid-subhead {
-  font-size: 1.8rem;
-  width: 48rem;
+  color: #ff1000;
 }
 
 .why-taxila-grid-1,
@@ -47,21 +43,17 @@
   width: 62.4rem;
 }
 
-.why-taxila-grid-2 {
-  /* border: 2px solid green; */
-}
-.why-taxila-grid-3 {
-  /* border: 2px solid yellow; */
-}
-
 .why-taxila-grid-subhead-1 {
   font-size: 1.8rem;
   margin: 4rem 0 0 0;
   width: 48rem;
   line-height: 1.6;
+  font-family: var(--open-sans-text);
 }
 
 .why-taxila-grid-subhead-2 {
+  font-family: var(--open-sans-text);
+
   font-size: 1.8rem;
   margin: 10rem 0 0 0;
   width: 48rem;

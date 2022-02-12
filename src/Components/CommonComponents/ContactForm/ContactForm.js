@@ -28,7 +28,7 @@ function ContactForm() {
           </div>
 
           <div className="input-wrapper">
-            <input type="email" placeholder="EmailId" />
+            <input type="email" placeholder="Email Id" />
           </div>
 
           <div className="input-wrapper">

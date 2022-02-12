@@ -2,7 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  --playfair-text: "Playfair Display", serif;
+  --open-sans-text: "Open Sans", sans-serif;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap");
 
 html {
   font-size: 62.5%;

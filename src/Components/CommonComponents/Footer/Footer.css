@@ -40,6 +40,7 @@
   font-size: 1.4rem;
   color: #fff;
   padding: 2.6rem 0;
+  font-family: var(--playfair-text);
 }
 .footer-bottom-bar {
   /* border: 1px solid white; */
@@ -53,4 +54,5 @@
   font-size: 1.2rem;
   text-decoration: underline;
   color: #fff;
+  font-family: var(--playfair-text);
 }

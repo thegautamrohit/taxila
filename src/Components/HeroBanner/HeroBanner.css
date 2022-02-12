@@ -28,13 +28,17 @@
   font-size: 4rem;
   font-weight: 600;
   color: #fff;
-
+  font-family: var(--playfair-text);
   line-height: 1.4;
+
+  letter-spacing: 0.5px;
 }
 
 .hero-banner-content > span {
   font-size: 4rem;
   font-weight: 600;
   color: #ff1000;
+  font-family: var(--playfair-text);
+
   background-color: #fff;
 }
