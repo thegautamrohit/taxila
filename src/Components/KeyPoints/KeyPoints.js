@@ -48,8 +48,8 @@ function KeyPoints() {
   return (
     <div className="key-points-container">
       {keyPoints.map((point, index) => (
-        <>
-          <div key={point.id} className="key-points-mono-card">
+        <div key={point.id}>
+          <div className="key-points-mono-card">
             <div className="key-img-box">
               <img src={point.image} alt={point.title} />
             </div>
@@ -61,7 +61,7 @@ function KeyPoints() {
           ) : (
             <hr className="key-points-vertical-seperation"></hr>
           )}
-        </>
+        </div>
       ))}
     </div>
   );
