@@ -1,0 +1,40 @@
+.hero-banner-slider-wrapper {
+  margin: 8.2rem 0 0 0;
+  /* border: 2px solid red; */
+}
+
+.single-banner-slide {
+  position: relative;
+  width: 100%;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.banner-img-wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+
+.banner-img-wrapper > img {
+  height: 100%;
+  width: 100%;
+}
+
+.hero-banner-content {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+
+  font-size: 4rem;
+  font-weight: 600;
+  color: #fff;
+
+  line-height: 1.4;
+}
+
+.hero-banner-content > span {
+  font-size: 4rem;
+  font-weight: 600;
+  color: #ff1000;
+  background-color: #fff;
+}
