@@ -1,5 +1,6 @@
 import "./App.css";
 import ContactForm from "./Components/CommonComponents/ContactForm/ContactForm";
+import Footer from "./Components/CommonComponents/Footer/Footer";
 import Header from "./Components/CommonComponents/Header/Header";
 import KeyPoints from "./Components/KeyPoints/KeyPoints";
 import MarqueeSection from "./Components/MarqueeSection/MarqueeSection";
@@ -15,6 +16,7 @@ function App() {
       <ShopLink />
       <KeyPoints />
       <ContactForm />
+      <Footer />
     </div>
   );
 }
