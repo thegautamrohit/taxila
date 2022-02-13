@@ -1,6 +1,7 @@
 .hero-banner-slider-wrapper {
-  margin: 8.2rem 0 0 0;
+  margin: 8.2rem auto 0 auto;
   /* border: 2px solid red; */
+  width: 95vw;
 }
 
 .single-banner-slide {

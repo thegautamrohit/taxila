@@ -30,3 +30,20 @@ html {
     font-size: 35%;
   }
 }
+
+.slick-dots {
+  bottom: 10rem !important;
+}
+
+.slick-dots li {
+  height: 0.8rem;
+  width: 0.8rem;
+}
+
+.slick-dots li button:before {
+  font-size: 0.8rem !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
