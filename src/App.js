@@ -6,6 +6,7 @@ import HeroBanner from "./Components/HeroBanner/HeroBanner";
 import KeyPoints from "./Components/KeyPoints/KeyPoints";
 import MarbleSection from "./Components/MarbleSection/MarbleSection";
 import MarqueeSection from "./Components/MarqueeSection/MarqueeSection";
+import ProductCarousel from "./Components/ProductCarousel/ProductCarousel";
 import ShopLink from "./Components/ShopLink/ShopLink";
 import WhyTaxila from "./Components/WhyTaxila/WhyTaxila";
 
@@ -15,10 +16,11 @@ function App() {
       <Header />
       <HeroBanner />
       <MarqueeSection />
-      <MarbleSection />
+      {/* <MarbleSection /> */}
       <WhyTaxila />
+      {/* <ProductCarousel /> */}
       <ShopLink />
-      <KeyPoints />
+      {/* <KeyPoints /> */}
       <ContactForm />
       <Footer />
     </div>

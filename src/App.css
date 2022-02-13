@@ -2,13 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  --playfair-text: "Playfair Display", serif;
+  --playfair-text: "Raleway", sans-serif;
   --open-sans-text: "Open Sans", sans-serif;
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
-html {
+/* html {
   font-size: 62.5%;
 }
 
@@ -20,12 +21,44 @@ html {
 
 @media (max-width: 768px) {
   html {
-    font-size: 45%;
+    font-size: 52%;
   }
 }
 
 @media (max-width: 420px) {
   html {
     font-size: 35%;
+  }
+} */
+
+.slick-dots {
+  bottom: 100px !important;
+}
+
+.slick-dots li {
+  height: 8px;
+  width: 8px;
+}
+
+.slick-dots li button:before {
+  font-size: 8px !important;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .slick-dots {
+    bottom: 12px !important;
+  }
+
+  .slick-arrow .slick-prev,
+  .slick-arrow .slick-next {
+    display: none;
+  }
+
+  .slick-arrow .slick-next {
+    display: none;
   }
 }

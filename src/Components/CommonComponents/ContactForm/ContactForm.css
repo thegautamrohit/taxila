@@ -1,7 +1,7 @@
 .contact-form-container {
   width: 80%;
   margin: 0 auto;
-  padding: 9.6rem 0;
+  padding: 96px 0;
 
   display: flex;
   justify-content: space-between;
@@ -10,24 +10,25 @@
 .contact-form-content {
   display: flex;
   flex-direction: column;
-  width: 34.2rem;
+  width: 342px;
 }
 
 .contact-form-head > h4 {
-  font-size: 4rem;
-  margin: 0 0 4rem 0;
+  font-size: 40px;
+  margin: 0 0 40px 0;
   font-family: var(--playfair-text);
+  color: #a09f9d;
 }
 
 .contact-form-head > h4 > span {
-  font-size: 4rem;
+  font-size: 40px;
   font-family: var(--playfair-text);
 
   color: #ff1000;
 }
 
 .contact-form-subhead {
-  font-size: 1.8rem;
+  font-size: 18px;
   color: #a09f9d;
   font-family: var(--open-sans-text);
 }
@@ -41,7 +42,7 @@
 .input-wrapper {
   display: flex;
   flex-direction: column;
-  width: 57.6rem;
+  width: 576px;
 }
 
 .input-wrapper > input {
@@ -50,23 +51,23 @@
   border-right: 0;
   border-bottom: 1px solid black;
   border-left: 0px;
-  padding: 0 0 1.6rem 0;
-  margin: 2rem 0 0 0;
+  padding: 0 0 16px 0;
+  margin: 20px 0 0 0;
 }
 
 .input-wrapper > textarea {
   width: 100%;
 
-  padding: 0 0 1.6rem 0;
+  padding: 0 0 16px 0;
 }
 
 .input-wrapper > label {
-  margin: 3rem 0 0 0;
+  margin: 30px 0 0 0;
 }
 
 .input-wrapper > input::placeholder {
-  font-size: 1.4rem;
-  padding: 0 0 1.6rem 0;
+  font-size: 14px;
+  padding: 0 0 16px 0;
   font-family: var(--open-sans-text);
   color: #a09f9d;
 }
@@ -76,21 +77,62 @@
 }
 
 .input-wrapper > label {
-  font-size: 1.4rem;
-  padding: 0 0 1.6rem 0;
+  font-size: 14px;
+  padding: 0 0 16px 0;
   font-family: var(--open-sans-text);
   color: #a09f9d;
 }
 
 .contact-form-quote-btn {
-  width: 22rem;
-  height: 6.4rem;
-  margin: 6.2rem 0 0 0;
+  width: 220px;
+  height: 64px;
+  margin: 62px 0 0 0;
 
-  font-size: 2rem;
+  font-size: 20px;
   color: red;
   background-color: #fff;
   border: 0px;
   cursor: pointer;
   align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+
+    width: 90%;
+    margin: 0 auto;
+
+    padding: 60px 0;
+  }
+
+  .input-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-form-subhead {
+    font-size: 16px;
+  }
+
+  .contact-form-content {
+    width: 100%;
+  }
+
+  .contact-form-head > h4 {
+    font-size: 24px;
+  }
+  .contact-form-head > h4 > span {
+    font-size: 24px;
+  }
+
+  .contact-form-input-container {
+    margin: 55px 0 0 0;
+  }
+
+  .input-wrapper > textarea {
+    height: 65px;
+  }
 }

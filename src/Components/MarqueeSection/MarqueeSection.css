@@ -18,7 +18,7 @@
   position: absolute;
   white-space: nowrap;
   will-change: transform;
-  animation: marquee 12s linear infinite;
+  animation: marquee 18s linear infinite;
   /* border: 2px solid blue; */
 }
 
@@ -26,19 +26,19 @@
   position: absolute;
   white-space: nowrap;
   will-change: transform;
-  animation: marquee2 14s linear infinite;
+  animation: marquee2 18s linear infinite;
   /* border: 2px solid red; */
 }
 
 .marquee-text,
 .marquee-text-2 > span {
-  font-size: 10.3rem;
+  font-size: 103px;
   font-family: var(--playfair-text);
 }
 
 .marquee-text,
 .marquee-text-3 > span {
-  font-size: 10.3rem;
+  font-size: 103px;
   font-family: var(--playfair-text);
 }
 
@@ -71,5 +71,29 @@
   }
   to {
     transform: translateX(0%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .marquee-section-container {
+    padding: 60px 0;
+  }
+
+  .marquee-text,
+  .marquee-text-2 > span {
+    font-size: 46px;
+    font-family: var(--playfair-text);
+  }
+
+  .marquee-text,
+  .marquee-text-3 > span {
+    font-size: 46px;
+    font-family: var(--playfair-text);
+  }
+
+  .marquee-text-wrapper-1,
+  .marquee-text-wrapper-2,
+  .marquee-text-wrapper-3 {
+    height: 60px;
   }
 }

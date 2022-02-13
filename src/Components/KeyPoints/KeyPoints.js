@@ -7,62 +7,63 @@ import PartnerCentric from "../../Assets/images/keyPoints/partner-centric.svg";
 import Culture from "../../Assets/images/keyPoints/culture.svg";
 
 function KeyPoints() {
-  const keyPoints = [
-    {
-      id: 1,
-      image: Passion,
-      title: "Passion",
-      description:
-        "Our unyielding passion for the craft, the process, the product, and our customers make Taxila Stone an invaluable asset to the stone industry.",
-    },
-    {
-      id: 2,
-      image: Value,
-      title: "Value",
-      description:
-        "With a mindset to create value for all involved parties in the process, we at Taxila Stone strive to provide affordable and quality products and services.",
-    },
-    {
-      id: 3,
-      image: Integrity,
-      title: "Integrity",
-      description:
-        "With righteous products and best quality, righteous partners and honest logistics, Taxila Stone vows to provide upright services to our valued customers.",
-    },
-    {
-      id: 4,
-      image: PartnerCentric,
-      title: "Partner Centric",
-      description:
-        "Our belief is to provide unparalleled support and guidance to the end consumer with the idea of offering all related services under one roof.",
-    },
-    {
-      id: 5,
-      image: Culture,
-      title: "Culture",
-      description:
-        "With deep respect and understanding towards our partners, consumers, and everyone involved in the process, we aim to cultivate an encouraging environment.",
-    },
-  ];
-
   return (
     <div className="key-points-container">
-      {keyPoints.map((point, index) => (
-        <div key={point.id}>
-          <div className="key-points-mono-card">
-            <div className="key-img-box">
-              <img src={point.image} alt={point.title} />
-            </div>
-            <h4> {point.title} </h4>
-            <p>{point.description}</p>
-          </div>
-          {keyPoints.length - 1 == index ? (
-            ""
-          ) : (
-            <hr className="key-points-vertical-seperation"></hr>
-          )}
+      <div className="key-points-mono-card border">
+        <div className="key-img-box">
+          <img src={Passion} alt="Passion" />
         </div>
-      ))}
+        <h4>Passion</h4>
+        <p>
+          Our unyielding passion for the craft, the process, the product, and
+          our customers make Taxila Stone an invaluable asset to the stone
+          industry.
+        </p>
+      </div>
+      <div className="key-points-mono-card border">
+        <div className="key-img-box">
+          <img src={Value} alt="Value" />
+        </div>
+        <h4>Value</h4>
+        <p>
+          With a mindset to create value for all involved parties in the
+          process, we at Taxila Stone strive to provide affordable and quality
+          products and services.
+        </p>
+      </div>
+      <div className="key-points-mono-card border">
+        <div className="key-img-box">
+          <img src={Integrity} alt="Integrity" />
+        </div>
+        <h4>Integrity</h4>
+        <p>
+          With righteous products and best quality, righteous partners and
+          honest logistics, Taxila Stone vows to provide upright services to our
+          valued customers.
+        </p>
+      </div>
+      <div className="key-points-mono-card border">
+        <div className="key-img-box">
+          <img src={PartnerCentric} alt="Partner Centric" />
+        </div>
+        <h4>Partner Centric</h4>
+        <p>
+          Our belief is to provide unparalleled support and guidance to the end
+          consumer with the idea of offering all related services under one
+          roof.
+        </p>
+      </div>
+      <div className="key-points-mono-card">
+        <div className="key-img-box">
+          <img src={Culture} alt="Culture" />
+        </div>
+        <h4>Culture</h4>
+        <p>
+          With deep respect and understanding towards our partners, consumers,
+          and everyone involved in the process, we aim to cultivate an
+          encouraging environment.
+        </p>
+      </div>
     </div>
   );
 }
