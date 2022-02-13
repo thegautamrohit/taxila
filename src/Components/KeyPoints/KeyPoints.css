@@ -5,7 +5,7 @@
   width: 100%;
   background-color: #f5f5f5;
   padding: 0 3.5rem;
-  height: 40.8rem;
+  /* height: 40.8rem; */
 }
 
 .key-points-mono-card {
@@ -14,7 +14,7 @@
   align-items: flex-start;
   padding: 5.8rem 0 7.5rem 0rem;
   height: 100%;
-  padding: 5.8rem 3.5rem 0 5.3rem;
+  padding: 5.8rem 3.5rem 9.5rem 5.3rem;
 }
 
 .key-points-vertical-seperation {
@@ -39,4 +39,8 @@
 .key-img-box {
   width: 7.9rem;
   height: 8.2rem;
+}
+
+.border {
+  border-right: 1px solid #a09f9d;
 }
