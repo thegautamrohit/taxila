@@ -16,11 +16,11 @@ function App() {
       <Header />
       <HeroBanner />
       <MarqueeSection />
-      {/* <MarbleSection /> */}
+      <MarbleSection />
       <WhyTaxila />
       {/* <ProductCarousel /> */}
       <ShopLink />
-      {/* <KeyPoints /> */}
+      <KeyPoints />
       <ContactForm />
       <Footer />
     </div>
