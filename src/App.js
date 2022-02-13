@@ -14,15 +14,15 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <HeroBanner />
-      <MarqueeSection />
-      <MarbleSection />
-      <WhyTaxila />
+      {/* <HeroBanner /> */}
+      {/* <MarqueeSection /> */}
+      {/* <MarbleSection /> */}
+      {/* <WhyTaxila /> */}
       {/* <ProductCarousel /> */}
-      <ShopLink />
-      <KeyPoints />
-      <ContactForm />
-      <Footer />
+      {/* <ShopLink /> */}
+      {/* <KeyPoints /> */}
+      {/* <ContactForm /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
