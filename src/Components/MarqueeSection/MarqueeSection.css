@@ -1,4 +1,3 @@
-/* @media screen and (min-width: 600px) { */
 .marquee-section-container {
   display: flex;
   flex-direction: column;
@@ -74,4 +73,23 @@
     transform: translateX(0%);
   }
 }
-/* } */
+
+@media screen and (max-width: 768px) {
+  .marquee-text,
+  .marquee-text-2 > span {
+    font-size: 46px;
+    font-family: var(--playfair-text);
+  }
+
+  .marquee-text,
+  .marquee-text-3 > span {
+    font-size: 46px;
+    font-family: var(--playfair-text);
+  }
+
+  .marquee-text-wrapper-1,
+  .marquee-text-wrapper-2,
+  .marquee-text-wrapper-3 {
+    height: 60px;
+  }
+}

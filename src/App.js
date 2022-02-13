@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       {/* <Header /> */}
       {/* <HeroBanner /> */}
-      {/* <MarqueeSection /> */}
+      <MarqueeSection />
       {/* <MarbleSection /> */}
       {/* <WhyTaxila /> */}
       {/* <ProductCarousel /> */}
