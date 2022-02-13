@@ -17,7 +17,7 @@ function App() {
       {/* <HeroBanner /> */}
       <MarqueeSection />
       {/* <MarbleSection /> */}
-      {/* <WhyTaxila /> */}
+      <WhyTaxila />
       {/* <ProductCarousel /> */}
       <ShopLink />
       {/* <KeyPoints /> */}

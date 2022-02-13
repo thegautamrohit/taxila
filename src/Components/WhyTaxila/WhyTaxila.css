@@ -1,21 +1,36 @@
 .why-taxila-container {
   /* border: 2px solid red; */
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  flex-direction: column;
   /* width: 124.8px; */
   width: 85%;
   padding: 104px 0;
 }
 
-.why-taxila-img-container > img {
+.why-taxila-upper-section,
+.why-taxila-lower-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 420px;
+  /* border: 2px solid red; */
+}
+
+.why-taxila-img-container {
   height: 100%;
   width: 100%;
 }
 
+.why-taxila-img-container > img {
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid blue; */
+}
+
 .why-taxila-grid-head {
   font-size: 40px;
-  color: black;
+  color: #6c6c6c;
   margin: 60px 0 0 0;
   font-family: var(--playfair-text);
 }
@@ -101,4 +116,80 @@
   color: #fff;
   border: 0;
   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .why-taxila-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    padding: 60px 0 50px 0;
+  }
+
+  .why-taxila-upper-section {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+
+    /* height: 700px; */
+  }
+
+  .why-taxila-img-container {
+    width: 90%;
+    height: 80%;
+  }
+
+  .why-taxila-lower-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* height: 700px; */
+  }
+
+  .why-taxila-grid-1,
+  .why-taxila-grid-2,
+  .why-taxila-grid-3,
+  .why-taxila-grid-4 {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .why-taxila-grid-subhead-1,
+  .why-taxila-grid-subhead-2 {
+    width: 100%;
+    margin: 16px 0 30px 0;
+    color: #a4a4a4;
+    font-size: 16px;
+  }
+
+  .why-taxila-grid-2 {
+    padding: 0;
+  }
+
+  .why-taxila-grid-head,
+  .why-taxila-grid-head > span {
+    font-size: 24px;
+  }
+
+  .why-taxila-grid-head {
+    margin: 0;
+  }
+
+  .why-taxila-lower-section {
+    height: 100%;
+  }
+
+  .why-taxila-btn {
+    margin: 0;
+    font-size: 15px;
+  }
+
+  .why-taxila-grid-4 {
+    display: none;
+  }
 }
