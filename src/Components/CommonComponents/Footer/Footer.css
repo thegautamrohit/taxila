@@ -8,16 +8,16 @@
 
 .footer-logo-bar {
   background-color: #fff;
-  height: 17rem;
-  width: 18.5rem;
+  height: 170px;
+  width: 185px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .footer-logo-wrapper {
-  height: 3.7rem;
-  width: 15.2rem;
+  height: 37px;
+  width: 152px;
 }
 
 .footer-logo-wrapper > img {
@@ -37,21 +37,21 @@
 }
 
 .footer-mono-quick-link {
-  font-size: 1.4rem;
+  font-size: 14px;
   color: #fff;
-  padding: 2.6rem 0;
+  padding: 26px 0;
   font-family: var(--playfair-text);
 }
 .footer-bottom-bar {
   /* border: 1px solid white; */
-  width: 22rem;
+  width: 220px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   align-self: flex-end;
-  margin: 12rem 0 0 0;
-  padding: 0 0 1.8rem 0;
-  font-size: 1.2rem;
+  margin: 120px 0 0 0;
+  padding: 0 0 18px 0;
+  font-size: 12px;
   text-decoration: underline;
   color: #fff;
   font-family: var(--playfair-text);

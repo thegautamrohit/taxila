@@ -6,34 +6,34 @@
   justify-content: center;
   /* border: 2px solid red; */
   background-color: #fafafa;
-  padding: 5.8rem 0;
+  padding: 58px 0;
 }
 
 .shop-link-container > h4 {
-  font-size: 4rem;
+  font-size: 40px;
   color: #6c6c6c;
   font-family: var(--playfair-text);
 }
 
 .shop-link-container > h4 > span {
-  font-size: 4rem;
+  font-size: 40px;
   color: #ff1000;
 }
 
 .shop-link-container > p {
-  font-size: 2rem;
+  font-size: 20px;
   color: #ddd5c9;
   text-align: center;
   line-height: 1.6;
   font-family: var(--open-sans-text);
 
-  margin: 2.3rem 0 4rem 0;
+  margin: 23px 0 40px 0;
 }
 
 .shop-link-quote-btn {
-  height: 6.4rem;
-  width: 22rem;
-  font-size: 2rem;
+  height: 64px;
+  width: 220px;
+  font-size: 20px;
   color: #ff1000;
   background-color: transparent;
   border: 0;

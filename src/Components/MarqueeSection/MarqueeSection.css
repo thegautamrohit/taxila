@@ -1,3 +1,4 @@
+/* @media screen and (min-width: 600px) { */
 .marquee-section-container {
   display: flex;
   flex-direction: column;
@@ -32,13 +33,13 @@
 
 .marquee-text,
 .marquee-text-2 > span {
-  font-size: 10.3rem;
+  font-size: 103px;
   font-family: var(--playfair-text);
 }
 
 .marquee-text,
 .marquee-text-3 > span {
-  font-size: 10.3rem;
+  font-size: 103px;
   font-family: var(--playfair-text);
 }
 
@@ -73,3 +74,4 @@
     transform: translateX(0%);
   }
 }
+/* } */

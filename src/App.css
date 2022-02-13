@@ -9,7 +9,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 
-html {
+/* html {
   font-size: 62.5%;
 }
 
@@ -21,7 +21,7 @@ html {
 
 @media (max-width: 768px) {
   html {
-    font-size: 45%;
+    font-size: 52%;
   }
 }
 
@@ -29,19 +29,19 @@ html {
   html {
     font-size: 35%;
   }
-}
+} */
 
 .slick-dots {
-  bottom: 10rem !important;
+  bottom: 100px !important;
 }
 
 .slick-dots li {
-  height: 0.8rem;
-  width: 0.8rem;
+  height: 8px;
+  width: 8px;
 }
 
 .slick-dots li button:before {
-  font-size: 0.8rem !important;
+  font-size: 8px !important;
 }
 
 .slick-dots li.slick-active button:before {

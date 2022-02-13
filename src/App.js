@@ -18,7 +18,7 @@ function App() {
       <MarqueeSection />
       <MarbleSection />
       <WhyTaxila />
-      <ProductCarousel />
+      {/* <ProductCarousel /> */}
       <ShopLink />
       <KeyPoints />
       <ContactForm />

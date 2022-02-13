@@ -1,5 +1,5 @@
 .hero-banner-slider-wrapper {
-  margin: 8.2rem auto 0 auto;
+  margin: 82px auto 0 auto;
   /* border: 2px solid red; */
   width: 95vw;
 }
@@ -26,7 +26,7 @@
   top: 30%;
   left: 10%;
 
-  font-size: 4rem;
+  font-size: 40px;
   font-weight: 600;
   color: #fff;
   font-family: var(--playfair-text);
@@ -36,7 +36,7 @@
 }
 
 .hero-banner-content > span {
-  font-size: 4rem;
+  font-size: 40px;
   font-weight: 600;
   color: #ff1000;
   font-family: var(--playfair-text);
