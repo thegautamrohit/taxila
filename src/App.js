@@ -22,7 +22,7 @@ function App() {
       {/* <ShopLink /> */}
       {/* <KeyPoints /> */}
       {/* <ContactForm /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

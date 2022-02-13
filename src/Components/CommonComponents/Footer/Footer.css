@@ -56,3 +56,38 @@
   color: #fff;
   font-family: var(--playfair-text);
 }
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (max-width: 820px) {
+  .footer-container {
+    padding: 0 5%;
+  }
+
+  .footer-logo-bar {
+    height: 89px;
+    width: 97px;
+  }
+
+  .footer-mono-quick-link {
+    padding: 13px 0;
+    /* border: 1px solid white; */
+  }
+
+  .footer-quick-links-bar {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .footer-bottom-bar {
+    flex-direction: column;
+    justify-content: unset;
+    align-items: flex-end;
+    margin: 80px 0 0 0;
+  }
+
+  .footer-term-link {
+    margin: 0 0 10px 0;
+  }
+}
