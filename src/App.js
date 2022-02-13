@@ -13,7 +13,7 @@ import WhyTaxila from "./Components/WhyTaxila/WhyTaxila";
 function App() {
   return (
     <div className="App">
-      <Header />
+      {/* <Header /> */}
       {/* <HeroBanner /> */}
       {/* <MarqueeSection /> */}
       {/* <MarbleSection /> */}
@@ -21,7 +21,7 @@ function App() {
       {/* <ProductCarousel /> */}
       {/* <ShopLink /> */}
       {/* <KeyPoints /> */}
-      {/* <ContactForm /> */}
+      <ContactForm />
       <Footer />
     </div>
   );

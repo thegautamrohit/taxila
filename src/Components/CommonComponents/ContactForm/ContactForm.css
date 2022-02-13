@@ -17,6 +17,7 @@
   font-size: 40px;
   margin: 0 0 40px 0;
   font-family: var(--playfair-text);
+  color: #a09f9d;
 }
 
 .contact-form-head > h4 > span {
@@ -93,4 +94,45 @@
   border: 0px;
   cursor: pointer;
   align-self: flex-end;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-form-container {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+
+    width: 90%;
+    margin: 0 auto;
+
+    padding: 60px 0;
+  }
+
+  .input-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .contact-form-subhead {
+    font-size: 16px;
+  }
+
+  .contact-form-content {
+    width: 100%;
+  }
+
+  .contact-form-head > h4 {
+    font-size: 24px;
+  }
+  .contact-form-head > h4 > span {
+    font-size: 24px;
+  }
+
+  .contact-form-input-container {
+    margin: 55px 0 0 0;
+  }
+
+  .input-wrapper > textarea {
+    height: 65px;
+  }
 }
