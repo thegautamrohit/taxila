@@ -19,7 +19,7 @@ function App() {
       {/* <MarbleSection /> */}
       {/* <WhyTaxila /> */}
       {/* <ProductCarousel /> */}
-      {/* <ShopLink /> */}
+      <ShopLink />
       {/* <KeyPoints /> */}
       <ContactForm />
       <Footer />
