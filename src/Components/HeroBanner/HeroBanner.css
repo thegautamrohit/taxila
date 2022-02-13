@@ -11,7 +11,7 @@
 }
 
 .banner-img-wrapper {
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
 }
 
@@ -22,7 +22,7 @@
 
 .hero-banner-content {
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 10%;
 
   font-size: 4rem;
@@ -31,7 +31,7 @@
   font-family: var(--playfair-text);
   line-height: 1.4;
 
-  letter-spacing: 0.5px;
+  letter-spacing: 1.5px;
 }
 
 .hero-banner-content > span {
@@ -39,6 +39,6 @@
   font-weight: 600;
   color: #ff1000;
   font-family: var(--playfair-text);
-
+  letter-spacing: 1.5px;
   background-color: #fff;
 }

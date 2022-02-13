@@ -34,7 +34,7 @@ function WhyTaxila() {
           customer service to build the home of your dreams.
         </p>
 
-        <button className="why-taxila-btn">About Us</button>
+        <button className="why-taxila-btn">About Us </button>
       </div>
 
       <div className="why-taxila-grid-4">

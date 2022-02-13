@@ -19,6 +19,10 @@
   width: 100%;
 }
 
+/* .why-taxila-img-container:hover {
+  transform: scale(1.1);
+} */
+
 .why-taxila-grid-head {
   font-size: 4rem;
   color: black;
@@ -65,4 +69,43 @@
   margin: 4.6rem 0 0 0;
   height: 6.4rem;
   font-size: 2rem;
+}
+
+.why-taxila-btn {
+  width: 22rem;
+  margin: 4.6rem 0 0 0;
+  height: 6.4rem;
+  font-size: 2rem;
+  background-color: #fff;
+  color: #ff1000;
+  border: 0;
+}
+
+.why-taxila-btn::after {
+  content: ">";
+
+  margin: 0 0 0 2rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #ff1000;
+  border-radius: 50%;
+}
+
+.why-taxila-btn::after:hover {
+  content: "? >";
+
+  margin: 0 0 0 2rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #ff1000;
+  border-radius: 50%;
+}
+
+.why-taxila-btn:hover {
+  width: 22rem;
+  margin: 4.6rem 0 0 0;
+  height: 6.4rem;
+  font-size: 2rem;
+  background-color: #ff1000;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
 }
