@@ -47,3 +47,18 @@
 .slick-dots li.slick-active button:before {
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .slick-dots {
+    bottom: 12px !important;
+  }
+
+  .slick-arrow .slick-prev,
+  .slick-arrow .slick-next {
+    display: none;
+  }
+
+  .slick-arrow .slick-next {
+    display: none;
+  }
+}

@@ -13,8 +13,8 @@ import WhyTaxila from "./Components/WhyTaxila/WhyTaxila";
 function App() {
   return (
     <div className="App">
-      {/* <Header /> */}
-      {/* <HeroBanner /> */}
+      <Header />
+      <HeroBanner />
       <MarqueeSection />
       {/* <MarbleSection /> */}
       <WhyTaxila />

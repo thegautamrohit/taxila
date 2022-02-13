@@ -75,6 +75,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .marquee-section-container {
+    padding: 60px 0;
+  }
+
   .marquee-text,
   .marquee-text-2 > span {
     font-size: 46px;

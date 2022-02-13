@@ -43,3 +43,27 @@
   letter-spacing: 1.5px;
   background-color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .banner-img-wrapper {
+    height: 35vh;
+    /* width: 100%; */
+    margin: 0 auto;
+  }
+
+  .single-banner-slide {
+    /* width: 100%; */
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .hero-banner-content {
+    top: 8%;
+    left: 5%;
+  }
+
+  .hero-banner-content,
+  .hero-banner-content > span {
+    font-size: 20px;
+  }
+}
