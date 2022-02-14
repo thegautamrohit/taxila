@@ -162,3 +162,19 @@
     opacity: 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .Marble-section-container {
+    overflow-x: scroll;
+    margin: 0;
+  }
+
+  .marble-section-tile-1,
+  .marble-section-tile-2,
+  .marble-section-tile-3,
+  .marble-section-tile-4,
+  .marble-section-tile-5 {
+    height: 547px;
+    width: 312px;
+  }
+}
