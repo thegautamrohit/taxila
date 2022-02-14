@@ -40,6 +40,8 @@ function Productcarousel() {
     beforeChange: (current, next) => setImageIndex(next),
   };
 
+  console.log(settings.beforeChange);
+
   return (
     <div className="product-carousel-container">
       <Slider {...settings}>

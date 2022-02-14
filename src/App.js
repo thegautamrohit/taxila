@@ -16,7 +16,7 @@ function App() {
       <Header />
       <HeroBanner />
       <MarqueeSection />
-      <MarbleSection />
+      {/* <MarbleSection /> */}
       <WhyTaxila />
       {/* <ProductCarousel /> */}
       <ShopLink />
