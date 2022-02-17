@@ -1,7 +1,11 @@
 .hero-banner-slider-wrapper {
   margin: 82px auto 0 auto;
   /* border: 2px solid red; */
-  width: 95vw;
+  width: 100vw;
+}
+
+.hero-banner-slider-wrapper > .slick-arrow .slick-next {
+  display: none !important;
 }
 
 .single-banner-slide {
@@ -45,6 +49,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .hero-banner-slider-wrapper {
+    margin: 65px 0 0 0;
+  }
   .banner-img-wrapper {
     height: 35vh;
     /* width: 100%; */
