@@ -1,7 +1,8 @@
 .hero-banner-slider-wrapper {
   margin: 82px auto 0 auto;
   /* border: 2px solid red; */
-  width: 100vw;
+  width: 98vw;
+  overflow-x: hidden;
 }
 
 .hero-banner-slider-wrapper > .slick-arrow .slick-next {
