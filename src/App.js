@@ -1,9 +1,8 @@
 import React, { Suspense } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { lazy } from "react";
 
-const HomePage = lazy(() => import("./Components/HomePage/HomePage"));
+import HomePage from "./Components/HomePage/HomePage";
 
 function App() {
   return (
