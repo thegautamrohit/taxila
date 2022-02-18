@@ -61,10 +61,12 @@
   width: 480px;
   line-height: 1.6;
   font-family: var(--open-sans-text);
+  color: #a4a4a4;
 }
 
 .why-taxila-grid-subhead-2 {
   font-family: var(--open-sans-text);
+  color: #a4a4a4;
 
   font-size: 18px;
   margin: 100px 0 0 0;
