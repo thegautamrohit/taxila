@@ -47,6 +47,7 @@
   font-family: var(--playfair-text);
   letter-spacing: 1.5px;
   background-color: #fff;
+  padding: 0 10px;
 }
 
 @media screen and (max-width: 768px) {
