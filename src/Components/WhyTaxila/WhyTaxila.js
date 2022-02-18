@@ -21,8 +21,11 @@ function WhyTaxila() {
           </h4>
 
           <p className="why-taxila-grid-subhead-1">
-            no middlemen, exclusives from over the globe, Reliable customer
-            service, One stop shop for Designers, providing local products.
+            A one-stop solution for designers and builders alike, we at Taxila
+            Stone strive to bring the best quality local and imported stone
+            surfaces from all over the globe. Without the involvement of any
+            third-party vendors, Taxila Stone offers unparalleled and reliable
+            customer service to build the home of your dreams.
           </p>
         </div>
       </div>
@@ -30,11 +33,11 @@ function WhyTaxila() {
       <div className="why-taxila-lower-section">
         <div className="why-taxila-grid-3">
           <p className="why-taxila-grid-subhead-2">
-            <b> A one-stop solution </b> for designers and builders alike, we at
-            Taxila Stone strive to bring the best quality local and imported
-            stone surfaces from all over the globe. Without the involvement of
-            any third-party vendors, Taxila Stone offers unparalleled and
-            reliable customer service to build the home of your dreams.
+            We build stones that define you - Taxila Stone seeks inspiration
+            after the lost city of cut stone -Takshashila. Our mission is to
+            share the hidden beauty behind the legacy, the art, the colors, and
+            the people that inspire us to curate the perfect stone surfaces for
+            you.
           </p>
 
           <button className="why-taxila-btn">About Us </button>
