@@ -1,143 +1,168 @@
 import React, { useState } from "react";
-import Slider from "react-slick";
+
 import Bathroom from "../../Assets/images/HomePage/Bathroom.webp";
 // import Kitchen from "../../Assets/images/HomePage/Kitchen.webp";
 import LivingRoom from "../../Assets/images/HomePage/LivingRoom.webp";
 import Outdoor from "../../Assets/images/HomePage/Outdoor.webp";
 import Commercial from "../../Assets/images/HomePage/Commercial.webp";
+
 import "./ProductCarousel.css";
 import { GrNext, GrPrevious } from "react-icons/gr";
 
-function ProductCarousel() {
-  const images = [
-    {
-      id: 1,
-      src: Bathroom,
-      title: "BATHROOMS",
-    },
-    {
-      id: 2,
-      src: Outdoor,
-      title: "OUTDOORS",
-    },
-    {
-      id: 3,
-      src: Bathroom,
-      title: "KITCHEN",
-    },
-    {
-      id: 4,
-      src: LivingRoom,
-      title: "LIVING ROOM",
-    },
-    {
-      id: 5,
-      src: Commercial,
-      title: "Commercial",
-    },
-    {
-      id: 6,
-      src: Bathroom,
-      title: "BATHROOMS",
-    },
-    {
-      id: 7,
-      src: Outdoor,
-      title: "OUTDOORS",
-    },
-    {
-      id: 8,
-      src: Bathroom,
-      title: "KITCHEN",
-    },
-    {
-      id: 9,
-      src: LivingRoom,
-      title: "LIVING ROOM",
-    },
-    {
-      id: 10,
-      src: Commercial,
-      title: "Commercial",
-    },
-  ];
+const images = [
+  {
+    id: 1,
+    src: Bathroom,
+    title: "BATHROOMS",
+  },
+  {
+    id: 2,
+    src: Outdoor,
+    title: "OUTDOORS",
+  },
+  {
+    id: 3,
+    src: Bathroom,
+    title: "KITCHEN",
+  },
+  {
+    id: 4,
+    src: LivingRoom,
+    title: "LIVING ROOM",
+  },
+  {
+    id: 5,
+    src: Commercial,
+    title: "Commercial",
+  },
+  {
+    id: 6,
+    src: Bathroom,
+    title: "BATHROOMS",
+  },
+  {
+    id: 7,
+    src: Outdoor,
+    title: "OUTDOORS",
+  },
+  {
+    id: 8,
+    src: Bathroom,
+    title: "KITCHEN",
+  },
+  {
+    id: 9,
+    src: LivingRoom,
+    title: "LIVING ROOM",
+  },
+  {
+    id: 10,
+    src: Commercial,
+    title: "Commercial",
+  },
+];
+class Item extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      level: this.props.level,
+    };
+  }
 
-  const [imageIndex, setImageIndex] = useState(0);
-
-  const NextArrow = ({ onClick }) => {
+  render() {
+    const className = "item level" + this.props.level;
+    const overlay = "overlay" + this.props.level;
     return (
-      <div className="arrow next" onClick={onClick}>
-        <GrNext color={"#924A90"} />
+      <div
+        className={className}
+        style={{
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center center",
+        }}
+      >
+        <div className={overlay}></div>
+        <img src={this.props.images} />
+        <div className="">
+          <p>{this.props.title}</p>
+          <a href="/">explore {this.props.title} </a>
+        </div>
       </div>
     );
-  };
+  }
+}
 
-  const PrevArrow = ({ onClick }) => {
-    return (
-      <div className="arrow prev" onClick={onClick}>
-        <GrPrevious color={"#ddd5c9"} />
-      </div>
-    );
-  };
+class ProductCarousel extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      items: images,
+      active: 0,
+      direction: "",
+    };
+    this.rightClick = this.moveRight.bind(this);
+    this.leftClick = this.moveLeft.bind(this);
+  }
 
-  const settings = {
-    infinite: true,
-    lazyLoad: true,
-    speed: 1000,
-    slidesToShow: 5,
-    centerMode: true,
-    centerPadding: 0,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
-    beforeChange: (current, next) => print(next, current),
-  };
+  generateItems() {
+    let items = [];
+    let level;
 
-  const print = (a, b) => {
-    setImageIndex(a);
-  };
-
-  const slideHandler = (index) => {
-    console.log(index, imageIndex);
-
-    if (index === imageIndex) {
-      return "active slide";
-    } else if (index - 1 === imageIndex) {
-      return "adjacent slide";
-    } else if (index + 1 === imageIndex) {
-      return "adjacent slide";
-    } else {
-      return "dead slide";
+    for (var i = this.state.active - 2; i < this.state.active + 3; i++) {
+      var index = i;
+      if (i < 0) {
+        index = this.state.items.length + i;
+      } else if (i >= this.state.items.length) {
+        index = i % this.state.items.length;
+      }
+      level = this.state.active - i;
+      items.push(
+        <Item
+          key={index}
+          id={this.state.items[index]}
+          level={level}
+          images={this.state.items[index].src}
+          title={this.state.items[index].title}
+        />
+      );
     }
-  };
+    return items;
+  }
 
-  return (
-    <div className="Product-carousel-container">
-      <Slider {...settings}>
-        {images.map((img, index) => (
-          <div
-            key={index}
-            id={index}
-            className={
-              // (index === imageIndex ? "slide activeSlide" : "slide") &&
-              // (index === imageIndex - 1 || index === imageIndex + 1) &&
-              // "slide adjacent"
+  moveLeft() {
+    var newActive = this.state.active;
+    newActive--;
+    this.setState({
+      active: newActive < 0 ? this.state.items.length - 1 : newActive,
+      direction: "left",
+    });
+  }
 
-              slideHandler(index)
-            }
-          >
-            <div className="over-lay"></div>
+  moveRight() {
+    var newActive = this.state.active;
+    this.setState({
+      active: (newActive + 1) % this.state.items.length,
+      direction: "right",
+    });
+  }
 
-            <img src={img.src} alt={img.title} />
-
-            <div className="product-card-content">
-              <span className="product-title"> {img?.title} </span>
-              <div className="product-explore-link"> explore {img?.title} </div>
-            </div>
+  render() {
+    return (
+      <div className="productCarousal">
+        <div id="carousel" className="noselect">
+          <div className="arrow arrow-left" onClick={this.leftClick}>
+            <GrPrevious color="white" />
           </div>
-        ))}
-      </Slider>
-    </div>
-  );
+          {/* <TransitionGroup transitionName={this.state.direction}> */}
+          {this.generateItems()}
+          {/* </TransitionGroup> */}
+          <div className="arrow arrow-right" onClick={this.rightClick}>
+            <GrNext color={"white"} />
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default ProductCarousel;
