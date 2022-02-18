@@ -23,11 +23,14 @@
 .why-taxila-img-container {
   height: 100%;
   width: 100%;
+
+  overflow: hidden;
 }
 
 .why-taxila-img-container > img {
   height: 100%;
   width: 100%;
+  transition: 0.5s all ease-in-out;
   /* border: 1px solid blue; */
 }
 
@@ -123,6 +126,10 @@
   cursor: pointer;
 }
 
+.why-taxila-img-container:hover > img {
+  transform: scale(1.15);
+}
+
 @media screen and (max-width: 768px) {
   .why-taxila-container {
     display: flex;
@@ -145,6 +152,7 @@
   .why-taxila-img-container {
     width: 90%;
     height: 80%;
+    overflow: hidden;
   }
 
   .why-taxila-lower-section {
