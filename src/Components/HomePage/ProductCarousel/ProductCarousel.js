@@ -72,7 +72,7 @@ class Item extends React.Component {
   render() {
     const className = "item level" + this.props.level;
     const overlay = "overlay" + this.props.level;
-    console.log(this.props.level);
+    // console.log(this.props.level);
     return (
       <div
         className={className}

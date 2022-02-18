@@ -6,6 +6,8 @@
   /* width: 124.8px; */
   width: 85%;
   padding: 104px 0;
+
+  max-width: 1248px;
 }
 
 .why-taxila-upper-section,
@@ -14,6 +16,7 @@
   align-items: center;
   justify-content: center;
   height: 420px;
+  width: 100%;
   /* border: 2px solid red; */
 }
 
@@ -31,13 +34,13 @@
 .why-taxila-grid-head {
   font-size: 40px;
   color: #6c6c6c;
-  margin: 60px 0 0 0;
+  margin: 60px 0 0 48px;
   font-family: var(--playfair-text);
 }
 
-.why-taxila-grid-2 {
+/* .why-taxila-grid-2 {
   padding: 0 0 0 48px;
-}
+} */
 
 .why-taxila-grid-head > span {
   font-size: 40px;
@@ -57,7 +60,7 @@
 
 .why-taxila-grid-subhead-1 {
   font-size: 18px;
-  margin: 40px 0 0 0;
+  margin: 40px 0 0 48px;
   width: 480px;
   line-height: 1.6;
   font-family: var(--open-sans-text);
