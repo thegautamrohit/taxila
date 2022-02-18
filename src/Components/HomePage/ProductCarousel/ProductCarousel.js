@@ -154,9 +154,7 @@ class ProductCarousel extends React.Component {
           <div className="arrow arrow-left" onClick={this.rightClick}>
             <GrPrevious color="white" />
           </div>
-          {/* <TransitionGroup transitionName={this.state.direction}> */}
           {this.generateItems()}
-          {/* </TransitionGroup> */}
           <div className="arrow arrow-right" onClick={this.leftClick}>
             <GrNext color={"white"} />
           </div>
