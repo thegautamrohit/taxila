@@ -72,6 +72,7 @@ class Item extends React.Component {
   render() {
     const className = "item level" + this.props.level;
     const overlay = "overlay" + this.props.level;
+    console.log(this.props.level);
     return (
       <div
         className={className}
@@ -83,10 +84,12 @@ class Item extends React.Component {
       >
         <div className={overlay}></div>
         <img src={this.props.images} />
-        <div className="">
-          <p>{this.props.title}</p>
-          <a href="/">explore {this.props.title} </a>
-        </div>
+        {this.props.level === 0 && (
+          <div className="product__item__itemName">
+            <p>{this.props.title}</p>
+            <a href="/">explore {this.props.title} </a>
+          </div>
+        )}
       </div>
     );
   }
