@@ -42,7 +42,7 @@
   }
 
   .border {
-    border-right: 1px solid #a4a4a4;
+    border-right: 1px solid #a4a4a43b;
   }
 }
 
@@ -79,7 +79,7 @@
   }
 
   .key-points-mono-card > p {
-    font-size: 12px;
+    font-size: 14px;
     margin: 0;
     color: #a09f9d;
     font-family: var(--open-sans-text);

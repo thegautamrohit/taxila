@@ -1,7 +1,7 @@
 import React from "react";
-import Banner1 from "../.././Assets/images/HomePage/Banner-1.webp";
-import Banner2 from "../.././Assets/images/HomePage/Banner-2.webp";
-import Banner3 from "../.././Assets/images/HomePage/Banner-3.webp";
+import Banner1 from "../../../Assets/images/HomePage/Banner-1.webp";
+import Banner2 from "../../../Assets/images/HomePage/Banner-2.webp";
+import Banner3 from "../../../Assets/images/HomePage/Banner-3.webp";
 import Slider from "react-slick";
 import "./HeroBanner.css";
 

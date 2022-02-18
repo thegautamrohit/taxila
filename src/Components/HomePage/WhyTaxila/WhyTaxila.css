@@ -6,6 +6,8 @@
   /* width: 124.8px; */
   width: 85%;
   padding: 104px 0;
+
+  max-width: 1248px;
 }
 
 .why-taxila-upper-section,
@@ -14,30 +16,34 @@
   align-items: center;
   justify-content: center;
   height: 420px;
+  width: 100%;
   /* border: 2px solid red; */
 }
 
 .why-taxila-img-container {
   height: 100%;
   width: 100%;
+
+  overflow: hidden;
 }
 
 .why-taxila-img-container > img {
   height: 100%;
   width: 100%;
+  transition: 0.5s all ease-in-out;
   /* border: 1px solid blue; */
 }
 
 .why-taxila-grid-head {
   font-size: 40px;
   color: #6c6c6c;
-  margin: 60px 0 0 0;
+  margin: 60px 0 0 48px;
   font-family: var(--playfair-text);
 }
 
-.why-taxila-grid-2 {
+/* .why-taxila-grid-2 {
   padding: 0 0 0 48px;
-}
+} */
 
 .why-taxila-grid-head > span {
   font-size: 40px;
@@ -57,14 +63,16 @@
 
 .why-taxila-grid-subhead-1 {
   font-size: 18px;
-  margin: 40px 0 0 0;
+  margin: 40px 0 0 48px;
   width: 480px;
   line-height: 1.6;
   font-family: var(--open-sans-text);
+  color: #a4a4a4;
 }
 
 .why-taxila-grid-subhead-2 {
   font-family: var(--open-sans-text);
+  color: #a4a4a4;
 
   font-size: 18px;
   margin: 100px 0 0 0;
@@ -73,49 +81,79 @@
 }
 
 .why-taxila-btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
   width: 220px;
-  margin: 460px 0 0 0;
   height: 64px;
-  font-size: 2px;
+  margin-top: 46px;
 }
 
-.why-taxila-btn {
-  width: 220px;
-  margin: 46px 0 0 0;
-  height: 64px;
+.why-taxila-btn > span {
   font-size: 20px;
-  background-color: #fff;
+  letter-spacing: 1.6px;
   color: #ff1000;
-  border: 0;
+  text-transform: capitalize;
+  opacity: 1;
+  margin-left: 24px;
+}
+.why-taxila-btn-hover {
+  position: relative;
+  margin-left: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.why-taxila-btn::after {
-  content: ">";
-
-  margin: 0 0 0 20px;
-  padding: 10px 15px;
-  border: 1px solid #ff1000;
+.why-taxila-btn-circle {
+  width: 50px;
+  height: 50px;
+  clip-path: circle(50%);
   border-radius: 50%;
+  border: 2px solid #ff1000;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: clip-path 0.1s;
 }
 
-.why-taxila-btn::after:hover {
-  content: "? >";
-
-  margin: 0 0 0 20px;
-  padding: 10px 15px;
-  border: 10px solid #ff1000;
-  border-radius: 50%;
+.why-taxila-btn-hover > svg {
+  width: 30px;
+  height: 30px;
+  color: #ff1000;
+  position: absolute;
+  transition: transform 0.3s;
 }
 
 .why-taxila-btn:hover {
-  width: 220px;
-  margin: 46px 0 0 0;
-  height: 64px;
-  font-size: 20px;
   background-color: #ff1000;
+  transform: translateX(0);
+}
+
+.why-taxila-btn:hover > .why-taxila-btn-hover > .why-taxila-btn-circle {
+  clip-path: circle(8%);
+  background-color: #fff;
+}
+
+.why-taxila-btn:hover > span {
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  color: #ffffff;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.why-taxila-btn:hover > .why-taxila-btn-hover > svg {
   color: #fff;
-  border: 0;
-  cursor: pointer;
+
+  transform: translateX(15px);
+}
+
+.why-taxila-img-container:hover > img {
+  transform: scale(1.15);
 }
 
 @media screen and (max-width: 768px) {
@@ -140,6 +178,7 @@
   .why-taxila-img-container {
     width: 90%;
     height: 80%;
+    overflow: hidden;
   }
 
   .why-taxila-lower-section {

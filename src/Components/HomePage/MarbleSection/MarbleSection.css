@@ -8,7 +8,7 @@
 }
 
 .marble-section-tile-1 {
-  background-image: url("../../Assets/images/HomePage/Marble-1.webp");
+  background-image: url("../../../Assets/images/HomePage/Marble-1.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,7 +20,7 @@
 }
 
 .marble-section-tile-2 {
-  background-image: url("../../Assets/images/HomePage/Marble-2.webp");
+  background-image: url("../../../Assets/images/HomePage/Marble-2.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -32,7 +32,7 @@
 }
 
 .marble-section-tile-3 {
-  background-image: url("../../Assets/images/HomePage/Marble-3.webp");
+  background-image: url("../../../Assets/images/HomePage/Marble-3.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,7 +44,7 @@
 }
 
 .marble-section-tile-4 {
-  background-image: url("../../Assets/images/HomePage/Marble-4.webp");
+  background-image: url("../../../Assets/images/HomePage/Marble-4.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,7 +56,7 @@
 }
 
 .marble-section-tile-5 {
-  background-image: url("../../Assets/images/HomePage/Marble-5.webp");
+  background-image: url("../../../Assets/images/HomePage/Marble-5.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,8 +93,8 @@
 
 .overlay-content {
   position: absolute;
-  left: 0%;
-  bottom: 7.01%;
+  left: 2.5%;
+  bottom: 7.05%;
   font-size: 18px;
   color: #fff;
   z-index: 10;
@@ -104,8 +104,8 @@
 .overlay-section {
   position: absolute;
   top: 20%;
-  left: 15%;
-  right: 15%;
+  left: 13%;
+  right: 13%;
   bottom: 0%;
   background-color: rgba(255, 16, 0, 0.5);
   z-index: 5;
@@ -124,7 +124,7 @@
 
 .background-outer {
   height: 60%;
-  width: 70%;
+  width: 74%;
 }
 
 .background-outer > img {
@@ -176,5 +176,22 @@
   .marble-section-tile-5 {
     height: 547px;
     width: 312px;
+  }
+
+  .overlay-section {
+    opacity: 1;
+  }
+  .outer-block {
+    animation: opacity 0.3s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes opacity {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
   }
 }

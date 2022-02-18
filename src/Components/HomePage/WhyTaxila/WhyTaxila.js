@@ -1,7 +1,8 @@
 import React from "react";
 import "./WhyTaxila.css";
-import About1 from ".././../Assets/images/HomePage/About-us-1.webp";
-import About2 from ".././../Assets/images/HomePage/About-us-2.webp";
+import About1 from "../../../Assets/images/HomePage/About-us-1.webp";
+import About2 from "../../../Assets/images/HomePage/About-us-2.webp";
+import { IoIosArrowForward } from "react-icons/io";
 
 function WhyTaxila() {
   return (
@@ -40,7 +41,13 @@ function WhyTaxila() {
             you.
           </p>
 
-          <button className="why-taxila-btn">About Us </button>
+          <button className="why-taxila-btn">
+            <span>About Us</span>
+            <div className="why-taxila-btn-hover">
+              <div className="why-taxila-btn-circle"> </div>
+              <IoIosArrowForward />
+            </div>
+          </button>
         </div>
 
         <div className="why-taxila-grid-4">

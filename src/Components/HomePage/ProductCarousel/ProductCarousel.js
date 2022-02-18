@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 
-import Bathroom from "../../Assets/images/HomePage/Bathroom.webp";
-// import Kitchen from "../../Assets/images/HomePage/Kitchen.webp";
-import LivingRoom from "../../Assets/images/HomePage/LivingRoom.webp";
-import Outdoor from "../../Assets/images/HomePage/Outdoor.webp";
-import Commercial from "../../Assets/images/HomePage/Commercial.webp";
+import Bathroom from "../../../Assets/images/HomePage/Bathroom.webp";
+import Kitchen from "../../../Assets/images/HomePage/Kitchen.webp";
+import LivingRoom from "../../../Assets/images/HomePage/LivingRoom.webp";
+import Outdoor from "../../../Assets/images/HomePage/Outdoor.webp";
+import Commercial from "../../../Assets/images/HomePage/Commercial.webp";
 
 import "./ProductCarousel.css";
 import { GrNext, GrPrevious } from "react-icons/gr";
@@ -22,7 +22,7 @@ const images = [
   },
   {
     id: 3,
-    src: Bathroom,
+    src: Kitchen,
     title: "KITCHEN",
   },
   {
@@ -33,7 +33,7 @@ const images = [
   {
     id: 5,
     src: Commercial,
-    title: "Commercial",
+    title: "COMMERCIAL",
   },
   {
     id: 6,
@@ -47,7 +47,7 @@ const images = [
   },
   {
     id: 8,
-    src: Bathroom,
+    src: Kitchen,
     title: "KITCHEN",
   },
   {
@@ -58,7 +58,7 @@ const images = [
   {
     id: 10,
     src: Commercial,
-    title: "Commercial",
+    title: "COMMERCIAL",
   },
 ];
 class Item extends React.Component {
@@ -72,7 +72,7 @@ class Item extends React.Component {
   render() {
     const className = "item level" + this.props.level;
     const overlay = "overlay" + this.props.level;
-    console.log(this.props.level);
+    // console.log(this.props.level);
     return (
       <div
         className={className}
@@ -83,13 +83,11 @@ class Item extends React.Component {
         }}
       >
         <div className={overlay}></div>
-        <img src={this.props.images} />
-        {this.props.level === 0 && (
-          <div className="product__item__itemName">
-            <p>{this.props.title}</p>
-            <a href="/">explore {this.props.title} </a>
-          </div>
-        )}
+        <img src={this.props.images} alt={this.props.title} />
+        <div className="product__item__itemName">
+          <p>{this.props.title}</p>
+          <a href="/">explore {this.props.title} </a>
+        </div>
       </div>
     );
   }
@@ -156,9 +154,7 @@ class ProductCarousel extends React.Component {
           <div className="arrow arrow-left" onClick={this.rightClick}>
             <GrPrevious color="white" />
           </div>
-          {/* <TransitionGroup transitionName={this.state.direction}> */}
           {this.generateItems()}
-          {/* </TransitionGroup> */}
           <div className="arrow arrow-right" onClick={this.leftClick}>
             <GrNext color={"white"} />
           </div>

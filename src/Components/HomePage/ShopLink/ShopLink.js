@@ -1,6 +1,6 @@
 import React from "react";
 import "./ShopLink.css";
-
+import { IoIosArrowForward } from "react-icons/io";
 function ShopLink() {
   return (
     <div className="shop-link-container">
@@ -10,7 +10,13 @@ function ShopLink() {
       <p>
         Explore from the exquisite range <br /> our hidden domains
       </p>
-      <button className="shop-link-quote-btn">Get Quote</button>
+      <button className="why-taxila-btn">
+        <span>Get Quote</span>
+        <div className="why-taxila-btn-hover">
+          <div className="why-taxila-btn-circle"> </div>
+          <IoIosArrowForward />
+        </div>
+      </button>
     </div>
   );
 }

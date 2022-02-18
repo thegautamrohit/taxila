@@ -31,6 +31,22 @@
   }
 } */
 
+.loader {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 200px;
+  height: 200px;
+}
+
+.loader > img {
+  height: 100%;
+
+  width: 100%;
+}
+
 .slick-dots {
   bottom: 100px !important;
 }
@@ -60,5 +76,15 @@
 
   .slick-arrow .slick-next {
     display: none;
+  }
+
+  .loader {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100px;
+    height: 100px;
   }
 }
