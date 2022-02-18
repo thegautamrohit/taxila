@@ -1,9 +1,9 @@
 import React from "react";
-import Marble1 from "../../Assets/images/HomePage/Marble-1.webp";
-import Marble2 from "../../Assets/images/HomePage/Marble-2.webp";
-import Marble3 from "../../Assets/images/HomePage/Marble-3.webp";
-import Marble4 from "../../Assets/images/HomePage/Marble-4.webp";
-import Marble5 from "../../Assets/images/HomePage/Marble-5.webp";
+import Marble1 from "../../../Assets/images/HomePage/Marble-1.webp";
+import Marble2 from "../../../Assets/images/HomePage/Marble-2.webp";
+import Marble3 from "../../../Assets/images/HomePage/Marble-3.webp";
+import Marble4 from "../../../Assets/images/HomePage/Marble-4.webp";
+import Marble5 from "../../../Assets/images/HomePage/Marble-5.webp";
 
 import "./MarbleSection.css";
 

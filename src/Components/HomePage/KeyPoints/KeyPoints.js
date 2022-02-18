@@ -1,10 +1,10 @@
 import React from "react";
 import "./KeyPoints.css";
-import Passion from "../../Assets/images/keyPoints/passion.svg";
-import Value from "../../Assets/images/keyPoints/value.svg";
-import Integrity from "../../Assets/images/keyPoints/integrity.svg";
-import PartnerCentric from "../../Assets/images/keyPoints/partner-centric.svg";
-import Culture from "../../Assets/images/keyPoints/culture.svg";
+import Passion from "../../../Assets/images/keyPoints/passion.svg";
+import Value from "../../../Assets/images/keyPoints/value.svg";
+import Integrity from "../../../Assets/images/keyPoints/integrity.svg";
+import PartnerCentric from "../../../Assets/images/keyPoints/partner-centric.svg";
+import Culture from "../../../Assets/images/keyPoints/culture.svg";
 
 function KeyPoints() {
   return (

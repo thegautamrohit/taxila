@@ -1,7 +1,7 @@
 import React from "react";
 import "./WhyTaxila.css";
-import About1 from ".././../Assets/images/HomePage/About-us-1.webp";
-import About2 from ".././../Assets/images/HomePage/About-us-2.webp";
+import About1 from "../../../Assets/images/HomePage/About-us-1.webp";
+import About2 from "../../../Assets/images/HomePage/About-us-2.webp";
 
 function WhyTaxila() {
   return (

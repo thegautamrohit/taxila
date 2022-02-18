@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
-import Bathroom from "../../Assets/images/HomePage/Bathroom.webp";
-// import Kitchen from "../../Assets/images/HomePage/Kitchen.webp";
-import LivingRoom from "../../Assets/images/HomePage/LivingRoom.webp";
-import Outdoor from "../../Assets/images/HomePage/Outdoor.webp";
-import Commercial from "../../Assets/images/HomePage/Commercial.webp";
+import Bathroom from "../../../Assets/images/HomePage/Bathroom.webp";
+import Kitchen from "../../../Assets/images/HomePage/Kitchen.webp";
+import LivingRoom from "../../../Assets/images/HomePage/LivingRoom.webp";
+import Outdoor from "../../../Assets/images/HomePage/Outdoor.webp";
+import Commercial from "../../../Assets/images/HomePage/Commercial.webp";
 
 import "./ProductCarousel.css";
 import { GrNext, GrPrevious } from "react-icons/gr";
@@ -22,7 +22,7 @@ const images = [
   },
   {
     id: 3,
-    src: Bathroom,
+    src: Kitchen,
     title: "KITCHEN",
   },
   {
@@ -47,7 +47,7 @@ const images = [
   },
   {
     id: 8,
-    src: Bathroom,
+    src: Kitchen,
     title: "KITCHEN",
   },
   {
