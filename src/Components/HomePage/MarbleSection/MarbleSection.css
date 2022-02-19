@@ -1,4 +1,4 @@
-.Marble-section-container {
+.Marble-section-container -desk {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   /* padding: 0 3%; */
@@ -165,9 +165,24 @@
 }
 
 @media screen and (max-width: 768px) {
-  .Marble-section-container {
-    overflow-x: scroll;
-    margin: 0;
+  .Marble-section-container-desk {
+    display: none;
+  }
+  .marble-section-container-mobile {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .marble-section-slider-container > .slick-next:before,
+  .slick-prev:before {
+    height: 30px;
+    width: 30px;
+    /* border: 1px solid #ddd5c9; */
+    border-radius: 50%;
+    color: #ddd5c9 !important;
+    opacity: 1;
+    font-size: 45px;
+    z-index: 10;
   }
 
   .marble-section-tile-1,
@@ -175,8 +190,12 @@
   .marble-section-tile-3,
   .marble-section-tile-4,
   .marble-section-tile-5 {
-    height: 547px;
-    width: 312px;
+    /* height: 547px !important ;
+    width: 312px !important ;
+    border: 2px solid red; */
+    margin: 0 auto !important;
+    /* width: 90% !important; */
+    width: 75%;
   }
 
   .overlay-section {

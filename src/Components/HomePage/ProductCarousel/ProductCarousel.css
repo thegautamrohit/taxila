@@ -109,7 +109,7 @@
   font-family: var(--playfair-text);
   transform: translateY(0px);
   position: absolute;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .product__item__itemName > a {
@@ -383,5 +383,21 @@
   }
   .arrow > svg {
     width: 20px;
+  }
+
+  .product__item__itemName > p {
+    font-size: 16px;
+  }
+
+  .product__item__itemName {
+    bottom: 50px;
+  }
+
+  .level0:hover > .overlay0 {
+    background-color: rgba(0, 0, 0, 0);
+  }
+
+  .productCarousal {
+    padding: 30px 0 50px 0;
   }
 }

@@ -110,7 +110,7 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 60px;
+    height: 70px;
     width: 100%;
     z-index: 10;
     background-color: #fff;
@@ -122,8 +122,8 @@
   }
 
   .navbar-small-logo-wrappper {
-    width: 116px;
-    height: 28px;
+    width: 145px;
+    height: 40px;
     /* border: 1px solid red; */
   }
 

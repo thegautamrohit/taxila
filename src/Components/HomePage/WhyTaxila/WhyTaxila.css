@@ -163,7 +163,7 @@
     align-items: center;
     justify-content: center;
     width: 90%;
-    padding: 60px 0 50px 0;
+    padding: 100px 0 50px 0;
   }
 
   .why-taxila-upper-section {
@@ -225,7 +225,7 @@
   }
 
   .why-taxila-btn {
-    margin: 0;
+    margin: 30px 0;
     font-size: 15px;
   }
 
