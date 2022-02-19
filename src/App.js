@@ -1,8 +1,9 @@
-import React, { Suspense } from "react";
+import React, { lazy, Suspense } from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Loader from "./Assets/images/Loader/loader.gif";
 
-import HomePage from "./Components/HomePage/HomePage";
+const HomePage = lazy(() => import("./Components/HomePage/HomePage"));
 
 function App() {
   return (
@@ -11,9 +12,14 @@ function App() {
         <Route
           path="/"
           element={
-            <Suspense fallback={<div>Loading...</div>}>
-              {" "}
-              <HomePage />{" "}
+            <Suspense
+              fallback={
+                <div className="loader">
+                  <img src={Loader} alt="" />
+                </div>
+              }
+            >
+              <HomePage />
             </Suspense>
           }
         />
