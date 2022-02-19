@@ -403,6 +403,7 @@
 
   .product__item__itemName > a {
     opacity: 1;
+    text-transform: lowercase;
   }
 
   .productCarousal {
