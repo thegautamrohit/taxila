@@ -397,6 +397,14 @@
     background-color: rgba(0, 0, 0, 0);
   }
 
+  .product__item__itemName > p {
+    transform: translateY(-20px);
+  }
+
+  .product__item__itemName > a {
+    opacity: 1;
+  }
+
   .productCarousal {
     padding: 30px 0 50px 0;
   }
