@@ -1,28 +1,14 @@
-import React, { lazy, Suspense } from "react";
+import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Loader from "./Assets/images/Loader/loader.gif";
 
-const HomePage = lazy(() => import("./Components/HomePage/HomePage"));
+import HomePage from "./Components/HomePage/HomePage";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route
-          path="/"
-          element={
-            <Suspense
-              fallback={
-                <div className="loader">
-                  <img src={Loader} alt="" />
-                </div>
-              }
-            >
-              <HomePage />
-            </Suspense>
-          }
-        />
+        <Route path="/" element={<HomePage />} />
       </Routes>
     </BrowserRouter>
   );
