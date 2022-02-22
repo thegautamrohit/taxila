@@ -5,17 +5,47 @@ import Marble3 from "../../../Assets/images/HomePage/Marble-3.webp";
 import Marble4 from "../../../Assets/images/HomePage/Marble-4.webp";
 import Marble5 from "../../../Assets/images/HomePage/Marble-5.webp";
 import Slider from "react-slick";
+import { GrNext, GrPrevious } from "react-icons/gr";
 
 import "./MarbleSection.css";
+
+function SampleNextArrow(props) {
+  const { style, onClick } = props;
+  return (
+    <div
+      className="arrow arrow-left"
+      style={{ ...style, left: "87%" }}
+      onClick={onClick}
+    >
+      <GrNext color={"white"} />
+    </div>
+  );
+}
+
+function SamplePrevArrow(props) {
+  const { style, onClick } = props;
+  return (
+    <div
+      className="arrow arrow-right"
+      style={{ ...style, right: "87%" }}
+      onClick={onClick}
+    >
+      <GrPrevious color="white" />
+    </div>
+  );
+}
 
 function MarbleSection() {
   const settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: false,
+    arrow: true,
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
   };
 
   return (

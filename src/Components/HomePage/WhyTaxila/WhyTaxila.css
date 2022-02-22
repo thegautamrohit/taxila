@@ -30,6 +30,7 @@
 .why-taxila-img-container > img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
   transition: 0.5s all ease-in-out;
   /* border: 1px solid blue; */
 }
@@ -163,7 +164,7 @@
     align-items: center;
     justify-content: center;
     width: 90%;
-    padding: 100px 0 50px 0;
+    padding: 60px 0 0px 0;
   }
 
   .why-taxila-upper-section {
@@ -172,15 +173,18 @@
     align-items: center;
     justify-content: center;
 
-    /* height: 700px; */
+    height: max-content;
   }
 
   .why-taxila-img-container {
-    width: 90%;
-    height: 80%;
+    width: 100%;
+
     overflow: hidden;
   }
 
+  .why-taxila-img-container > img {
+    object-fit: cover;
+  }
   .why-taxila-lower-section {
     display: flex;
     flex-direction: column;
@@ -194,8 +198,9 @@
   .why-taxila-grid-2,
   .why-taxila-grid-3,
   .why-taxila-grid-4 {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
+    height: max-content;
   }
 
   .why-taxila-grid-subhead-1,
@@ -231,5 +236,78 @@
 
   .why-taxila-grid-4 {
     display: none;
+  }
+
+  .why-taxila-btn {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 48px;
+    margin-top: 30px;
+  }
+
+  .why-taxila-btn > span {
+    font-size: 14px;
+    letter-spacing: 1.6px;
+    color: #ff1000;
+    text-transform: capitalize;
+    opacity: 1;
+    margin-left: 10px;
+  }
+  .why-taxila-btn-hover {
+    position: relative;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .why-taxila-btn-circle {
+    width: 35px;
+    height: 35px;
+    clip-path: circle(50%);
+    border-radius: 50%;
+    border: 2px solid #ff1000;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: clip-path 0.1s;
+  }
+
+  .why-taxila-btn-hover > svg {
+    width: 20px;
+    height: 20px;
+    color: #ff1000;
+    position: absolute;
+    transition: transform 0.3s;
+  }
+
+  .why-taxila-btn:hover {
+    background-color: #ff1000;
+    transform: translateX(0);
+  }
+
+  .why-taxila-btn:hover > .why-taxila-btn-hover > .why-taxila-btn-circle {
+    clip-path: circle(8%);
+    background-color: #fff;
+  }
+
+  .why-taxila-btn:hover > span {
+    font-size: 15px;
+    letter-spacing: 1.6px;
+    color: #ffffff;
+    text-transform: capitalize;
+    opacity: 1;
+    font-weight: 600;
+  }
+
+  .why-taxila-btn:hover > .why-taxila-btn-hover > svg {
+    color: #fff;
+
+    transform: translateX(10px);
   }
 }
