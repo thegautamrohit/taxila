@@ -1,6 +1,5 @@
 import React, { Suspense, lazy } from "react";
 import Loader from "../../Assets/images/Loader/loader.gif";
-import Header from "../CommonComponents/Header/Header";
 import HeroBanner from "./HeroBanner/HeroBanner";
 const MarqueeSection = lazy(() => import("./MarqueeSection/MarqueeSection"));
 const MarbleSection = lazy(() => import("./MarbleSection/MarbleSection"));
@@ -16,8 +15,6 @@ const Footer = lazy(() => import("../CommonComponents/Footer/Footer"));
 function HomePage() {
   return (
     <>
-      <Header />
-
       <HeroBanner />
       <Suspense
         fallback={

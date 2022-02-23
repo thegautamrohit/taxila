@@ -1,0 +1,20 @@
+.natural-carousel-container {
+  width: 100vw;
+}
+
+.naturalcarousel-mono-card {
+  border: 1px solid red;
+  width: 270px;
+  height: 400px;
+  padding: 0 20px 0 0;
+}
+
+.natural-carousel-img-wrapper {
+  height: 400px;
+  width: 270px;
+}
+
+.natural-carousel-img-wrapper > img {
+  height: 100%;
+  width: 100%;
+}
