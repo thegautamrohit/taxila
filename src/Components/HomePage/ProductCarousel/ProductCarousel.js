@@ -149,17 +149,20 @@ class ProductCarousel extends React.Component {
 
   render() {
     return (
-      <div className="productCarousal">
-        <div id="carousel" className="noselect">
-          <div className="arrow arrow-left" onClick={this.rightClick}>
-            <GrPrevious color="white" />
-          </div>
-          {this.generateItems()}
-          <div className="arrow arrow-right" onClick={this.leftClick}>
-            <GrNext color={"white"} />
+      <>
+        <h3 className="mobile__note">Inspirations</h3>
+        <div className="productCarousal">
+          <div id="carousel" className="noselect">
+            <div className="arrow arrow-left" onClick={this.rightClick}>
+              <GrPrevious color="white" />
+            </div>
+            {this.generateItems()}
+            <div className="arrow arrow-right" onClick={this.leftClick}>
+              <GrNext color={"white"} />
+            </div>
           </div>
         </div>
-      </div>
+      </>
     );
   }
 }

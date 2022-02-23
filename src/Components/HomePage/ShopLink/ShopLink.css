@@ -40,6 +40,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .shop-link-container {
+    padding: 20px 0px 20px 0px;
+  }
   .shop-link-container > h4 {
     font-size: 24px;
   }
