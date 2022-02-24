@@ -357,7 +357,7 @@
   }
 
   .productCarousal {
-    width: 89%;
+    width: 86%;
   }
 
   .level-2 {
@@ -369,6 +369,22 @@
     height: 273px;
     width: 87px;
     left: 20%;
+  }
+
+  .level-1 > .product__item__itemName > p {
+    display: none;
+  }
+
+  .level-1 > .product__item__itemName > a {
+    display: none;
+  }
+
+  .level-2 > .product__item__itemName > p {
+    display: none;
+  }
+
+  .level-2 > .product__item__itemName > a {
+    display: none;
   }
 
   .level0 {
@@ -385,6 +401,22 @@
   .level2 {
     width: 81px;
     height: 253px;
+  }
+
+  .level1 > .product__item__itemName > p {
+    display: none;
+  }
+
+  .level1 > .product__item__itemName > a {
+    display: none;
+  }
+
+  .level2 > .product__item__itemName > p {
+    display: none;
+  }
+
+  .level2 > .product__item__itemName > a {
+    display: none;
   }
 
   .arrow {
