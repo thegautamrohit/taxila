@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../../Assets/images/HomePage/Taxila-logo.png";
+import { Link } from "react-router-dom";
 import "./Header.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 
@@ -7,13 +8,15 @@ function Header() {
   return (
     <div>
       <nav className="navbar-wrapper-desktop">
-        <div className="navbar-logo-wrapper">
+        <Link to="/" className="navbar-logo-wrapper">
           <img src={Logo} alt="Taxila Stone" />
-        </div>
+        </Link>
 
         <div className="navbar-quick-links-wrapper">
           <div className="mono-quick-link">About</div>
-          <div className="mono-quick-link">Natural</div>
+          <Link to="/natural-surfaces" className="mono-quick-link">
+            Natural
+          </Link>
           <div className="mono-quick-link">Engineered</div>
           <div className="mono-quick-link">Tiles</div>
           <div className="mono-quick-link">Kitchen</div>

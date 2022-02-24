@@ -10,7 +10,6 @@ const KeyPoints = lazy(() => import("./KeyPoints/KeyPoints"));
 const ContactForm = lazy(() =>
   import("../CommonComponents/ContactForm/ContactForm")
 );
-const Footer = lazy(() => import("../CommonComponents/Footer/Footer"));
 
 function HomePage() {
   return (
@@ -84,16 +83,6 @@ function HomePage() {
         }
       >
         <ContactForm />
-      </Suspense>
-
-      <Suspense
-        fallback={
-          <div className="loader">
-            <img src={Loader} alt="Loader" />
-          </div>
-        }
-      >
-        <Footer />
       </Suspense>
     </>
   );
