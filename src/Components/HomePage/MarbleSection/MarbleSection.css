@@ -178,6 +178,13 @@
     margin: 0 auto;
   }
 
+  .overlay-content {
+    bottom: 14%;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+  }
+
   .marble-section-tile-1,
   .marble-section-tile-2,
   .marble-section-tile-3,

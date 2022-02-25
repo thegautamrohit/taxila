@@ -127,7 +127,7 @@
 
   .contact-form-head > h4 {
     font-size: 24px;
-    text-align: center;
+    /* text-align: center; */
   }
   .contact-form-head > h4 > span {
     font-size: 24px;
@@ -139,5 +139,9 @@
 
   .input-wrapper > textarea {
     height: 65px;
+  }
+
+  .marble-section-slider-container > .slick-dots {
+    border: 2px solid #fff !important;
   }
 }

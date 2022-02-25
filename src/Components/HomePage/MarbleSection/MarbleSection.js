@@ -37,7 +37,7 @@ function SamplePrevArrow(props) {
 
 function MarbleSection() {
   const settings = {
-    dots: false,
+    dots: true,
     infinite: false,
     speed: 500,
     slidesToShow: 1,
@@ -144,22 +144,6 @@ function MarbleSection() {
       <div className="marble-section-container-mobile">
         <div className="marble-section-slider-container">
           <Slider {...settings}>
-            <div className="marble-section-tile-2">
-              <div className="outer-block">
-                <div className="background-outer">
-                  <img src={Marble2} alt="" />
-                </div>
-                <span>IDYLIUM</span>
-              </div>
-
-              <div className="overlay-section">
-                <div className="overlay-content">
-                  <span>IDYLIUM</span>
-                  <div className="view-collection-link">View Collection</div>
-                </div>
-              </div>
-            </div>
-
             <div className="marble-section-tile-1">
               <div className="outer-block">
                 <div className="background-outer">
@@ -171,6 +155,22 @@ function MarbleSection() {
               <div className="overlay-section">
                 <div className="overlay-content">
                   <span>MARBLE</span>
+                  <div className="view-collection-link">View Collection</div>
+                </div>
+              </div>
+            </div>
+
+            <div className="marble-section-tile-2">
+              <div className="outer-block">
+                <div className="background-outer">
+                  <img src={Marble2} alt="" />
+                </div>
+                <span>IDYLIUM</span>
+              </div>
+
+              <div className="overlay-section">
+                <div className="overlay-content">
+                  <span>IDYLIUM</span>
                   <div className="view-collection-link">View Collection</div>
                 </div>
               </div>

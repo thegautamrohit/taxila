@@ -150,7 +150,7 @@ class ProductCarousel extends React.Component {
   render() {
     return (
       <>
-        <h3 className="mobile__note">Inspirations</h3>
+        <h4 className="mobile__note">Inspirations</h4>
         <div className="productCarousal">
           <div id="carousel" className="noselect">
             <div className="arrow arrow-left" onClick={this.rightClick}>

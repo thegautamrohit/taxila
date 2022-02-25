@@ -15,7 +15,7 @@ function ContactForm() {
         <div className="contact-form-subhead">
           <p>
             We offer 24x7 assistance with the help of our experienced staff with
-            their unsurpassable expertise in the industry. <br /> <br /> <br />
+            their unsurpassable expertise in the industry. <br /> <br />
             Kindly get in touch with our team for any queries and doubts by
             filling out the form and we will get back to you at the earliest.
           </p>
