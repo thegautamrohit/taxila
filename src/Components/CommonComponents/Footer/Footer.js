@@ -3,7 +3,8 @@ import Logo from "../../../Assets/images/footer/logo.png";
 import Footer1 from "../../../Assets/images/footer/HCA-logo.webp";
 import Footer2 from "../../../Assets/images/footer/footerLogo-2.webp";
 import { GrFacebook } from "react-icons/gr";
-import { BsWhatsapp, BsInstagram, BsTwitter, BsLinkedin } from "react-icons/bs";
+import { FaHouzz, FaPinterestSquare } from "react-icons/fa";
+import { BsInstagram, BsLinkedin, BsYoutube } from "react-icons/bs";
 import "./Footer.css";
 
 function Footer() {
@@ -46,11 +47,52 @@ function Footer() {
         </div>
 
         <div className="footer-section-5">
-          <GrFacebook color="#fff" size={20} style={{ margin: "0 10px " }} />
-          <BsWhatsapp color="#fff" size={20} style={{ margin: "0 10px " }} />
-          <BsInstagram color="#fff" size={20} style={{ margin: "0 10px " }} />
-          <BsTwitter color="#fff" size={20} style={{ margin: "0 10px " }} />
-          <BsLinkedin color="#fff" size={20} style={{ margin: "0 10px " }} />
+          <a
+            href="https://www.facebook.com/taxilastones/"
+            target="_blank"
+            className="social-links"
+          >
+            <GrFacebook color="#fff" size={20} style={{ margin: "0 10px " }} />
+          </a>
+          <a
+            href="https://www.linkedin.com/company/taxilastone"
+            target="_blank"
+            className="social-links"
+          >
+            <BsLinkedin color="#fff" size={20} style={{ margin: "0 10px " }} />
+          </a>
+          <a
+            href="https://www.instagram.com/taxilastone/"
+            target="_blank"
+            className="social-links"
+          >
+            <BsInstagram color="#fff" size={20} style={{ margin: "0 10px " }} />
+          </a>
+          <a
+            href="https://www.pinterest.com/taxilastone"
+            target="_blank"
+            className="social-links"
+          >
+            <FaPinterestSquare
+              color="#fff"
+              size={20}
+              style={{ margin: "0 10px " }}
+            />
+          </a>
+          <a
+            href="https://youtube.com/channel/UCytXA_CKrOZXFaVavPWg-Eg"
+            target="_blank"
+            className="social-links"
+          >
+            <BsYoutube color="#fff" size={20} style={{ margin: "0 10px " }} />
+          </a>
+          <a
+            href="https://www.houzz.in/professionals/countertop/taxila-stone-pfvwin-pf~566122795/__public"
+            target="_blank"
+            className="social-links"
+          >
+            <FaHouzz color="#fff" size={20} style={{ margin: "0 10px " }} />
+          </a>
         </div>
       </div>
 
