@@ -124,6 +124,7 @@
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 10px;
+
     /* grid-auto-rows: minmax(100px, auto); */
   }
 
@@ -144,7 +145,41 @@
   .footer-section-5 {
     padding: 0 0 0px 0;
     min-width: unset;
+  }
 
-    border: 1px solid #fff;
+  .footer-section-2 {
+    width: 80px;
+  }
+
+  .footer-section-3 {
+    position: relative;
+    left: -80px;
+  }
+
+  .footer-asso-logo-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 3px;
+    width: 50%;
+  }
+
+  .footer-section-5 {
+    margin-top: 25px;
+    padding-bottom: 22px;
+  }
+
+  .footer-bottom-bar {
+    flex-direction: column-reverse;
+  }
+  .footer-bottom-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 42px;
+    width: 50%;
+    align-self: flex-start;
+    margin-bottom: 15px;
   }
 }
