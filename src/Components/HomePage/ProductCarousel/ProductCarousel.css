@@ -29,7 +29,12 @@
 
 @media screen and (min-width: 768px) {
   .mobile__note {
-    display: none;
+    text-align: center;
+    font-size: 40px;
+    color: #707070;
+    font-family: var(--playfair-text);
+    text-transform: uppercase;
+    margin: 50px 0 0 0;
   }
 }
 
@@ -357,7 +362,7 @@
   }
 
   .productCarousal {
-    width: 86%;
+    width: 88%;
   }
 
   .level-2 {
@@ -399,7 +404,7 @@
   }
 
   .level2 {
-    width: 81px;
+    width: 90px;
     height: 253px;
   }
 
@@ -467,7 +472,7 @@
     letter-spacing: 0.96px;
     color: #707070;
     text-transform: uppercase;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
     font-family: var(--playfair-text);
   }

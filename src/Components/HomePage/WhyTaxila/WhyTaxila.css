@@ -4,10 +4,10 @@
   display: flex;
   flex-direction: column;
   /* width: 124.8px; */
-  width: 85%;
-  padding: 104px 0;
-
-  max-width: 1248px;
+  /* width: 85%; */
+  padding: 104px 7.5%;
+  background-color: #fafafa;
+  /* max-width: 1248px; */
 }
 
 .why-taxila-upper-section,
