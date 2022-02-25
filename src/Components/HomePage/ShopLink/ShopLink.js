@@ -10,10 +10,10 @@ function ShopLink() {
       <p>
         Explore from the exquisite range <br /> our hidden domains
       </p>
-      <button className="why-taxila-btn">
-        <span>Get Quote</span>
-        <div className="why-taxila-btn-hover">
-          <div className="why-taxila-btn-circle"> </div>
+      <button className="shop-link-btn">
+        <span>Shop All</span>
+        <div className="shop-link-btn-hover">
+          <div className="shop-link-btn-circle"> </div>
           <IoIosArrowForward />
         </div>
       </button>

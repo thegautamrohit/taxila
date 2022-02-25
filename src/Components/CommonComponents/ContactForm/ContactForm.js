@@ -45,10 +45,10 @@ function ContactForm() {
           </div>
         </div>
 
-        <button className="why-taxila-btn">
+        <button className="contact-form-btn">
           <span>Get Quote</span>
-          <div className="why-taxila-btn-hover">
-            <div className="why-taxila-btn-circle"> </div>
+          <div className="contact-form-btn-hover">
+            <div className="contact-form-btn-circle"> </div>
             <IoIosArrowForward />
           </div>
         </button>
