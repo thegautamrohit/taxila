@@ -1,6 +1,7 @@
 .marquee-section-container-desktop {
   display: flex;
   flex-direction: column;
+  padding: 80px 0 0 0;
 }
 
 .marquee-text-wrapper-1,

@@ -1,9 +1,15 @@
+.natural-carousel-parent {
+  background-color: #fafafa;
+}
+
 .natural-carousel-container {
-  width: 100vw;
+  width: 90vw;
+  margin: 0 auto;
+  padding: 100px 0;
 }
 
 .naturalcarousel-mono-card {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 270px;
   height: 400px;
   padding: 0 20px 0 0;
@@ -17,4 +23,13 @@
 .natural-carousel-img-wrapper > img {
   height: 100%;
   width: 100%;
+}
+
+.naturalcarousel-mono-card > h4 {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: var(--playfair-text);
+  margin: 23px 0 0 0;
+  text-align: left;
+  color: #6c6c6c;
 }

@@ -1,6 +1,7 @@
 import React, { Suspense, lazy } from "react";
 import Loader from "../../Assets/images/Loader/loader.gif";
 import HeroBanner from "./HeroBanner/HeroBanner";
+const Gif = lazy(() => import("./Gif/Gif"));
 const MarqueeSection = lazy(() => import("./MarqueeSection/MarqueeSection"));
 const MarbleSection = lazy(() => import("./MarbleSection/MarbleSection"));
 const WhyTaxila = lazy(() => import("./WhyTaxila/WhyTaxila"));
@@ -15,6 +16,15 @@ function HomePage() {
   return (
     <>
       <HeroBanner />
+      <Suspense
+        fallback={
+          <div className="loader">
+            <img src={Loader} alt="Loader" />
+          </div>
+        }
+      >
+        <Gif />
+      </Suspense>
       <Suspense
         fallback={
           <div className="loader">
