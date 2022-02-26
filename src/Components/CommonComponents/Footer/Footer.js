@@ -50,6 +50,7 @@ function Footer() {
           <a
             href="https://www.facebook.com/taxilastones/"
             target="_blank"
+            rel="noreferrer"
             className="social-links"
           >
             <GrFacebook color="#fff" size={20} style={{ margin: "0 10px " }} />
@@ -57,6 +58,7 @@ function Footer() {
           <a
             href="https://www.linkedin.com/company/taxilastone"
             target="_blank"
+            rel="noreferrer"
             className="social-links"
           >
             <BsLinkedin color="#fff" size={20} style={{ margin: "0 10px " }} />
@@ -64,6 +66,7 @@ function Footer() {
           <a
             href="https://www.instagram.com/taxilastone/"
             target="_blank"
+            rel="noreferrer"
             className="social-links"
           >
             <BsInstagram color="#fff" size={20} style={{ margin: "0 10px " }} />
@@ -71,6 +74,7 @@ function Footer() {
           <a
             href="https://www.pinterest.com/taxilastone"
             target="_blank"
+            rel="noreferrer"
             className="social-links"
           >
             <FaPinterestSquare
@@ -82,6 +86,7 @@ function Footer() {
           <a
             href="https://youtube.com/channel/UCytXA_CKrOZXFaVavPWg-Eg"
             target="_blank"
+            rel="noreferrer"
             className="social-links"
           >
             <BsYoutube color="#fff" size={20} style={{ margin: "0 10px " }} />
@@ -89,6 +94,7 @@ function Footer() {
           <a
             href="https://www.houzz.in/professionals/countertop/taxila-stone-pfvwin-pf~566122795/__public"
             target="_blank"
+            rel="noreferrer"
             className="social-links"
           >
             <FaHouzz color="#fff" size={20} style={{ margin: "0 10px " }} />
