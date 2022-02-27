@@ -4,12 +4,12 @@ import { IoIosArrowForward } from "react-icons/io";
 function ShopLink() {
   return (
     <div className="shop-link-container">
-      <h4>
+      {/* <h4>
         SHOP <span>LINK</span>
-      </h4>
-      {/* <p>
+      </h4> */}
+      <p>
         Explore from the exquisite range <br /> our hidden domains
-      </p> */}
+      </p>
       <button className="shop-link-btn">
         <span>Shop All</span>
         <div className="shop-link-btn-hover">
