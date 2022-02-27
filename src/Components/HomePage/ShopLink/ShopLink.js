@@ -7,9 +7,9 @@ function ShopLink() {
       <h4>
         SHOP <span>LINK</span>
       </h4>
-      <p>
+      {/* <p>
         Explore from the exquisite range <br /> our hidden domains
-      </p>
+      </p> */}
       <button className="shop-link-btn">
         <span>Shop All</span>
         <div className="shop-link-btn-hover">
