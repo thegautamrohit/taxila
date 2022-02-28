@@ -86,10 +86,14 @@ function NaturalFilter() {
             <div className="mono-natural-tile-card-image">
               <img src={tile?.img} alt={tile?.title} />
             </div>
-            <p> {tile?.title} </p>
-            <span>
-              View product <IoChevronForwardOutline />
-            </span>
+            <p className="mono-natural-card-title"> {tile?.title} </p>
+
+            <div className="mono-natural-hover-state">
+              <p>view product</p>
+              <span>
+                <IoChevronForwardOutline />
+              </span>
+            </div>
           </div>
         ))}
       </div>
