@@ -1,7 +1,7 @@
 import React from "react";
 import Logo from "../../../Assets/images/footer/logo.png";
-import Footer1 from "../../../Assets/images/footer/HCA-logo.webp";
-import Footer2 from "../../../Assets/images/footer/footerLogo-2.webp";
+import Footer1 from "../../../Assets/images/footer/HCA.jpeg";
+import Footer2 from "../../../Assets/images/footer/footerLogo.jpeg";
 import { GrFacebook } from "react-icons/gr";
 import { FaHouzz, FaPinterestSquare } from "react-icons/fa";
 import { BsInstagram, BsLinkedin, BsYoutube } from "react-icons/bs";

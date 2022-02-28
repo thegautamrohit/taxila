@@ -4,9 +4,9 @@ import { IoIosArrowForward } from "react-icons/io";
 function ShopLink() {
   return (
     <div className="shop-link-container">
-      <h4>
+      {/* <h4>
         SHOP <span>LINK</span>
-      </h4>
+      </h4> */}
       <p>
         Explore from the exquisite range <br /> our hidden domains
       </p>
