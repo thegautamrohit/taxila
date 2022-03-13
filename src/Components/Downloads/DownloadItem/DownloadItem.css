@@ -121,3 +121,86 @@
   width: 20px;
   height: 20px;
 }
+
+@media screen and (max-width: 560px) {
+  .download__items__container {
+    width: calc(100% - 32px);
+  }
+
+  .download__items__container__head {
+    padding: 0px 10px 0px 10px;
+    height: 64px;
+  }
+
+  .download__items__container__head:hover {
+    background-color: #f5f5f5;
+  }
+
+  .download__items__container__head > h3 {
+    font-size: 16px;
+  }
+
+  .download__items__container__head > svg {
+    width: 20px;
+    height: 20px;
+    fill: #6c6c6c;
+  }
+
+  /* expnad downloads  */
+
+  .download__items__container__expand {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+    padding: 0px 10px 0px 10px;
+    cursor: pointer;
+    background-color: #f5f5f5;
+    flex-direction: column;
+    border-bottom: 2px solid #f2f2f2;
+    animation: slidedown 1s alternate;
+    overflow: hidden;
+  }
+
+  @keyframes slidedown {
+    from {
+      height: 64px;
+    }
+    to {
+      height: 400px;
+    }
+  }
+
+  .download__items__container__expand__head > h3 {
+    font-size: 16px;
+  }
+
+  .download__items__container__expand__head > svg {
+    width: 20px;
+    height: 20px;
+    fill: #6c6c6c;
+  }
+
+  .download__items__container__expand__item {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
+    gap: 20px;
+  }
+
+  .download__items__container__expand__item > div {
+    display: flex;
+    align-items: center;
+  }
+
+  .download__items__container__expand__item > div > p {
+    font-size: 14px;
+  }
+
+  .download__items__container__expand__item > div > svg {
+    fill: #a09f9d;
+    width: 20px;
+    height: 20px;
+  }
+}

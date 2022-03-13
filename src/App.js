@@ -7,6 +7,8 @@ import NaturalSurface from "./Components/Natural Surfaces/NaturalSurface";
 import Header from "./Components/CommonComponents/Header/Header";
 import Footer from "./Components/CommonComponents/Footer/Footer";
 import Downloads from "./Components/Downloads/Downloads";
+import Video from "./Components/Video/Video";
+import Media from "./Components/Media/Media";
 
 function App() {
   return (
@@ -20,6 +22,12 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/downloads" element={<Downloads />} />
+      </Routes>
+      <Routes>
+        <Route path="/video" element={<Video />} />
+      </Routes>
+      <Routes>
+        <Route path="/media" element={<Media />} />
       </Routes>
       <Footer />
     </BrowserRouter>
