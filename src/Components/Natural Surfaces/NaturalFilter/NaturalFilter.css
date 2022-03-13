@@ -7,12 +7,11 @@
 
 .natural-filter-tiles-filter {
   width: 360px;
-  position: sticky;
-  top: 1rem;
-  left: 0;
-  right: 0;
 
   border: 1px solid blue;
+  position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
 }
 
 .mono-filter-title {
