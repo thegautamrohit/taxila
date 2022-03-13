@@ -1,0 +1,56 @@
+.media-banner-wrapper {
+  background-image: url("../../../Assets/images/Natural\ Surfaces/naturalBanner.webp");
+  /* background-image: url("../../../Assets/images/Natural\ Surfaces/"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 308px;
+  margin: 80px 0 0 0;
+  position: relative;
+}
+
+.media-banner-wrapper > h1 {
+  font-family: var(--playfair-text);
+  color: #fff;
+  font-size: 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.media-page-route-indicator {
+  height: 100px;
+  padding: 0 80px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+
+  background-color: #f5f5f5;
+}
+
+.media-page-home-link {
+  font-family: var(--playfair-text);
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #a09f9d;
+  margin: 0 4px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .media-banner-wrapper {
+    height: 174px;
+  }
+
+  .media-banner-wrapper > h1 {
+    font-size: 32px;
+  }
+
+  .media-page-route-indicator {
+    display: none;
+  }
+}

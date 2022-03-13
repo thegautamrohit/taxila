@@ -2,7 +2,7 @@
   position: relative;
   width: 100%;
   height: 310px;
-  background-image: url("../../../Assets//images//Natural\ Surfaces/naturalBanner.webp");
+  background-image: url("../../../Assets/images//Natural\ Surfaces/naturalBanner.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -28,7 +28,7 @@
 .natural-surface-route-indicator {
   height: 100px;
   padding: 0 60px;
-  height: 100px;
+  height: 40px;
   display: flex;
   align-items: center;
   /* border: 1px solid red; */
@@ -38,13 +38,13 @@
 
 .natural-surface-home-link {
   font-family: var(--playfair-text);
-  font-size: 16px;
+  font-size: 14px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-decoration: none;
   color: #a09f9d;
-  margin: 0 6px 0 0;
+  margin: 0 4px 0 0;
 }
 
 @media screen and (max-width: 768px) {
