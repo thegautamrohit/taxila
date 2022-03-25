@@ -2,6 +2,8 @@ import React from "react";
 import Banner1 from "../../../Assets/images/HomePage/Banner-1.webp";
 import Banner2 from "../../../Assets/images/HomePage/Banner-2.webp";
 import Banner3 from "../../../Assets/images/HomePage/Banner-3.webp";
+import Banner4 from "../../../Assets/images/HomePage/Banner-4.webp";
+import Banner5 from "../../../Assets/images/HomePage/Banner-5.webp";
 import Slider from "react-slick";
 import "./HeroBanner.css";
 
@@ -38,6 +40,22 @@ function HeroBanner() {
         <div className="single-banner-slide">
           <div className="banner-img-wrapper">
             <img src={Banner3} alt="" />
+          </div>
+          <div className="hero-banner-content">
+            EXPERIENCE <br /> A LIFESTYLE WITH <br /> <span>TAXILA STONE</span>
+          </div>
+        </div>
+        <div className="single-banner-slide">
+          <div className="banner-img-wrapper">
+            <img src={Banner4} alt="" />
+          </div>
+          <div className="hero-banner-content">
+            EXPERIENCE <br /> A LIFESTYLE WITH <br /> <span>TAXILA STONE</span>
+          </div>
+        </div>
+        <div className="single-banner-slide">
+          <div className="banner-img-wrapper">
+            <img src={Banner5} alt="" />
           </div>
           <div className="hero-banner-content">
             EXPERIENCE <br /> A LIFESTYLE WITH <br /> <span>TAXILA STONE</span>
