@@ -30,39 +30,35 @@
 
 .natural-filter-tiles-result-images {
   margin: 0 0 0 80px;
-  /* border: 1px solid red; */
   display: grid;
   grid-template-columns: repeat(3, 253px);
   column-gap: 58px;
-  row-gap: 36px;
+  row-gap: 40px;
 }
 
 .mono-natural-tile-card {
   width: 253px;
-  /* height: 491px; */
   height: 100%;
   display: flex;
   flex-direction: column;
-  /* border: 1px solid red; */
 }
 
 .mono-natural-tile-card:hover {
   box-shadow: 0px 3px 6px #00000029;
 }
 
-.mono-natural-tile-card:hover {
-  animation: cardHeight 0.3s forwards;
-  /* width: 100%; */
-}
-
-@keyframes cardHeight {
-  to {
-    height: 376px;
-  }
-}
-
 .mono-natural-tile-card:hover > .mono-natural-hover-state {
+  /* opacity: opacity 1s ease; */
   opacity: 1;
+}
+
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .mono-natural-tile-card-image {
