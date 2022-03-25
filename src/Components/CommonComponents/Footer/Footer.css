@@ -1,6 +1,6 @@
 .footer-container {
   background-color: #ff1000;
-  padding: 0 5%;
+  padding: 0 4.5%;
 
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
 }
 
 .footer-logo-wrapper {
-  width: 172px;
+  width: 185px;
   height: 25px;
 }
 

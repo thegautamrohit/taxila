@@ -31,8 +31,8 @@
 
   .mono-quick-link {
     font-size: 14px;
-    margin: 0 0 0 39px;
-    color: #ddd5c9;
+    margin: 0 0 0 1.7rem;
+    color: #a4a4a4;
     letter-spacing: 0.5px;
     font-family: var(--playfair-text);
     text-decoration: none;
@@ -40,7 +40,6 @@
 
   .mono-quick-link:hover {
     font-size: 14px;
-    margin: 0 0 0 39px;
     color: #ff1000;
     cursor: pointer;
   }
