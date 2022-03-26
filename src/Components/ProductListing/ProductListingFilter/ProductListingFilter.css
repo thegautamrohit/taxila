@@ -540,7 +540,7 @@ tbody > tr > td > img {
   .table-right-mono-content-block {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 
     border-right: 0.5px solid #cdcdcd;
     border-bottom: 0.5px solid #cdcdcd;
@@ -548,7 +548,9 @@ tbody > tr > td > img {
     width: 160px;
     height: 48px;
   }
-
+  .table-right-mono-content-block>img{
+    margin: 0px 5px 0px 5px;
+  }
   .product-listing-table-right-foot {
     width: 160px;
     height: 84px;
