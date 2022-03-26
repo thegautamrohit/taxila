@@ -156,7 +156,7 @@ function ProductListingFilter() {
 
                 <td> Hard Surface Easy Maintenance Affordable </td>
               </tr>
-              <tr>
+              {/* <tr>
                 <td>Granite</td>
                 <td>
                   <img src={Icon} alt="" />
@@ -189,7 +189,7 @@ function ProductListingFilter() {
                   <img src={Icon} alt="" />
                 </td>
                 <td> Hard Surface Easy Maintenance Affordable </td>
-              </tr>
+              </tr> */}
             </tbody>
           </table>
 
@@ -212,7 +212,7 @@ function ProductListingFilter() {
           </div>
         </div>
 
-        <div className="product-listing-features-wrapper-mob">
+        {/* <div className="product-listing-features-wrapper-mob">
           <h4>Features</h4>
 
           <div className="product-listing-features-table">
@@ -274,7 +274,7 @@ function ProductListingFilter() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="product-listing-explore-products-wrapper">
           <div className="product-listing-explore-products-wrapper-head">
