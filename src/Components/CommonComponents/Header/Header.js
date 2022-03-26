@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../../../Assets/images/HomePage/Taxila-logo.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Header.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 
@@ -8,20 +8,32 @@ function Header() {
   return (
     <div>
       <nav className="navbar-wrapper-desktop">
-        <Link to="/" className="navbar-logo-wrapper">
+        <NavLink to="/" className="navbar-logo-wrapper">
           <img src={Logo} alt="Taxila Stone" />
-        </Link>
+        </NavLink>
 
         <div className="navbar-quick-links-wrapper">
           <div className="mono-quick-link">About</div>
-          <Link to="/natural-surfaces" className="mono-quick-link">
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "active__links" : "mono-quick-link"
+            }
+            to="/natural-surfaces"
+          >
             Natural
-          </Link>
+          </NavLink>
           <div className="mono-quick-link">Engineered</div>
           <div className="mono-quick-link">Tiles</div>
           <div className="mono-quick-link">Kitchen</div>
           <div className="mono-quick-link">Accessories</div>
-          <div className="mono-quick-link">Inspiration</div>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "active__links" : "mono-quick-link"
+            }
+            to="/inspiration"
+          >
+            Inspiration
+          </NavLink>
           <div className="mono-quick-link">Resources</div>
           <div className="mono-quick-link">Shop</div>
           <div className="mono-quick-link">Media</div>

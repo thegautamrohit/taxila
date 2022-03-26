@@ -9,6 +9,7 @@ import Footer from "./Components/CommonComponents/Footer/Footer";
 import Downloads from "./Components/Downloads/Downloads";
 import Video from "./Components/Video/Video";
 import Media from "./Components/Media/Media";
+import Inspiration from "./Components/Inspiration/Inspiration";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/media" element={<Media />} />
+      </Routes>
+      <Routes>
+        <Route path="/inspiration" element={<Inspiration />} />
       </Routes>
       <Footer />
     </BrowserRouter>
