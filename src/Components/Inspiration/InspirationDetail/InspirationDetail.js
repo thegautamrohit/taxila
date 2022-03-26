@@ -61,7 +61,7 @@ const InspirationDetail = () => {
       <div className="inspiration__image__container">
         <div className="inspiration__image__display">
           {all === "All" &&
-            InspirationData.slice(0, 4).map((item) => {
+            InspirationData.map((item) => {
               return (
                 <div
                   onClick={() => (
@@ -83,7 +83,8 @@ const InspirationDetail = () => {
                     onClick={() => (
                       setOneElement(item.details),
                       setDetails(item.detailsDescription),
-                      setMainImage(item.image)
+                      setMainImage(item.image),
+                      setTitle(item.title)
                     )}
                   >
                     <img key={item.id} src={item.image} alt={item.image} />
@@ -168,7 +169,7 @@ const InspirationDetail = () => {
             </div>
           </div>
         )}
-        <div className="inspiration__image__display">
+        {/* <div className="inspiration__image__display">
           {InspirationData.slice(4, 8).map((item) => {
             return (
               <div>
@@ -176,7 +177,7 @@ const InspirationDetail = () => {
               </div>
             );
           })}
-        </div>
+        </div> */}
       </div>
     </div>
   );
