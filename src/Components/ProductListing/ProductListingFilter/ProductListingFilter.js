@@ -156,7 +156,7 @@ function ProductListingFilter() {
 
                 <td> Hard Surface Easy Maintenance Affordable </td>
               </tr>
-              {/* <tr>
+              <tr>
                 <td>Granite</td>
                 <td>
                   <img src={Icon} alt="" />
@@ -189,7 +189,7 @@ function ProductListingFilter() {
                   <img src={Icon} alt="" />
                 </td>
                 <td> Hard Surface Easy Maintenance Affordable </td>
-              </tr> */}
+              </tr>
             </tbody>
           </table>
 
