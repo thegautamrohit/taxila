@@ -29,7 +29,7 @@ export const InspirationData = [
   },
   {
     id: 2,
-    category: "Kitchen",
+    category: "Shower",
     image: KitchenImage1,
     title: "Blue Quartzite",
     detailsDescription:
@@ -79,31 +79,6 @@ export const InspirationData = [
   },
   {
     id: 4,
-    category: "Bathroom",
-    image: KitchenImage1,
-    title: "Blue Quartzite",
-    detailsDescription:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et",
-    details: [
-      {
-        id: 1,
-        title: "QUARTZITE",
-        detailImage: DetailKitchenImage1,
-      },
-      {
-        id: 2,
-        title: "QUARTZITE",
-        detailImage: DetailKitchenImage1,
-      },
-      {
-        id: 2,
-        title: "QUARTZITE",
-        detailImage: DetailKitchenImage1,
-      },
-    ],
-  },
-  {
-    id: 5,
     category: "Commercial",
     image: KitchenImage1,
     title: "Blue Quartzite",
@@ -127,79 +102,104 @@ export const InspirationData = [
       },
     ],
   },
-  {
-    id: 6,
-    category: "Commercial",
-    image: KitchenImage1,
-    title: "Blue Quartzite",
-    detailsDescription:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et",
-    details: [
-      {
-        id: 1,
-        title: "QUARTZITE",
-        detailImage: DetailKitchenImage1,
-      },
-      {
-        id: 2,
-        title: "QUARTZITE",
-        detailImage: DetailKitchenImage1,
-      },
-      {
-        id: 2,
-        title: "QUARTZITE",
-        detailImage: DetailKitchenImage1,
-      },
-    ],
-  },
-  {
-    id: 7,
-    category: "Shower",
-    image: KitchenImage1,
-    title: "Blue Quartzite",
-    detailsDescription:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et",
-    details: [
-      {
-        id: 1,
-        title: "QUARTZITE",
-        detailImage: DetailKitchenImage1,
-      },
-      {
-        id: 2,
-        title: "QUARTZITE",
-        detailImage: DetailKitchenImage1,
-      },
-      {
-        id: 2,
-        title: "QUARTZITE",
-        detailImage: DetailKitchenImage1,
-      },
-    ],
-  },
-  {
-    id: 8,
-    category: "Shower",
-    image: KitchenImage1,
-    title: "Blue Quartzite",
-    detailsDescription:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et",
-    details: [
-      {
-        id: 1,
-        title: "QUARTZITE",
-        detailImage: DetailKitchenImage1,
-      },
-      {
-        id: 2,
-        title: "QUARTZITE",
-        detailImage: DetailKitchenImage1,
-      },
-      {
-        id: 2,
-        title: "QUARTZITE",
-        detailImage: DetailKitchenImage1,
-      },
-    ],
-  },
+  // {
+  //   id: 5,
+  //   category: "Commercial",
+  //   image: KitchenImage1,
+  //   title: "Blue Quartzite",
+  //   detailsDescription:
+  //     "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et",
+  //   details: [
+  //     {
+  //       id: 1,
+  //       title: "QUARTZITE",
+  //       detailImage: DetailKitchenImage1,
+  //     },
+  //     {
+  //       id: 2,
+  //       title: "QUARTZITE",
+  //       detailImage: DetailKitchenImage1,
+  //     },
+  //     {
+  //       id: 2,
+  //       title: "QUARTZITE",
+  //       detailImage: DetailKitchenImage1,
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   category: "Commercial",
+  //   image: KitchenImage1,
+  //   title: "Blue Quartzite",
+  //   detailsDescription:
+  //     "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et",
+  //   details: [
+  //     {
+  //       id: 1,
+  //       title: "QUARTZITE",
+  //       detailImage: DetailKitchenImage1,
+  //     },
+  //     {
+  //       id: 2,
+  //       title: "QUARTZITE",
+  //       detailImage: DetailKitchenImage1,
+  //     },
+  //     {
+  //       id: 2,
+  //       title: "QUARTZITE",
+  //       detailImage: DetailKitchenImage1,
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 7,
+  //   category: "Shower",
+  //   image: KitchenImage1,
+  //   title: "Blue Quartzite",
+  //   detailsDescription:
+  //     "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et",
+  //   details: [
+  //     {
+  //       id: 1,
+  //       title: "QUARTZITE",
+  //       detailImage: DetailKitchenImage1,
+  //     },
+  //     {
+  //       id: 2,
+  //       title: "QUARTZITE",
+  //       detailImage: DetailKitchenImage1,
+  //     },
+  //     {
+  //       id: 2,
+  //       title: "QUARTZITE",
+  //       detailImage: DetailKitchenImage1,
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 8,
+  //   category: "Shower",
+  //   image: KitchenImage1,
+  //   title: "Blue Quartzite",
+  //   detailsDescription:
+  //     "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et",
+  //   details: [
+  //     {
+  //       id: 1,
+  //       title: "QUARTZITE",
+  //       detailImage: DetailKitchenImage1,
+  //     },
+  //     {
+  //       id: 2,
+  //       title: "QUARTZITE",
+  //       detailImage: DetailKitchenImage1,
+  //     },
+  //     {
+  //       id: 2,
+  //       title: "QUARTZITE",
+  //       detailImage: DetailKitchenImage1,
+  //     },
+  //   ],
+  // },
 ];
