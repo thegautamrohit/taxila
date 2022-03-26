@@ -212,7 +212,7 @@ function ProductListingFilter() {
           </div>
         </div>
 
-        {/* <div className="product-listing-features-wrapper-mob">
+        <div className="product-listing-features-wrapper-mob">
           <h4>Features</h4>
 
           <div className="product-listing-features-table">
@@ -221,7 +221,7 @@ function ProductListingFilter() {
 
               <div className="product-listing-table-left-wrap">
                 <div className="product-listing-table-left-content">
-                  Resistance
+                  <p>Resistance</p>
                 </div>
                 <div className="product-listing-table-left-stats">
                   <p>Chips</p>
@@ -233,11 +233,12 @@ function ProductListingFilter() {
                 </div>
               </div>
 
-              <div className="product-listing-table-left-head">Pros</div>
+              <div className="product-listing-table-left-pros">Pros</div>
             </div>
-            <div className="product-listing-table-right">
-              <div className="product-listing-table-right-head">Granite</div>
-              <div className="product-listing-table-right-content">
+            <div className="product-listing-table-data-container">
+              <div className="product-listing-table-right">
+                <div className="product-listing-table-right-head">Granite</div>
+
                 <div className="table-right-mono-content-block">
                   <img src={Icon} alt="" />
                   <img src={Icon} alt="" />
@@ -267,14 +268,91 @@ function ProductListingFilter() {
                   <img src={Icon} alt="" />
                   <img src={Icon} alt="" />
                   <img src={Icon} alt="" />
+                </div>
+
+                <div className="product-listing-table-right-foot">
+                  Hard Surface Easy Maintenance Affordable
                 </div>
               </div>
-              <div className="product-listing-table-right-foot">
-                Hard Surface Easy Maintenance Affordable
+              <div className="product-listing-table-right">
+                <div className="product-listing-table-right-head">Granite</div>
+
+                <div className="table-right-mono-content-block">
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                </div>
+                <div className="table-right-mono-content-block">
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                </div>
+                <div className="table-right-mono-content-block">
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                </div>
+                <div className="table-right-mono-content-block">
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                </div>
+                <div className="table-right-mono-content-block">
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                </div>
+                <div className="table-right-mono-content-block">
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                </div>
+
+                <div className="product-listing-table-right-foot">
+                  Hard Surface Easy Maintenance Affordable
+                </div>
+              </div>
+              <div className="product-listing-table-right">
+                <div className="product-listing-table-right-head">Granite</div>
+
+                <div className="table-right-mono-content-block">
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                </div>
+                <div className="table-right-mono-content-block">
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                </div>
+                <div className="table-right-mono-content-block">
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                </div>
+                <div className="table-right-mono-content-block">
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                </div>
+                <div className="table-right-mono-content-block">
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                </div>
+                <div className="table-right-mono-content-block">
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                  <img src={Icon} alt="" />
+                </div>
+
+                <div className="product-listing-table-right-foot">
+                  Hard Surface Easy Maintenance Affordable
+                </div>
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
         <div className="product-listing-explore-products-wrapper">
           <div className="product-listing-explore-products-wrapper-head">

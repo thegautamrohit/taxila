@@ -312,7 +312,7 @@ tbody > tr > td > img {
   }
 
   .product-listing-features-wrapper-desktop {
-    /* display: none; */
+    display: none;
     width: 90%;
     margin: 30px auto;
   }
@@ -324,59 +324,108 @@ tbody > tr > td > img {
   .product-listing-features-wrapper-mob {
     display: flex;
     flex-direction: column;
+    width: 90%;
+
+    align-self: center;
+    margin: 31px 0px 37px 35px;
+  }
+
+  .product-listing-features-wrapper-mob > h4 {
+    font-size: 16px;
+    color: #1d1d1b;
+    font-family: var(--playfair-text);
+    padding-bottom: 22px;
   }
 
   .product-listing-features-table {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    border: 1px solid red;
+    border-left: 0.5px solid #dddddd;
+    border-top: 0.5px solid #dddddd;
+    border-bottom: 0.5px solid #dddddd;
   }
 
   .product-listing-table-left {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    border: 1px solid blue;
+    width: 124px;
   }
 
   .product-listing-table-left-head {
-    width: 125px;
+    width: 123px;
     background-color: #f2f2f2;
     font-size: 14px;
     color: #a09f9d;
     font-family: var(--open-sans-text);
-    padding: 15px 0;
-    text-align: center;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 0.5px solid #cdcdcd;
+    border-bottom: 0.5px solid #dddddd;
+  }
+
+  .product-listing-table-left-pros {
+    width: 124px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    color: #a09f9d;
+    font-family: var(--open-sans-text);
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-top: 0.5px solid #dddddd;
+    border-right: 0.5px solid #dddddd;
   }
 
   .product-listing-table-left-stats > p {
     width: 83px;
-    padding: 15px 0;
+    height: 48px;
     background-color: #f2f2f2;
     font-size: 14px;
     color: #a09f9d;
     font-family: var(--open-sans-text);
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 0.5px solid #dddddd;
+    border-right: 0.5px solid #dddddd;
+    border-bottom: 0.5px solid #dddddd;
   }
 
   .product-listing-table-left-content {
-    transform: rotate(-0.25turn);
-    border: 1px solid green;
-    height: 41px;
-    width: 288px;
-    text-align: center;
+    height: 288px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
+  .product-listing-table-left-content > p {
+    transform: rotate(-90deg);
+    font-size: 16px;
+    font-family: var(--open-sans-text);
+
+    letter-spacing: 0px;
+    color: #a09f9d;
+    text-transform: capitalize;
+    opacity: 1;
+  }
   .product-listing-table-left-wrap {
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    width: 124px;
   }
 
   .product-listing-table-right {
     display: flex;
     flex-direction: column;
+
+    align-self: flex-start;
   }
 
   .product-listing-table-right-content {
@@ -457,5 +506,60 @@ tbody > tr > td > img {
 
   .product-listing-explore-products-mono-result-img {
     width: 100%;
+  }
+
+  .product-listing-table-right-head {
+    font-size: 16px;
+
+    font-family: var(--open-sans-text);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-right: 0.5px solid #cdcdcd;
+    border-bottom: 0.5px solid #cdcdcd;
+
+    width: 160px;
+    height: 48px;
+
+    background: #ffffff 0% 0% no-repeat padding-box;
+
+    opacity: 1;
+
+    letter-spacing: 0px;
+    color: #6c6c6c;
+  }
+
+  .product-listing-table-data-container {
+    display: flex;
+    width: max-content;
+    overflow: scroll;
+  }
+
+  .table-right-mono-content-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    border-right: 0.5px solid #cdcdcd;
+    border-bottom: 0.5px solid #cdcdcd;
+
+    width: 160px;
+    height: 48px;
+  }
+
+  .product-listing-table-right-foot {
+    width: 160px;
+    height: 84px;
+    font-size: 12px;
+    font-family: var(--open-sans-text);
+    letter-spacing: 0px;
+    color: #6c6c6c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 0.5px solid #cdcdcd;
+    text-align: center;
   }
 }
