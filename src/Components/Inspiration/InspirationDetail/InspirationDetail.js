@@ -23,7 +23,7 @@ const InspirationDetail = () => {
       <div className="inspiration__head">
         <p
           style={all === "All" ? { color: "#6C6C6C" } : { color: "#CDCDCD" }}
-          onClick={() => setAll("All")}
+          onClick={() => (setAll("All"), setOneElement([]))}
         >
           ALL
         </p>
@@ -31,7 +31,7 @@ const InspirationDetail = () => {
           style={
             all === "Kitchen" ? { color: "#6C6C6C" } : { color: "#CDCDCD" }
           }
-          onClick={() => setAll("Kitchen")}
+          onClick={() => (setAll("Kitchen"), setOneElement([]))}
         >
           KITCHEN
         </p>
@@ -39,7 +39,7 @@ const InspirationDetail = () => {
           style={
             all === "Bathroom" ? { color: "#6C6C6C" } : { color: "#CDCDCD" }
           }
-          onClick={() => setAll("Bathroom")}
+          onClick={() => (setAll("Bathroom"), setOneElement([]))}
         >
           BATHROOM
         </p>
@@ -47,13 +47,13 @@ const InspirationDetail = () => {
           style={
             all === "Commercial" ? { color: "#6C6C6C" } : { color: "#CDCDCD" }
           }
-          onClick={() => setAll("Commercial")}
+          onClick={() => (setAll("Commercial"), setOneElement([]))}
         >
           COMMERCIAL
         </p>
         <p
           style={all === "Shower" ? { color: "#6C6C6C" } : { color: "#CDCDCD" }}
-          onClick={() => setAll("Shower")}
+          onClick={() => (setAll("Shower"), setOneElement([]))}
         >
           SHOWER
         </p>
