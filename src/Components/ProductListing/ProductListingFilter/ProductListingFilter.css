@@ -548,7 +548,7 @@ tbody > tr > td > img {
     width: 160px;
     height: 48px;
   }
-  .table-right-mono-content-block>img{
+  .table-right-mono-content-block > img {
     margin: 0px 5px 0px 5px;
   }
   .product-listing-table-right-foot {
@@ -563,5 +563,26 @@ tbody > tr > td > img {
     justify-content: center;
     border-right: 0.5px solid #cdcdcd;
     text-align: center;
+  }
+
+  .table-footer-scale {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .mono-footer-scale-mark {
+    margin: 0px 22px 0px 0px;
+  }
+
+  .mono-footer-scale-mark > img {
+    width: 15px;
+    height: 15px;
+  }
+
+  .mono-footer-scale-mark > p {
+    font-size: 14px;
+    font-family: var(--open-sans-text);
+    letter-spacing: 0px;
+    color: #b1b4ae;
   }
 }

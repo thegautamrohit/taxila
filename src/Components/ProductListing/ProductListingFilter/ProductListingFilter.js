@@ -352,6 +352,23 @@ function ProductListingFilter() {
               </div>
             </div>
           </div>
+          <div className="table-footer-scale">
+            <div className="mono-footer-scale-mark">
+              <img src={Icon} alt="" />
+              <p>Fair</p>
+            </div>
+            <div className="mono-footer-scale-mark">
+              <img src={Icon} alt="" />
+              <img src={Icon} alt="" />
+              <p>Good</p>
+            </div>
+            <div className="mono-footer-scale-mark">
+              <img src={Icon} alt="" />
+              <img src={Icon} alt="" />
+              <img src={Icon} alt="" />
+              <p>Excellent</p>
+            </div>
+          </div>
         </div>
 
         <div className="product-listing-explore-products-wrapper">
