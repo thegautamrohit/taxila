@@ -9,6 +9,7 @@ import Footer from "./Components/CommonComponents/Footer/Footer";
 import Downloads from "./Components/Downloads/Downloads";
 import Video from "./Components/Video/Video";
 import Media from "./Components/Media/Media";
+import ProductListing from "./Components/ProductListing/ProductListing";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/media" element={<Media />} />
+      </Routes>
+      <Routes>
+        <Route path="/product-listing" element={<ProductListing />} />
       </Routes>
       <Footer />
     </BrowserRouter>
