@@ -1,10 +1,11 @@
 .download__items__container {
   display: flex;
-  align-items: flex-start;
+
   flex-direction: column;
   width: calc(100% - 160px);
   border-top: 1px solid #f2f2f2;
-  margin-top: 61px;
+
+  margin: 60px auto auto 60px;
   padding-bottom: 60px;
 }
 .download__items {

@@ -1,13 +1,13 @@
 import React from "react";
-import Banner from "./Banner/Banner";
+import DownloadsBanner from "./Banner/DownloadsBanner";
 import DownloadItem from "./DownloadItem/DownloadItem";
 import "./Downloads.css";
 const Downloads = () => {
   return (
-    <div className="downloads__container">
-      <Banner />
+    <>
+      <DownloadsBanner />
       <DownloadItem />
-    </div>
+    </>
   );
 };
 
