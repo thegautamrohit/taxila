@@ -1,0 +1,7 @@
+.kitchenItem__container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: #1D1D1B;
+    height: 668px;
+}

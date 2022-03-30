@@ -11,6 +11,7 @@ import Video from "./Components/Video/Video";
 import Media from "./Components/Media/Media";
 import Inspiration from "./Components/Inspiration/Inspiration";
 import ProductListing from "./Components/ProductListing/ProductListing";
+import Kitchen from "./Components/kitchen/kitchen";
 
 function App() {
   return (
@@ -18,24 +19,13 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
-      </Routes>
-      <Routes>
         <Route path="/natural-surfaces" element={<NaturalSurface />} />
-      </Routes>
-      <Routes>
         <Route path="/downloads" element={<Downloads />} />
-      </Routes>
-      <Routes>
         <Route path="/video" element={<Video />} />
-      </Routes>
-      <Routes>
         <Route path="/media" element={<Media />} />
-      </Routes>
-      <Routes>
         <Route path="/product-listing" element={<ProductListing />} />
-      </Routes>
-      <Routes>
         <Route path="/inspiration" element={<Inspiration />} />
+        <Route path="/kitchen" element={<Kitchen />} />
       </Routes>
       <Footer />
     </BrowserRouter>
