@@ -11,6 +11,7 @@ import Video from "./Components/Video/Video";
 import Media from "./Components/Media/Media";
 import Inspiration from "./Components/Inspiration/Inspiration";
 import ProductListing from "./Components/ProductListing/ProductListing";
+import ProductDetails from "./Components/ProductDetails/ProductDetails";
 
 function App() {
   return (
@@ -33,6 +34,9 @@ function App() {
       </Routes>
       <Routes>
         <Route path="/product-listing" element={<ProductListing />} />
+      </Routes>
+      <Routes>
+        <Route path="/product-details" element={<ProductDetails />} />
       </Routes>
       <Routes>
         <Route path="/inspiration" element={<Inspiration />} />
