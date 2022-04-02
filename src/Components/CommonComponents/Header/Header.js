@@ -13,7 +13,14 @@ function Header() {
         </NavLink>
 
         <div className="navbar-quick-links-wrapper">
-          <div className="mono-quick-link">About</div>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "active__links" : "mono-quick-link"
+            }
+            to="/natural-surfaces"
+          >
+            About
+          </NavLink>
           <NavLink
             className={({ isActive }) =>
               isActive ? "active__links" : "mono-quick-link"
@@ -24,7 +31,14 @@ function Header() {
           </NavLink>
           <div className="mono-quick-link">Engineered</div>
           <div className="mono-quick-link">Tiles</div>
-          <div className="mono-quick-link">Kitchen</div>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "active__links" : "mono-quick-link"
+            }
+            to="/kitchen"
+          >
+            Kitchen{" "}
+          </NavLink>
           <div className="mono-quick-link">Accessories</div>
           <NavLink
             className={({ isActive }) =>

@@ -63,7 +63,23 @@ function ProductSection() {
         </div>
       </div>
       <div className="product__section__details__container">
-        <h4> {Product[0]?.title}</h4>
+        <div className="product__section__details__head">
+          <h4> {Product[0]?.title}</h4>
+
+          <div className="product__details__download__specs__section__mob">
+            <p>
+              Download <br /> Specs
+            </p>
+
+            <a
+              download
+              href={Product[0]?.specs}
+              className="product__details__download__specs__btn"
+            >
+              <MdOutlineDownloadForOffline color={"#B1B4AE"} size={30} />
+            </a>
+          </div>
+        </div>
 
         <p className="product__section__details__subhead">
           {Product[0]?.heading}
