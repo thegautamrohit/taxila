@@ -48,6 +48,46 @@ function MarqueeSection() {
                 style={{ margin: "25px" }}
               />
             </span>
+            <span>
+              <span>ART</span>
+              <FaAsterisk
+                size={22}
+                color={"#ddd5c9"}
+                style={{ margin: "25px" }}
+              />
+            </span>
+            <span>
+              <span>TECHNOLOGY</span>
+              <FaAsterisk
+                size={22}
+                color={"#ddd5c9"}
+                style={{ margin: "25px" }}
+              />
+            </span>
+            <span>
+              <span>DESIGN</span>
+              <FaAsterisk
+                size={22}
+                color={"#ddd5c9"}
+                style={{ margin: "25px" }}
+              />
+            </span>
+            <span>
+              <span>QUALITY</span>
+              <FaAsterisk
+                size={22}
+                color={"#ddd5c9"}
+                style={{ margin: "25px" }}
+              />
+            </span>
+            <span>
+              <span>MODERN LIVING</span>
+              <FaAsterisk
+                size={22}
+                color={"#ddd5c9"}
+                style={{ margin: "25px" }}
+              />
+            </span>
           </div>
         </div>
         <div className="marquee-text-wrapper-2">
@@ -93,10 +133,95 @@ function MarqueeSection() {
                 style={{ margin: "25px" }}
               />
             </span>
+            <span>
+              <span>TECHNOLOGY</span>
+              <FaAsterisk
+                size={22}
+                color={"#ddd5c9"}
+                style={{ margin: "25px" }}
+              />
+            </span>
+
+            <span>
+              <span>ART</span>
+              <FaAsterisk
+                size={22}
+                color={"#ddd5c9"}
+                style={{ margin: "25px" }}
+              />
+            </span>
+            <span>
+              <span>QUALITY</span>
+              <FaAsterisk
+                size={22}
+                color={"#ddd5c9"}
+                style={{ margin: "25px" }}
+              />
+            </span>
+            <span>
+              <span>DESIGN</span>
+              <FaAsterisk
+                size={22}
+                color={"#ddd5c9"}
+                style={{ margin: "25px" }}
+              />
+            </span>
+            <span>
+              <span>MODERN LIVING</span>
+              <FaAsterisk
+                size={22}
+                color={"#ddd5c9"}
+                style={{ margin: "25px" }}
+              />
+            </span>
           </div>
         </div>
         <div className="marquee-text-wrapper-1">
           <div className="marquee-text">
+            <span>
+              <span>ART</span>
+              <FaAsterisk
+                size={22}
+                color={"#ddd5c9"}
+                style={{ margin: "25px" }}
+              />
+            </span>
+
+            <span>
+              <span>DESIGN</span>
+              <FaAsterisk
+                size={22}
+                color={"#ddd5c9"}
+                style={{ margin: "25px" }}
+              />
+            </span>
+
+            <span>
+              <span>MODERN LIVING</span>
+              <FaAsterisk
+                size={22}
+                color={"#ddd5c9"}
+                style={{ margin: "25px" }}
+              />
+            </span>
+
+            <span>
+              <span>QUALITY</span>
+              <FaAsterisk
+                size={22}
+                color={"#ddd5c9"}
+                style={{ margin: "25px" }}
+              />
+            </span>
+
+            <span>
+              <span>TECHNOLOGY</span>
+              <FaAsterisk
+                size={22}
+                color={"#ddd5c9"}
+                style={{ margin: "25px" }}
+              />
+            </span>
             <span>
               <span>ART</span>
               <FaAsterisk
@@ -188,6 +313,46 @@ function MarqueeSection() {
                 style={{ margin: "12px" }}
               />
             </span>
+            <span>
+              <span>ART</span>
+              <FaAsterisk
+                size={18}
+                color={"#ddd5c9"}
+                style={{ margin: "12px" }}
+              />
+            </span>
+            <span>
+              <span>TECHNOLOGY</span>
+              <FaAsterisk
+                size={18}
+                color={"#ddd5c9"}
+                style={{ margin: "12px" }}
+              />
+            </span>
+            <span>
+              <span>DESIGN</span>
+              <FaAsterisk
+                size={18}
+                color={"#ddd5c9"}
+                style={{ margin: "12px" }}
+              />
+            </span>
+            <span>
+              <span>QUALITY</span>
+              <FaAsterisk
+                size={18}
+                color={"#ddd5c9"}
+                style={{ margin: "12px" }}
+              />
+            </span>
+            <span>
+              <span>MODERN LIVING</span>
+              <FaAsterisk
+                size={18}
+                color={"#ddd5c9"}
+                style={{ margin: "12px" }}
+              />
+            </span>
           </div>
         </div>
         <div className="marquee-text-wrapper-2-mob">
@@ -233,10 +398,94 @@ function MarqueeSection() {
                 style={{ margin: "12px" }}
               />
             </span>
+            <span>
+              <span>TECHNOLOGY</span>
+              <FaAsterisk
+                size={18}
+                color={"#ddd5c9"}
+                style={{ margin: "12px" }}
+              />
+            </span>
+            <span>
+              <span>DESIGN</span>
+              <FaAsterisk
+                size={18}
+                color={"#ddd5c9"}
+                style={{ margin: "12px" }}
+              />
+            </span>
+            <span>
+              <span>ART</span>
+              <FaAsterisk
+                size={18}
+                color={"#ddd5c9"}
+                style={{ margin: "12px" }}
+              />
+            </span>
+
+            <span>
+              <span>MODERN LIVING</span>
+              <FaAsterisk
+                size={18}
+                color={"#ddd5c9"}
+                style={{ margin: "12px" }}
+              />
+            </span>
+            <span>
+              <span>QUALITY</span>
+              <FaAsterisk
+                size={18}
+                color={"#ddd5c9"}
+                style={{ margin: "12px" }}
+              />
+            </span>
           </div>
         </div>
         <div className="marquee-text-wrapper-1-mob">
           <div className="marquee-text-mob">
+            <span>
+              <span>QUALITY</span>
+              <FaAsterisk
+                size={18}
+                color={"#ddd5c9"}
+                style={{ margin: "12px" }}
+              />
+            </span>
+            <span>
+              <span>ART</span>
+              <FaAsterisk
+                size={18}
+                color={"#ddd5c9"}
+                style={{ margin: "12px" }}
+              />
+            </span>
+
+            <span>
+              <span>DESIGN</span>
+              <FaAsterisk
+                size={18}
+                color={"#ddd5c9"}
+                style={{ margin: "12px" }}
+              />
+            </span>
+
+            <span>
+              <span>MODERN LIVING</span>
+              <FaAsterisk
+                size={18}
+                color={"#ddd5c9"}
+                style={{ margin: "12px" }}
+              />
+            </span>
+
+            <span>
+              <span>TECHNOLOGY</span>
+              <FaAsterisk
+                size={18}
+                color={"#ddd5c9"}
+                style={{ margin: "12px" }}
+              />
+            </span>
             <span>
               <span>QUALITY</span>
               <FaAsterisk
