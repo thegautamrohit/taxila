@@ -92,20 +92,6 @@ function VideoContainer() {
       <div className="video-container-box">
         {links?.map((link, index) => (
           <div key={link.id} className="video-container-mono-clip">
-            <div
-              className="video-container-mono-clip-overlay"
-              style={{
-                backgroundImage: `url('${link.background}')`,
-                pointerEvents: show === index ? "none" : "all",
-                opacity: show === index ? 0 : 1,
-              }}
-              onClick={() => setShow(index)}
-            >
-              <div className="mono-clip-play-btn">
-                <FaPlayCircle size={40} color={"#fff"} />
-              </div>
-            </div>
-
             <div className="video-container-mono-clip-video-wrapper">
               <iframe
                 width="100%"
