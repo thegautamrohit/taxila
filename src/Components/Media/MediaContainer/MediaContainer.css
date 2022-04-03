@@ -73,6 +73,14 @@
   font-family: var(--open-sans-text);
 }
 
+.media-article-magazine-name {
+  color: #a09f9d;
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0 0 10px 0;
+  font-family: var(--open-sans-text);
+}
+
 .media-article-summary {
   color: #a09f9d;
   font-size: 18px;
