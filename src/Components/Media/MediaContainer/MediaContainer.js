@@ -4,7 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { mediaLinks } from "../../../Media Links";
 
 function MediaContainer() {
-  const [toggle, setToggle] = useState(0);
+  const [toggle, setToggle] = useState(2);
   const [data, setData] = useState();
 
   useEffect(() => {
@@ -15,15 +15,21 @@ function MediaContainer() {
 
   const clickHandler = (toggle) => {
     setToggle(toggle);
-    if (toggle === 0) {
+    if (toggle === 1) {
       let arr = [mediaLinks.filter((m) => m.CATEGORY === "Article")];
       setData(arr);
     }
-    if (toggle === 1) {
+    if (toggle === 2) {
       let arr = [mediaLinks.filter((m) => m.CATEGORY === "Featured")];
       setData(arr);
     }
+
+    if (toggle === 0) {
+      setData([mediaLinks]);
+    }
   };
+
+  // console.log(data);
 
   return (
     <div className="media-container-wrapper">
@@ -31,11 +37,11 @@ function MediaContainer() {
         <div
           className="media-toggle-section-mono-bar"
           style={{
-            color: toggle === 0 ? "#6C6C6C" : "#CDCDCD",
+            color: toggle === 2 ? "#6C6C6C" : "#CDCDCD",
           }}
-          onClick={() => clickHandler(0)}
+          onClick={() => clickHandler(2)}
         >
-          Articles
+          Featured
         </div>
         <div
           className="media-toggle-section-mono-bar"
@@ -44,7 +50,16 @@ function MediaContainer() {
           }}
           onClick={() => clickHandler(1)}
         >
-          Features
+          Articles
+        </div>
+        <div
+          className="media-toggle-section-mono-bar"
+          style={{
+            color: toggle === 0 ? "#6C6C6C" : "#CDCDCD",
+          }}
+          onClick={() => clickHandler(0)}
+        >
+          All
         </div>
       </div>
 
@@ -58,8 +73,8 @@ function MediaContainer() {
 
               <div className="media-article-content">
                 <h5 className="media-article-title">{d?.HEADING}</h5>
-
                 <span className="media-article-date"> {d?.DATE} </span>
+                <p className="media-article-magazine-name">{d?.WEBSITE}</p>
                 {d.summary && (
                   <p className="media-article-summary">{d?.BODY_TEXT}</p>
                 )}

@@ -73,6 +73,14 @@
   font-family: var(--open-sans-text);
 }
 
+.media-article-magazine-name {
+  color: #a09f9d;
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0 0 10px 0;
+  font-family: var(--open-sans-text);
+}
+
 .media-article-summary {
   color: #a09f9d;
   font-size: 18px;
@@ -174,7 +182,8 @@
     margin-bottom: 0;
   }
 
-  .media-toggle-section-container > div:first-child {
+  .media-toggle-section-container > div:first-child,
+  .media-toggle-section-container > div:nth-child(2) {
     border-right: 0.5px solid #d6d4d0;
   }
 
@@ -221,6 +230,7 @@
   }
 
   .media-article-date,
+  .media-article-magazine-name,
   .media-article-summary {
     font-size: 14px;
     margin: 0 0 15px 0;
