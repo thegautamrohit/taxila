@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { kitchenItem } from "../../../kitchenItem";
+import CarousalKitchen from "../../CommonComponents/carousal/carousalKitchen";
 import "./KitchenItem.css";
 const KitchenItem = () => {
   const [select, setSelect] = useState("MAISTRI");
@@ -30,6 +32,7 @@ const KitchenItem = () => {
           <div>HANAMI FIBONACCI</div>
           <div>GANDHARA</div>
         </div>
+        <CarousalKitchen kitchen={kitchenItem} />
       </div>
     </div>
   );
