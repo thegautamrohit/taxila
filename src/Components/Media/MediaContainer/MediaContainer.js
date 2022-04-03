@@ -4,7 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { mediaLinks } from "../../../Media Links";
 
 function MediaContainer() {
-  const [toggle, setToggle] = useState(0);
+  const [toggle, setToggle] = useState(2);
   const [data, setData] = useState();
 
   useEffect(() => {
