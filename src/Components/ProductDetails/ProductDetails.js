@@ -3,6 +3,8 @@ import Loader from "../../Assets/images/Loader/loader.gif";
 import Banner from "../CommonComponents/Banner/Banner";
 import BackGroundImage from "../../Assets/images/HomePage/Marble-2.webp";
 const ProductSection = lazy(() => import("./ProductSection/ProductSection"));
+const ProductFeatures = lazy(() => import("./ProductFeatures/ProductFeatures"));
+const Specifications = lazy(() => import("./Specifications/Specifications"));
 
 function ProductDetails() {
   return (
@@ -16,6 +18,24 @@ function ProductDetails() {
         }
       >
         <ProductSection />
+      </Suspense>
+      <Suspense
+        fallback={
+          <div className="loader">
+            <img src={Loader} alt="Loader" />
+          </div>
+        }
+      >
+        <ProductFeatures />
+      </Suspense>
+      <Suspense
+        fallback={
+          <div className="loader">
+            <img src={Loader} alt="Loader" />
+          </div>
+        }
+      >
+        <Specifications />
       </Suspense>
     </div>
   );

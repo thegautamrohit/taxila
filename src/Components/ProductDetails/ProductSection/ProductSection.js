@@ -89,7 +89,7 @@ function ProductSection() {
         </p>
 
         <button className="product__details__section__btn">
-          <span>Get Quote</span>
+          <span>Shop</span>
           <div className="product__details__section__btn-hover">
             <div className="product__details__section__btn-circle"> </div>
             <IoIosArrowForward />
