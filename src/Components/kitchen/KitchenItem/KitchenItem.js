@@ -4,6 +4,13 @@ import CarousalKitchen from "../../CommonComponents/carousal/carousalKitchen";
 import "./KitchenItem.css";
 const KitchenItem = () => {
   const [select, setSelect] = useState("MAISTRI");
+
+  const [heading, setHeading] = useState(kitchenItem[0].RANGE);
+
+  const [data, setData] = useState([...kitchenItem[0].IMAGE_LINKS]);
+
+  const [details, setDetails] = useState(kitchenItem[0].DESCRIPTION_ENGLISH);
+
   return (
     <div className="kitchenItem__container">
       <div className="kitchenItem__side__bar">
@@ -23,16 +30,26 @@ const KitchenItem = () => {
         </div>
       </div>
       <div className="kitchenItem__middle__bar">
-        <div className="kitchenItem__middle__bar__upper">
-          <div>ANIMA</div>
-          <div>HANAMI FIBONACCI</div>
-          <div>GANDHARA</div>
-          <div>HANAMI FIBONACCI</div>
-          <div>GANDHARA</div>
-          <div>HANAMI FIBONACCI</div>
-          <div>GANDHARA</div>
+        <div
+          className="kitchenItem__middle__bar__upper"
+          style={{
+            gridTemplateColumns: `repeat(${kitchenItem.length + 1} , 1fr)`,
+          }}
+        >
+          {kitchenItem.map((item) => (
+            <div
+              style={heading !== item.RANGE ? { color: "#434343" } : {}}
+              onClick={() => (
+                setHeading(item.RANGE),
+                setData([...item.IMAGE_LINKS]),
+                setDetails(item.DESCRIPTION_ENGLISH)
+              )}
+            >
+              {item.RANGE}
+            </div>
+          ))}
         </div>
-        <CarousalKitchen kitchen={kitchenItem} />
+        <CarousalKitchen kitchen={data} details={details} />
       </div>
     </div>
   );

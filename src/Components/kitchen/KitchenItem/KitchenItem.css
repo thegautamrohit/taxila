@@ -50,14 +50,18 @@
 }
 .kitchenItem__middle__bar__upper {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
   overflow-x: scroll;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   height: 94px;
-  width: calc(1600px - 248px);
+  width: calc(100vw - 248px);
+  max-width: calc(1600px - 248px);
   border-bottom: 1px solid #707070;
   column-gap: 41px;
+}
+
+.kitchenItem__middle__bar__upper::-webkit-scrollbar {
+  display: none;
 }
 
 .kitchenItem__middle__bar__upper > div {
@@ -70,4 +74,5 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }

@@ -18,8 +18,6 @@ const Kitchen = () => {
     headerLink.style.color = "#E6E5E2";
     headerActiveLink.style.fontWeight = "600";
     headerActiveLink.style.color = "#E6E5E2";
-
-    console.log(headerLink);
     return () => {
       headerBackground.style.backgroundColor = "";
       headerLink.style.color = "";
