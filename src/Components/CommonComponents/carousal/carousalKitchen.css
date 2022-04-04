@@ -111,9 +111,9 @@
 
 .prevCard {
   left: 0px;
-  /* opacity: 0; */
+  opacity: 0;
   width: 0px;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-name: slidein;
 }
 
@@ -133,8 +133,12 @@
 }
 
 .nextCard {
-  animation-duration: 1s;
-  animation-name: slideout;
+  /* animation-duration: 1s;
+  animation-name: slideout; */
+
+  left: 100%;
+  transform: translateX(calc(-100% - 2rem));
+  opacity: 0.2;
 }
 
 @keyframes slideout {
