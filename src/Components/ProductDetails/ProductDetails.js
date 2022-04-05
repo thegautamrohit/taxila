@@ -5,6 +5,7 @@ import BackGroundImage from "../../Assets/images/HomePage/Marble-2.webp";
 const ProductSection = lazy(() => import("./ProductSection/ProductSection"));
 const ProductFeatures = lazy(() => import("./ProductFeatures/ProductFeatures"));
 const Specifications = lazy(() => import("./Specifications/Specifications"));
+const Applications = lazy(() => import("./Applications/Applications"));
 
 function ProductDetails() {
   return (
@@ -27,6 +28,15 @@ function ProductDetails() {
         }
       >
         <ProductFeatures />
+      </Suspense>
+      <Suspense
+        fallback={
+          <div className="loader">
+            <img src={Loader} alt="Loader" />
+          </div>
+        }
+      >
+        <Applications />
       </Suspense>
       <Suspense
         fallback={

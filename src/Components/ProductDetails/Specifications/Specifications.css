@@ -82,6 +82,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .product__specifictaion__mono__item {
+    min-height: 68px;
+    /* border: 1px solid red; */
+  }
+
   .product__specification__head,
   .product__specification__head__close {
     font-size: 16px;
