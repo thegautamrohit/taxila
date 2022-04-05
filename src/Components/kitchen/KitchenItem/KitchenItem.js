@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { kitchenItem } from "../../../kitchenItem";
-import CarousalKitchen from "../../CommonComponents/carousal/carousalKitchen";
+import CarousalKitchen from "../../CommonComponents/carousal/testCarousal";
 import "./KitchenItem.css";
 const KitchenItem = () => {
   const [select, setSelect] = useState("MAISTRI");
@@ -49,7 +49,12 @@ const KitchenItem = () => {
             </div>
           ))}
         </div>
-        <CarousalKitchen kitchen={data} details={details} />
+        <CarousalKitchen
+          sliderWidth="400"
+          sliderHeight="250"
+          kitchen={data}
+          details={details}
+        />
       </div>
     </div>
   );
