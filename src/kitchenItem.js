@@ -1,4 +1,64 @@
-import KitchenImage1 from "./Assets/images/Inspiration/4.5. Commercial - progetti (21).webp";
+import tera1 from "./Assets/images/kitchen/minotticucine terra 01.webp";
+import tera2 from "./Assets/images/kitchen/minotticucine terra 02.webp";
+import tera3 from "./Assets/images/kitchen/minotticucine terra 03.webp";
+import tera4 from "./Assets/images/kitchen/minotticucine terra 07.webp";
+import tera5 from "./Assets/images/kitchen/minotticucine terra 08.webp";
+import tera6 from "./Assets/images/kitchen/minotticucine terra 10.webp";
+
+import seta1 from "./Assets/images/kitchen/minotticucine seta 01.webp";
+import seta2 from "./Assets/images/kitchen/minotticucine seta 02.webp";
+import seta3 from "./Assets/images/kitchen/minotticucine seta 03.webp";
+import seta4 from "./Assets/images/kitchen/minotticucine seta 04.webp";
+import seta5 from "./Assets/images/kitchen/minotticucine seta 05.webp";
+
+import anima1 from "./Assets/images/kitchen/minotticucine anima 01.webp";
+import anima2 from "./Assets/images/kitchen/minotticucine anima 02.webp";
+import anima3 from "./Assets/images/kitchen/minotticucine anima 03.webp";
+import anima4 from "./Assets/images/kitchen/minotticucine anima 04.webp";
+import anima5 from "./Assets/images/kitchen/minotticucine anima 05.webp";
+import anima6 from "./Assets/images/kitchen/minotticucine anima 06.webp";
+import anima7 from "./Assets/images/kitchen/minotticucine anima 07.webp";
+
+import gandhara1 from "./Assets/images/kitchen/minotticucine gandhara 01.webp";
+import gandhara2 from "./Assets/images/kitchen/minotticucine gandhara 02.webp";
+import gandhara3 from "./Assets/images/kitchen/minotticucine gandhara 03.webp";
+import gandhara4 from "./Assets/images/kitchen/minotticucine gandhara 04.webp";
+import gandhara5 from "./Assets/images/kitchen/minotticucine gandhara 05.webp";
+import gandhara6 from "./Assets/images/kitchen/minotticucine gandhara 06.webp";
+import gandhara7 from "./Assets/images/kitchen/minotticucine gandhara 07.webp";
+
+import hanami1 from "./Assets/images/kitchen/minotticucine hanami 01.webp";
+import hanami2 from "./Assets/images/kitchen/minotticucine hanami 02.webp";
+import hanami3 from "./Assets/images/kitchen/minotticucine hanami 03.webp";
+import hanami4 from "./Assets/images/kitchen/minotticucine hanami 04.webp";
+import hanami5 from "./Assets/images/kitchen/minotticucine hanami 05.webp";
+import hanami6 from "./Assets/images/kitchen/minotticucine hanami 06.webp";
+import hanami7 from "./Assets/images/kitchen/minotticucine hanami 07.webp";
+
+import atlier1 from "./Assets/images/kitchen/minotticucine atelier 02.webp";
+import atlier2 from "./Assets/images/kitchen/minotticucine atelier 03.webp";
+import atlier3 from "./Assets/images/kitchen/minotticucine atelier 06.webp";
+import atlier4 from "./Assets/images/kitchen/minotticucine atelier 07.webp";
+
+import inca1 from "./Assets/images/kitchen/minotticucine inca 01.webp";
+import inca2 from "./Assets/images/kitchen/minotticucine inca 02.webp";
+import inca3 from "./Assets/images/kitchen/minotticucine inca 03.webp";
+import inca4 from "./Assets/images/kitchen/minotticucine inca 04.webp";
+import inca5 from "./Assets/images/kitchen/minotticucine inca 05.webp";
+import inca6 from "./Assets/images/kitchen/minotticucine inca 07.webp";
+
+import maya1 from "./Assets/images/kitchen/2021 minotticucine maya oro24K 01.webp";
+import maya2 from "./Assets/images/kitchen/2021 minotticucine maya oro24K 02.webp";
+import maya3 from "./Assets/images/kitchen/2021 minotticucine maya oro24K 03.webp";
+import maya4 from "./Assets/images/kitchen/2021 minotticucine maya oro24K 04.webp";
+import maya5 from "./Assets/images/kitchen/2021 minotticucine maya oro24K 05.webp";
+
+import incline1 from "./Assets/images/kitchen/minotticucine incline 01.webp";
+import incline2 from "./Assets/images/kitchen/minotticucine incline 02.webp";
+import incline3 from "./Assets/images/kitchen/minotticucine incline 03.webp";
+import incline4 from "./Assets/images/kitchen/minotticucine incline 04.webp";
+import incline5 from "./Assets/images/kitchen/minotticucine incline 06.webp";
+import incline6 from "./Assets/images/kitchen/minotticucine incline 07.webp";
 
 export const kitchenItem = [
   {
@@ -9,16 +69,22 @@ export const kitchenItem = [
       "progetto cucina terra. la terra, con le sue acque, le sue foreste, le sue montagne, è straordinariamente bella nel suo essere, nella sua presenza nuda e silenziosa. contrariamente agli artefatti quotidiani in cui l’uso e la funzione sono predominanti, la terra è ciò che è, indipendentemente da chi siamo, da cosa facciamo e dalle funzioni che le diamo. nel pensare alla cucina terra ho immaginato un oggetto che, per quanto utile e funzionale si manifesti con la stessa forza della natura: solida, atemporale, astratta. ho espresso l’immenso valore della terra con una forma dalla geometria rigorosa e dai materiali naturali - pietra e legno. cucinare su un piano di pietra datato milioni di anni mi fa sentire contemporaneamente reverente e fortunato. l’accostamento a 45° tra il piano di lavoro ed i frontali, unitamente alle piccole gole verticali ed orizzontali, determinano una superficie caratterizzata dalla presenza di geometrie regolari e cadenzate. anche le colonne sono contraddistinte dallo stesso modulo. la nuova era di terra è il bronzo fuso. opera in bilico tra arte e tecnologia, in grado di evolvere gli elementi naturali con l’ingegno dell’uomo ricreando un perfetto equilibrio tra provocazione e semplicità. “una forza pura, in perfetto equilibrio tra forza della natura e forza umana, un elemento di peso e di arte”. claudio silvestrin",
     IMAGE_LINKS: [
       {
-        image: KitchenImage1,
+        image: tera1,
       },
       {
-        image: KitchenImage1,
+        image: tera2,
       },
       {
-        image: KitchenImage1,
+        image: tera3,
       },
       {
-        image: KitchenImage1,
+        image: tera4,
+      },
+      {
+        image: tera5,
+      },
+      {
+        image: tera6,
       },
     ],
   },
@@ -30,16 +96,19 @@ export const kitchenItem = [
       "vetro e prezioso tessuto naturale sono gli ingredienti che caratterizzano la forma di questa cucina ideata da alberto minotti. le ante, lucide da sembrare quasi incorporee, sono create dall’aggregazione di vetro, seta e metallo portando un risultato, lussuoso, ricercato eppure lineare e minimal al tempo stesso. la tecnologia utilizzata per realizzare questa cucina è altissima e riesce a unire la potenza e l’atemporalità dei materiali all’ingegno dell’uomo, alla sua creatività e alle sue tecniche più innovative. caratteristica del design la pietra presentata in modo diverso, il piano lavoro è diviso come le basi sotto proposte e per ogni porzione di piano lavoro, ne segue un’altra orientata di novanta gradi dalla precedete. questo sistema va ad enfatizzare la giunzione del piano a vantaggio di un gioco estetico di intrecci atti a rendere infinita la loro estensione nella lunghezza della cucina evitando il vincolo dimensionale della pietra. uno scambio di linee che crea un parallelismo progettuale con gli intrecci del tessuto. le rotture del piano rendono invisibile nell’estetica la proposta delle colonne con gli elettrodomestici che emergono automaticamente dal piano lavoro quando servono, salvo poi ritornare nascoste una volta terminato il loro uso.",
     IMAGE_LINKS: [
       {
-        image: KitchenImage1,
+        image: seta1,
       },
       {
-        image: KitchenImage1,
+        image: seta2,
       },
       {
-        image: KitchenImage1,
+        image: seta3,
       },
       {
-        image: KitchenImage1,
+        image: seta4,
+      },
+      {
+        image: seta5,
       },
     ],
   },
@@ -51,16 +120,25 @@ export const kitchenItem = [
       "la cucina a blocchi. cubico nella forma ogni blocco ha la sua funzione. anima si propone con dettagli esclusivi in perfetta armonia alla pietra, che diventa il materiale più adatto per una cucina fatta di un forte spirito tangibile. la giunzione del piano di lavoro, dettaglio congenito e imprescindibile di tutte le superfici ampie realizzate con materiali naturali, rappresenta un ostacolo alla continuità visiva. per cancellare questo segno la cucina è in blocchi staccati. ogni singolo elemento, cubico, ha una funzione diversa e autonoma: cottura, preparazione e lavaggio. l’introduzione tecnica più significativa di anima è rappresentata dalla pedana sulla quale vengono posizionati i blocchi. arretrata e nascosta è una struttura estremamente funzionale poiché racchiude tutte le impiantistiche aggiungendo alla cucina l’ergonomia di uno zoccolo.",
     IMAGE_LINKS: [
       {
-        image: KitchenImage1,
+        image: anima1,
       },
       {
-        image: KitchenImage1,
+        image: anima2,
       },
       {
-        image: KitchenImage1,
+        image: anima3,
       },
       {
-        image: KitchenImage1,
+        image: anima4,
+      },
+      {
+        image: anima5,
+      },
+      {
+        image: anima6,
+      },
+      {
+        image: anima7,
       },
     ],
   },
@@ -72,16 +150,25 @@ export const kitchenItem = [
       "è una magia. giocando con i gradi angolari delle superfici verticali e orizzontali, siamo riusciti a far sparire il piano. che c’è ma non si vede. l’alchimia è resa possibile dal perfetto taglio a 45° tra le ante e il piano: i due elementi combaciano, mimetizzando gli spessori e regalando leggerezza a tutto il blocco cucina. sottraendo il piano abbiamo ancora una volta sposato e concretizzato quello spirito minimalista che contraddistingue ogni nostra evoluzione. gandhara è caratterizzata da gole con linee orizzontali che enfatizzano la lunghezza della cucina allungando il punto di vista. il piano di lavoro si presenta con i bordi a 45° permettendo una giunzione pulita e continua con le ante, anch’esse con taglio identico. Si tratta della prima nostra creazione in cui il piano di lavoro e i frontali dei cestoni combaciano al millimetro. un’armonia di forme in equilibrio che, riteniamo, è in grado di esprimere il proprio potenziale nei toni scuri.",
     IMAGE_LINKS: [
       {
-        image: KitchenImage1,
+        image: gandhara1,
       },
       {
-        image: KitchenImage1,
+        image: gandhara2,
       },
       {
-        image: KitchenImage1,
+        image: gandhara3,
       },
       {
-        image: KitchenImage1,
+        image: gandhara4,
+      },
+      {
+        image: gandhara5,
+      },
+      {
+        image: gandhara6,
+      },
+      {
+        image: gandhara7,
       },
     ],
   },
@@ -93,16 +180,25 @@ export const kitchenItem = [
       "le linee di hanami prendono linfa vitale dal giappone. siamo abituati nel vedere una parete con porte e finestre, in giappone la parete è shoji e racchiude tutto in un unico disegno. leggerissime in carta e legno, rende possibile il passaggio della luce, come una finestra, grazie alla carta e invece i listelli in legno diventano maniglie per aprire, come porte, le pareti verso un’altra stanza oppure verso un esterno. di forte ispirazione hanami sfrutta come la parete shoji, l’insieme di listelli in legno come maniglie. i listelli creano dei giochi di ombra e luce atti nel nascondere le fughe del mobile e il legno come suo massima espressione viene proposto in chiave monomaterica sia sull’anta che nella maniglia che si adatta a varie soluzioni di aperture come l’anta intera, doppio cestone e cassetti, in tutti i casi i segni spariscono all’occhio in uno specifico e ordinato schema compositivo di listelli. un collettivo emozionante fatto di elementi singoli che diventano un tutt’uno agli ‘occhi. l’essenza giapponese dei ciliegi in fiore.",
     IMAGE_LINKS: [
       {
-        image: KitchenImage1,
+        image: hanami1,
       },
       {
-        image: KitchenImage1,
+        image: hanami2,
       },
       {
-        image: KitchenImage1,
+        image: hanami3,
       },
       {
-        image: KitchenImage1,
+        image: hanami4,
+      },
+      {
+        image: hanami5,
+      },
+      {
+        image: hanami6,
+      },
+      {
+        image: hanami7,
       },
     ],
   },
@@ -114,16 +210,16 @@ export const kitchenItem = [
       "probabilmente la più versatile tra le nostre produzioni, conserva integro il sapore forte e senza tempo della roccia. in atelier, viene lasciata libera espressione alla naturalità dell’elemento che si ribella alla  ecnica umana e si mostra in tutta la sua forma, grezza e genuina. sviluppata in orizzontale, trasuda artigianalità grazie alla costa a spacco. lateralmente, il piano non è tagliato di netto ma scalpellato: una  articolarità che rende questa composizione un’autentica emozione. la costa a spacco è dunque una vera e pura empatia che abbiamo traslato anche su banconi di altri modelli. atelier è la cucina progettabile  er antonomasia grazie alle molteplici varianti di finiture e di composizione disponibili. il piano di lavoro è protagonista e può essere personalizzabile: oltre che a spacco, può avere la costa retta o bistellata a  0° per esaltare la pulizia e la leggerezza del piano stesso.",
     IMAGE_LINKS: [
       {
-        image: KitchenImage1,
+        image: atlier1,
       },
       {
-        image: KitchenImage1,
+        image: atlier2,
       },
       {
-        image: KitchenImage1,
+        image: atlier3,
       },
       {
-        image: KitchenImage1,
+        image: atlier4,
       },
     ],
   },
@@ -135,16 +231,22 @@ export const kitchenItem = [
       "“non entri chi non sa di geometria”: è questa frase del filosofo greco platone ad averci ispirato. rispettando la purezza geometrica delle forme essenziali, abbiamo fatto salire sul piedistallo le linee che dal basso corrono verso l’alto, spingendo all’estremo il principio della sottrazione. gli elementi naturali combaciano e si completano tra loro ed un esempio eccellente ne è l’incontro raffinato, semplice ed legante. inca si presenta con un ritmo verticale dato dalle gole che scandiscono il modulo della composizione. lo spessore del piano di lavoro annega nello spessore delle ante disegnando un’unica linea perimetrale che unisce, senza alcuna distrazione visiva, materiali e finiture diverse. rimangono protagoniste la verticalità e le lavorazioni a 45° offrendo alla cucina un’identità di volume unico. le colonne ad essa abbinate presentano le stesse gole verticali.",
     IMAGE_LINKS: [
       {
-        image: KitchenImage1,
+        image: inca1,
       },
       {
-        image: KitchenImage1,
+        image: inca2,
       },
       {
-        image: KitchenImage1,
+        image: inca3,
       },
       {
-        image: KitchenImage1,
+        image: inca4,
+      },
+      {
+        image: inca5,
+      },
+      {
+        image: inca6,
       },
     ],
   },
@@ -156,16 +258,19 @@ export const kitchenItem = [
       "è sospesa e sembra volare. o il suo contrario: è saldamente ancorata a terra, come un naturale prolungamento del pavimento. di più, coniuga l’una e l’altra dimensione, proponendosi in doppia profondità. in alluminio, tanto leggero quanto resistente, nasconde in realtà un cuore di pietra e un piano solido, alto tre centimetri. uno spessore importante che abbiamo annullato e nascosto in soli sette millimetri. così infinitesimale è infatti la parte di anta che sporge dal bordo superiore della composizione, contenendo il piano e diventando funzionale all’apertura e chiusura dei moduli su cui non ci sono maniglie o gole. cucina dai volumi scultorei, maya può essere composta da basi singole, in appoggio a terra oppure sospese, e da basi a doppia profondità.",
     IMAGE_LINKS: [
       {
-        image: KitchenImage1,
+        image: maya1,
       },
       {
-        image: KitchenImage1,
+        image: maya2,
       },
       {
-        image: KitchenImage1,
+        image: maya3,
       },
       {
-        image: KitchenImage1,
+        image: maya4,
+      },
+      {
+        image: maya5,
       },
     ],
   },
@@ -177,16 +282,22 @@ export const kitchenItem = [
       "la pietra e i materiali naturali con cui creiamo tutte le nostre composizioni resistono al tempo e ai suoi elementi da millenni. e continuano a farlo anche quando la cucina rompe i confini della casa per uscire e colonizzare gli spazi esterni con una duplice funzione: impreziosire l’outdoor e cuocere, grigliare, cucinare. in incline, che sposa alla perfezione i principi del minimalismo e del silenzio visivo, si incontrano molte peculiarità tutte racchiuse in un monoblocco, monomaterico inclinato. una perfetta angolatura permette la fruizione di ciascun lato per formare una composizione che, senza elementi di discontinuità, si propone essa stessa come elemento unico e di rottura, protagonista assoluta. molto più di un’isola cucina, incline si presenta come uno scoglio nel verde di casa. cucina monoblocco da esterno ha un’anima in acciaio inossidabile austenitico, barbecue a gas con coperchio scorrevole in pietra. vasca in pietra con piletta nascosta dove l’acqua fuoriesce da un foro praticato direttamente nella pietra. in testa, due cestoni in acciaio inossidabile autenitico si aprono mediante guide a sfere, anch’esse d’acciaio.",
     IMAGE_LINKS: [
       {
-        image: KitchenImage1,
+        image: incline1,
       },
       {
-        image: KitchenImage1,
+        image: incline2,
       },
       {
-        image: KitchenImage1,
+        image: incline3,
       },
       {
-        image: KitchenImage1,
+        image: incline4,
+      },
+      {
+        image: incline5,
+      },
+      {
+        image: incline6,
       },
     ],
   },

@@ -13,6 +13,7 @@
   position: relative;
   gap: 20px;
   height: 398px;
+
 }
 
 .kitchen__carousal__image__single {
@@ -115,6 +116,7 @@
   width: 0px;
   animation-duration: 0.5s;
   animation-name: slidein;
+  transform: translateX(-911px);
 }
 
 @keyframes slidein {
@@ -129,15 +131,15 @@
 
 .activeCard {
   left: 0px;
-  /* transform: translateX(-50%); */
+  /* transform: translateX(%); */
 }
 
 .nextCard {
   /* animation-duration: 1s;
   animation-name: slideout; */
 
-  left: 100%;
-  transform: translateX(calc(-100% - 2rem));
+  /* left: 100%; */
+  /* transform: translateX(calc(-100% - 2rem)); */
   opacity: 0.2;
 }
 

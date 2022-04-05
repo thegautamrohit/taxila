@@ -10,30 +10,31 @@ const CarousalKitchen = ({ kitchen, details }) => {
   const [images, setImages] = useState([]);
   const [showDetails, setShowDetails] = useState(false);
   const [removedImages, setRemovedImages] = useState([]);
+  
 
-  const leftClick = () => {
-    if (images.length < kitchen[0].IMAGE_LINKS.length) {
-      let arr = images;
-      let remove = removedImages;
-      arr.unshift(remove[remove.length - 1]);
-      remove.pop();
+  // const leftClick = () => {
+  //   if (images.length < kitchen[0].IMAGE_LINKS.length) {
+  //     let arr = images;
+  //     let remove = removedImages;
+  //     arr.unshift(remove[remove.length - 1]);
+  //     remove.pop();
 
-      setImages([...arr]);
-      setRemovedImages([...remove]);
-    }
-  };
+  //     setImages([...arr]);
+  //     setRemovedImages([...remove]);
+  //   }
+  // };
 
-  const rightClick = () => {
-    if (images.length > 1) {
-      let arr = images;
-      let remove = removedImages;
-      let singleImage = arr.shift();
-      remove.push(singleImage);
+  // const rightClick = () => {
+  //   if (images.length > 1) {
+  //     let arr = images;
+  //     let remove = removedImages;
+  //     let singleImage = arr.shift();
+  //     remove.push(singleImage);
 
-      setImages([...arr]);
-      setRemovedImages([...remove]);
-    }
-  };
+  //     setImages([...arr]);
+  //     setRemovedImages([...remove]);
+  //   }
+  // };
 
   const slideLeft = () => {
     if (index - 1 >= 0) {
