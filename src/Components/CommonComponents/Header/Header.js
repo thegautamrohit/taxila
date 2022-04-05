@@ -15,9 +15,9 @@ function Header() {
         <div className="navbar-quick-links-wrapper">
           <NavLink
             className={({ isActive }) =>
-              isActive ? "active__links" : "mono-quick-link"
+              isActive ? "active__linkss" : "mono-quick-link"
             }
-            to="/natural-surfaces"
+            to="/about"
           >
             About
           </NavLink>

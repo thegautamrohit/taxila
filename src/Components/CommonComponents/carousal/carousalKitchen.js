@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "./carousalKitchen.css";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
-const CarousalKitchen = ({ kitchen }) => {
+const CarousalKitchen = ({ kitchen, details }) => {
   useEffect(() => {
-    setImages([...kitchen[0].IMAGE_LINKS]);
-  }, [kitchen]);
+    setImages([...kitchen]);
+  }, [kitchen, details]);
 
+  const [index, setIndex] = useState(0);
   const [images, setImages] = useState([]);
-
+  const [showDetails, setShowDetails] = useState(false);
   const [removedImages, setRemovedImages] = useState([]);
 
   const leftClick = () => {
@@ -34,30 +35,63 @@ const CarousalKitchen = ({ kitchen }) => {
     }
   };
 
-  console.log(removedImages, images);
+  const slideLeft = () => {
+    if (index - 1 >= 0) {
+      setIndex(index - 1);
+    }
+  };
+
+  const slideRight = () => {
+    if (index + 1 <= kitchen.length - 1) {
+      setIndex(index + 1);
+    }
+  };
 
   return (
     <div className="kitchen__carousal__container">
-      <div className="kitchen__carousal__image">
-        {images?.map((item, index) => {
-          return (
-            <div key={index} className="kitchen__carousal__image__single">
-              <img src={item.image} />
-            </div>
-          );
-        })}
-      </div>
-      <div className="kitchen__carousal__arrow">
-        <p>Explore Details</p>
-        <div>
-          <BsArrowLeft onClick={() => leftClick()} />
-          <BsArrowRight onClick={() => rightClick()} />
+      {showDetails ? (
+        <div className="kitchen__carousal__data">
+          <p className="kitchen__carousal__data__heading">Introduction</p>
+          <p className="kitchen__carousal__data__details">{details}</p>
+          <p
+            className="kitchen__carousal__data__show"
+            onClick={() => setShowDetails(!showDetails)}
+          >
+            Explore Images
+          </p>
         </div>
-      </div>
-      <div className="kitchen__carousal__details">
-        <p>0{removedImages.length + 1}</p> <p>-</p>{" "}
-        <p>0{kitchen[0].IMAGE_LINKS.length}</p>
-      </div>
+      ) : (
+        <>
+          <div className="kitchen__carousal__image">
+            {images?.map((item, n) => {
+              let position =
+                n > index
+                  ? "nextCard"
+                  : n === index
+                  ? "activeCard"
+                  : "prevCard";
+              return (
+                <div
+                  key={n}
+                  className={`kitchen__carousal__image__single ${position}`}
+                >
+                  <img src={item.image} />
+                </div>
+              );
+            })}
+          </div>
+          <div className="kitchen__carousal__arrow">
+            <p onClick={() => setShowDetails(!showDetails)}>Explore Details</p>
+            <div>
+              <BsArrowLeft onClick={() => slideLeft()} />
+              <BsArrowRight onClick={() => slideRight()} />
+            </div>
+          </div>
+          <div className="kitchen__carousal__details">
+            <p>0{index + 1}</p> <p>-</p> <p>0{kitchen.length}</p>
+          </div>
+        </>
+      )}
     </div>
   );
 };
