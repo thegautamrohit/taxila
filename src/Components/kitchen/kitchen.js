@@ -11,7 +11,12 @@ const Kitchen = () => {
 
     const headerActiveLink =
       document.getElementsByClassName("active__links")[0];
+
+    const footer = document.getElementsByClassName("footer-container")[0];
+
+    footer.style.backgroundColor = "#1D1D1B";
     headerBackground.style.borderBottom = "0.5600000023841858px solid #CDCDCD";
+    footer.style.borderTop = "0.5600000023841858px solid #CDCDCD";
 
     headerBackground.style.backgroundColor = "#1D1D1B";
     headerBackground.style.boxShadow = "2px 2px 20px #82828214";
@@ -25,6 +30,8 @@ const Kitchen = () => {
       headerActiveLink.style.color = "";
       headerBackground.style.borderBottom = "";
       headerBackground.style.boxShadow = "";
+      footer.style.backgroundColor = "";
+      footer.style.borderTop = "";
     };
   }, []);
 
