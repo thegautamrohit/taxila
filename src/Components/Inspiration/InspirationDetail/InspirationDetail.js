@@ -17,7 +17,15 @@ const InspirationDetail = () => {
   const [details, setDetails] = useState("");
   const [mainImage, setMainImage] = useState("");
   const [title, setTitle] = useState("");
-  console.log(oneElement);
+
+  const modalHandler = (e) => {
+    if (
+      e.target.className === "inspiration__specific__image__mobile__wrapper"
+    ) {
+      setOneElement([]);
+    }
+  };
+
   return (
     <div className="inspiration__container">
       <div className="inspiration__head">
@@ -132,38 +140,43 @@ const InspirationDetail = () => {
         )}
 
         {oneElement.length > 0 && (
-          <div className="inspiration__specific__image__mobile">
-            <div className="inspiration__specific__image__head__mobile">
-              <div>
-                <p>{title}</p>
+          <div
+            className="inspiration__specific__image__mobile__wrapper"
+            onClick={(e) => modalHandler(e)}
+          >
+            <div className="inspiration__specific__image__mobile">
+              <div className="inspiration__specific__image__head__mobile">
+                <div>
+                  <p>{title}</p>
 
-                <MdCancel onClick={() => setOneElement([])} />
-              </div>
-              <p>{oneElement.length} products in this image</p>
-            </div>
-            <div className="inspiration__specific__image__middle__mobile">
-              <div className="inspiration__specific__image__middle__left__mobile">
-                <img src={mainImage} />
-              </div>
-              <div className="inspiration__specific__image__middle__right__mobile">
-                <div className="inspiration__specific__image__middle__right__image__mobile">
-                  {oneElement.map((item) => {
-                    return (
-                      <div>
-                        <img src={item.detailImage} />
-                        <p>{item.title}</p>
-                      </div>
-                    );
-                  })}
+                  <MdCancel onClick={() => setOneElement([])} />
                 </div>
-                <p> {details}</p>
-                <div className="inspiration__specific__image__middle__right__social__media__mobile">
-                  <AiFillFacebook />
-                  <AiOutlineTwitter />
-                  <AiOutlineWhatsApp />
-                  <AiOutlineInstagram />
-                  <FaLinkedinIn />
-                  <BsFillShareFill />
+                <p>{oneElement.length} products in this image</p>
+              </div>
+              <div className="inspiration__specific__image__middle__mobile">
+                <div className="inspiration__specific__image__middle__left__mobile">
+                  <img src={mainImage} />
+                </div>
+                <div className="inspiration__specific__image__middle__right__mobile">
+                  <div className="inspiration__specific__image__middle__right__image__mobile">
+                    {oneElement.map((item) => {
+                      return (
+                        <div>
+                          <img src={item.detailImage} />
+                          <p>{item.title}</p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                  <p> {details}</p>
+                  <div className="inspiration__specific__image__middle__right__social__media__mobile">
+                    <AiFillFacebook />
+                    <AiOutlineTwitter />
+                    <AiOutlineWhatsApp />
+                    <AiOutlineInstagram />
+                    <FaLinkedinIn />
+                    <BsFillShareFill />
+                  </div>
                 </div>
               </div>
             </div>
