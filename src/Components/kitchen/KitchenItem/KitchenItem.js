@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { kitchenItem } from "../../../kitchenItem";
-import CarousalKitchen from "../../CommonComponents/carousal/testCarousal";
+import Carousel, {
+  CarouselItem,
+} from "../../CommonComponents/carousal/carousalKitchen";
 import "./KitchenItem.css";
 const KitchenItem = () => {
   const [select, setSelect] = useState("MAISTRI");
@@ -49,12 +51,15 @@ const KitchenItem = () => {
             </div>
           ))}
         </div>
-        <CarousalKitchen
-          sliderWidth="400"
-          sliderHeight="250"
-          kitchen={data}
-          details={details}
-        />
+        <Carousel details={details}>
+          {data?.map((item, index) => {
+            return (
+              <CarouselItem key={index} >
+                <img src={item.image} />
+              </CarouselItem>
+            );
+          })}
+        </Carousel>
       </div>
     </div>
   );

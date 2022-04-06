@@ -13,7 +13,6 @@
   position: relative;
   gap: 20px;
   height: 398px;
-
 }
 
 .kitchen__carousal__image__single {
@@ -24,6 +23,7 @@
 .kitchen__carousal__image__single > img {
   width: 911px;
   height: 398px;
+  object-fit: cover;
 }
 
 .kitchen__carousal__arrow {
@@ -110,45 +110,52 @@
   cursor: pointer;
 }
 
-.prevCard {
-  left: 0px;
-  opacity: 0;
-  width: 0px;
-  animation-duration: 0.5s;
-  animation-name: slidein;
-  transform: translateX(-911px);
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 41px;
 }
 
-@keyframes slidein {
-  from {
-    width: 911px;
+.carousel {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 450px) {
+  .kitchen__carousal__image__single {
+    width: 355px;
+    height: 355px;
+  }
+  .kitchen__carousal__image__single > img {
+    width: 355px;
+    height: 355px;
+    object-fit: cover;
   }
 
-  to {
-    width: 0px;
-  }
-}
-
-.activeCard {
-  left: 0px;
-  /* transform: translateX(%); */
-}
-
-.nextCard {
-  /* animation-duration: 1s;
-  animation-name: slideout; */
-
-  /* left: 100%; */
-  /* transform: translateX(calc(-100% - 2rem)); */
-  opacity: 0.2;
-}
-
-@keyframes slideout {
-  from {
-    width: 0px;
+  .kitchen__carousal__arrow {
+    margin-top: 24px;
+    width: 355px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
-  to {
-    width: 911px;
+  .kitchen__carousal__arrow > P {
+    font-size: 16px;
+  }
+
+  .kitchen__carousal__arrow > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75px;
+  }
+  
+  .kitchen__carousal__arrow > div > svg {
+    color: #e6e5e2;
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
   }
 }

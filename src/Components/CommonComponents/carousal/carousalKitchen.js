@@ -1,52 +1,53 @@
-import React, { useState, useEffect } from "react";
-import "./carousalKitchen.css";
+import React, { useEffect, useState } from "react";
+import { useSwipeable } from "react-swipeable";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
-const CarousalKitchen = ({ kitchen, details }) => {
-  useEffect(() => {
-    setImages([...kitchen]);
-  }, [kitchen, details]);
+import "./carousalKitchen.css";
 
-  const [index, setIndex] = useState(0);
-  const [images, setImages] = useState([]);
+export const CarouselItem = ({ children, width }) => {
+  return (
+    <div className="kitchen__carousal__image__single" style={{ width: width }}>
+      {children}
+    </div>
+  );
+};
+
+const Carousel = ({ children, details }) => {
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [paused, setPaused] = useState(false);
   const [showDetails, setShowDetails] = useState(false);
-  const [removedImages, setRemovedImages] = useState([]);
-  
+  const [isMobile, setisMobile] = useState(false);
 
-  // const leftClick = () => {
-  //   if (images.length < kitchen[0].IMAGE_LINKS.length) {
-  //     let arr = images;
-  //     let remove = removedImages;
-  //     arr.unshift(remove[remove.length - 1]);
-  //     remove.pop();
-
-  //     setImages([...arr]);
-  //     setRemovedImages([...remove]);
-  //   }
-  // };
-
-  // const rightClick = () => {
-  //   if (images.length > 1) {
-  //     let arr = images;
-  //     let remove = removedImages;
-  //     let singleImage = arr.shift();
-  //     remove.push(singleImage);
-
-  //     setImages([...arr]);
-  //     setRemovedImages([...remove]);
-  //   }
-  // };
-
-  const slideLeft = () => {
-    if (index - 1 >= 0) {
-      setIndex(index - 1);
+  const updateIndex = (newIndex) => {
+    if (newIndex < 0) {
+      newIndex = React.Children.count(children) - 1;
+    } else if (newIndex >= React.Children.count(children)) {
+      newIndex = 0;
     }
+
+    setActiveIndex(newIndex);
   };
 
-  const slideRight = () => {
-    if (index + 1 <= kitchen.length - 1) {
-      setIndex(index + 1);
+  useEffect(() => {
+    if (window.innerWidth < "450px") {
+      setisMobile(true);
     }
-  };
+    const interval = setInterval(() => {
+      if (!paused) {
+        updateIndex(activeIndex + 1);
+      }
+    }, 3000);
+
+    return () => {
+      if (interval) {
+        clearInterval(interval);
+      }
+    };
+  });
+
+  const handlers = useSwipeable({
+    onSwipedLeft: () => updateIndex(activeIndex + 1),
+    onSwipedRight: () => updateIndex(activeIndex - 1),
+  });
 
   return (
     <div className="kitchen__carousal__container">
@@ -62,39 +63,45 @@ const CarousalKitchen = ({ kitchen, details }) => {
           </p>
         </div>
       ) : (
-        <>
-          <div className="kitchen__carousal__image">
-            {images?.map((item, n) => {
-              let position =
-                n > index
-                  ? "nextCard"
-                  : n === index
-                  ? "activeCard"
-                  : "prevCard";
-              return (
-                <div
-                  key={n}
-                  className={`kitchen__carousal__image__single ${position}`}
-                >
-                  <img src={item.image} />
-                </div>
-              );
+        <div
+          {...handlers}
+          className="carousel"
+          onMouseEnter={() => setPaused(true)}
+          onMouseLeave={() => setPaused(false)}
+        >
+          <div
+            className="inner"
+            style={{
+              transform: `translateX(-${952 * activeIndex + 0.5}px)`,
+            }}
+          >
+            {React.Children.map(children, (child, index) => {
+              return React.cloneElement(child, { width: "911px" });
             })}
           </div>
           <div className="kitchen__carousal__arrow">
             <p onClick={() => setShowDetails(!showDetails)}>Explore Details</p>
             <div>
-              <BsArrowLeft onClick={() => slideLeft()} />
-              <BsArrowRight onClick={() => slideRight()} />
+              <BsArrowLeft
+                onClick={() => {
+                  updateIndex(activeIndex - 1);
+                }}
+              />
+              <BsArrowRight
+                onClick={() => {
+                  updateIndex(activeIndex + 1);
+                }}
+              />
             </div>
           </div>
           <div className="kitchen__carousal__details">
-            <p>0{index + 1}</p> <p>-</p> <p>0{kitchen.length}</p>
+            <p>0{activeIndex + 1}</p> <p>-</p>{" "}
+            <p>0{React.Children.count(children)}</p>
           </div>
-        </>
+        </div>
       )}
     </div>
   );
 };
 
-export default CarousalKitchen;
+export default Carousel;
