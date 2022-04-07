@@ -118,24 +118,33 @@
   gap: 41px;
 }
 
+@media screen and (min-width: 500px) {
+  .kitchen__carousal__container__mobile {
+    display: none;
+  }
+}
+
 .carousel {
   overflow: hidden;
 }
 
 @media screen and (max-width: 450px) {
+  .kitchen__carousal__container__desktop {
+    display: none;
+  }
   .kitchen__carousal__image__single {
-    width: 355px;
+    width: 315px;
     height: 355px;
   }
   .kitchen__carousal__image__single > img {
-    width: 355px;
+    width: 315px;
     height: 355px;
     object-fit: cover;
   }
 
   .kitchen__carousal__arrow {
     margin-top: 24px;
-    width: 355px;
+    width: 315px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -151,11 +160,77 @@
     justify-content: space-between;
     width: 75px;
   }
-  
+
   .kitchen__carousal__arrow > div > svg {
     color: #e6e5e2;
     width: 45px;
     height: 35px;
+    cursor: pointer;
+  }
+
+  .kitchen__carousal__details {
+    width: 100px;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .kitchen__carousal__details > p {
+    font-size: 20px;
+  }
+
+
+  .kitchen__carousal__arrow__mobile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 315px;
+    align-self: flex-end;
+    margin-top: 36px;
+  }
+  
+  .kitchen__carousal__arrow__mobile > svg {
+    color: #e6e5e2;
+    width: 45px;
+    height: 35px;
+    cursor: pointer;
+  }
+
+
+
+
+  .kitchen__carousal__data {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 90%;
+    max-width: 90%;
+    margin-top: 20px;
+  }
+  
+  .kitchen__carousal__data__heading {
+    font-size: 18px;
+    font-family: var(--open-sans-text);
+    letter-spacing: 0px;
+    color: #a09f9d;
+    opacity: 1;
+  }
+  
+  .kitchen__carousal__data__details {
+    font-size: 14px;
+    font-family: var(--open-sans-text);
+    margin-top: 25px;
+    letter-spacing: 0px;
+    color: #e6e5e2;
+    height: 345px;
+  }
+  
+  .kitchen__carousal__data__show {
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: var(--playfair-text);
+    letter-spacing: 0px;
+    color: #e6e5e2;
+    margin-top: 41px;
     cursor: pointer;
   }
 }
