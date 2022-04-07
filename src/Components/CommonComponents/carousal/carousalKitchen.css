@@ -178,7 +178,6 @@
     font-size: 20px;
   }
 
-
   .kitchen__carousal__arrow__mobile {
     display: flex;
     align-items: center;
@@ -187,7 +186,7 @@
     align-self: flex-end;
     margin-top: 36px;
   }
-  
+
   .kitchen__carousal__arrow__mobile > svg {
     color: #e6e5e2;
     width: 45px;
@@ -195,18 +194,16 @@
     cursor: pointer;
   }
 
-
-
-
   .kitchen__carousal__data {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     width: 90%;
-    max-width: 90%;
+
     margin-top: 20px;
+    height: 100%;
   }
-  
+
   .kitchen__carousal__data__heading {
     font-size: 18px;
     font-family: var(--open-sans-text);
@@ -214,23 +211,22 @@
     color: #a09f9d;
     opacity: 1;
   }
-  
+
   .kitchen__carousal__data__details {
     font-size: 14px;
     font-family: var(--open-sans-text);
     margin-top: 25px;
     letter-spacing: 0px;
     color: #e6e5e2;
-    height: 345px;
   }
-  
+
   .kitchen__carousal__data__show {
     text-decoration: underline;
-    font-size: 18px;
+    font-size: 16px;
     font-family: var(--playfair-text);
     letter-spacing: 0px;
     color: #e6e5e2;
-    margin-top: 41px;
+    margin-top: 32px;
     cursor: pointer;
   }
 }
