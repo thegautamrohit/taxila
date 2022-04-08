@@ -1,7 +1,7 @@
 .inspiration__container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   flex-direction: column;
   width: 100%;
 
@@ -10,10 +10,17 @@
   margin-block: 40px;
 }
 
+.ispiration__head__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
 .inspiration__head {
   display: flex;
   align-items: center;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .inspiration__head > p {
@@ -25,6 +32,12 @@
   text-transform: uppercase;
   opacity: 1;
   cursor: pointer;
+}
+
+.inspiration__head__results {
+  font-size: 18px;
+  font-family: var(--playfair-text);
+  color: #6c6c6c;
 }
 
 .inspiration__image__container {
@@ -198,16 +211,63 @@
 
 @media screen and (max-width: 720px) {
   .inspiration__container {
-    width: calc(100% - 64px);
+    /* width: calc(100% - 64px); */
+    width: 100%;
+    margin: 0;
   }
+
+  .ispiration__head__wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .inspiration__head__results {
+    font-size: 16px;
+    margin: 35px 0;
+    padding: 0 0 0 5%;
+  }
+
+  .inspiration__head {
+    flex-direction: row;
+    height: unset;
+    background-color: #fafafa;
+    width: 100%;
+    top: 70px;
+    overflow-y: hidden;
+    position: sticky;
+  }
+
+  /* width */
+  .inspiration__head::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  .inspiration__head::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  .inspiration__head::-webkit-scrollbar-thumb {
+    background: #dddcda;
+  }
+
+  .inspiration__head::-webkit-scrollbar {
+    height: 7px;
+  }
+
   .inspiration__head > p {
     margin-right: 0px;
     font-size: 14px;
-    padding: 0px 12.5px;
+
     border-right: 0.5px solid #cdcdcd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 25px 21px;
+    margin: 0;
+  }
+
+  .inspiration__image__container {
+    width: 90%;
+    margin: 0 auto;
   }
 
   .inspiration__image__display {
@@ -226,24 +286,10 @@
 
     cursor: pointer;
   }
-  .inspiration__head {
-    overflow-x: scroll;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* Internet Explorer 10+ */
-  }
-  .inspiration__head::-webkit-scrollbar {
-    display: none; /* Safari and Chrome */
-    overflow: -moz-scrollbars-none;
-    height: 0;
-    width: 0;
-  }
+
   .inspiration__specific__image {
     display: none;
   }
-
-  /* .inspiration__image__container {
-    position: relative;
-  } */
 
   .inspiration__specific__image__mobile__wrapper {
     position: fixed;

@@ -28,43 +28,49 @@ const InspirationDetail = () => {
 
   return (
     <div className="inspiration__container">
-      <div className="inspiration__head">
-        <p
-          style={all === "All" ? { color: "#6C6C6C" } : { color: "#CDCDCD" }}
-          onClick={() => (setAll("All"), setOneElement([]))}
-        >
-          ALL
-        </p>
-        <p
-          style={
-            all === "Kitchen" ? { color: "#6C6C6C" } : { color: "#CDCDCD" }
-          }
-          onClick={() => (setAll("Kitchen"), setOneElement([]))}
-        >
-          KITCHEN
-        </p>
-        <p
-          style={
-            all === "Bathroom" ? { color: "#6C6C6C" } : { color: "#CDCDCD" }
-          }
-          onClick={() => (setAll("Bathroom"), setOneElement([]))}
-        >
-          BATHROOM
-        </p>
-        <p
-          style={
-            all === "Commercial" ? { color: "#6C6C6C" } : { color: "#CDCDCD" }
-          }
-          onClick={() => (setAll("Commercial"), setOneElement([]))}
-        >
-          COMMERCIAL
-        </p>
-        <p
-          style={all === "Shower" ? { color: "#6C6C6C" } : { color: "#CDCDCD" }}
-          onClick={() => (setAll("Shower"), setOneElement([]))}
-        >
-          SHOWER
-        </p>
+      <div className="ispiration__head__wrapper">
+        <div className="inspiration__head">
+          <p
+            style={all === "All" ? { color: "#6C6C6C" } : { color: "#CDCDCD" }}
+            onClick={() => (setAll("All"), setOneElement([]))}
+          >
+            ALL
+          </p>
+          <p
+            style={
+              all === "Kitchen" ? { color: "#6C6C6C" } : { color: "#CDCDCD" }
+            }
+            onClick={() => (setAll("Kitchen"), setOneElement([]))}
+          >
+            KITCHEN
+          </p>
+          <p
+            style={
+              all === "Bathroom" ? { color: "#6C6C6C" } : { color: "#CDCDCD" }
+            }
+            onClick={() => (setAll("Bathroom"), setOneElement([]))}
+          >
+            BATHROOM
+          </p>
+          <p
+            style={
+              all === "Commercial" ? { color: "#6C6C6C" } : { color: "#CDCDCD" }
+            }
+            onClick={() => (setAll("Commercial"), setOneElement([]))}
+          >
+            COMMERCIAL
+          </p>
+          <p
+            style={
+              all === "Shower" ? { color: "#6C6C6C" } : { color: "#CDCDCD" }
+            }
+            onClick={() => (setAll("Shower"), setOneElement([]))}
+          >
+            SHOWER
+          </p>
+        </div>
+
+        <div className="inspiration__head__results">Showing 12 results</div>
       </div>
       <div className="inspiration__image__container">
         <div className="inspiration__image__display">
