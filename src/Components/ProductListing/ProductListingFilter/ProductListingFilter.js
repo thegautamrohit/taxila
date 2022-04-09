@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./ProductListingFilter.css";
 import { FiChevronDown } from "react-icons/fi";
 import { IoChevronForwardSharp } from "react-icons/io5";
+import { GoPrimitiveDot } from "react-icons/go";
 
 import Image from "../../../Assets/images/HomePage/Marble-5.webp";
 import Image2 from "../../../Assets/images/HomePage/Marble-1.webp";
@@ -124,34 +125,46 @@ function ProductListingFilter() {
               <tr>
                 <td>Granite</td>
                 <td>
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </td>
                 <td>
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </td>
                 <td>
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </td>
                 <td>
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </td>
                 <td>
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </td>
                 <td>
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </td>
 
                 <td> Hard Surface Easy Maintenance Affordable </td>
@@ -159,34 +172,46 @@ function ProductListingFilter() {
               <tr>
                 <td>Granite</td>
                 <td>
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </td>
                 <td>
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </td>
                 <td>
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </td>
                 <td>
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </td>
                 <td>
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </td>
                 <td>
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </td>
                 <td> Hard Surface Easy Maintenance Affordable </td>
               </tr>
@@ -195,18 +220,24 @@ function ProductListingFilter() {
 
           <div className="table-footer-scale">
             <div className="mono-footer-scale-mark">
-              <img src={Icon} alt="" />
+              <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
               <p>Fair</p>
             </div>
             <div className="mono-footer-scale-mark">
-              <img src={Icon} alt="" />
-              <img src={Icon} alt="" />
+              <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+              <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
               <p>Good</p>
             </div>
             <div className="mono-footer-scale-mark">
-              <img src={Icon} alt="" />
-              <img src={Icon} alt="" />
-              <img src={Icon} alt="" />
+              <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+              <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+              <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
               <p>Excellent</p>
             </div>
           </div>
@@ -240,34 +271,46 @@ function ProductListingFilter() {
                 <div className="product-listing-table-right-head">Granite</div>
 
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
 
                 <div className="product-listing-table-right-foot">
@@ -278,34 +321,46 @@ function ProductListingFilter() {
                 <div className="product-listing-table-right-head">Granite</div>
 
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
 
                 <div className="product-listing-table-right-foot">
@@ -316,34 +371,46 @@ function ProductListingFilter() {
                 <div className="product-listing-table-right-head">Granite</div>
 
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
                 <div className="table-right-mono-content-block">
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
-                  <img src={Icon} alt="" />
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 </div>
 
                 <div className="product-listing-table-right-foot">
@@ -354,18 +421,24 @@ function ProductListingFilter() {
           </div>
           <div className="table-footer-scale">
             <div className="mono-footer-scale-mark">
-              <img src={Icon} alt="" />
+              <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
               <p>Fair</p>
             </div>
             <div className="mono-footer-scale-mark">
-              <img src={Icon} alt="" />
-              <img src={Icon} alt="" />
+              <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+              <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
               <p>Good</p>
             </div>
             <div className="mono-footer-scale-mark">
-              <img src={Icon} alt="" />
-              <img src={Icon} alt="" />
-              <img src={Icon} alt="" />
+              <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+              <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+              <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
               <p>Excellent</p>
             </div>
           </div>
