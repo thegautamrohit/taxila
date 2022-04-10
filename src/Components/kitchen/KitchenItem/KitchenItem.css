@@ -4,6 +4,7 @@
   flex-direction: row;
   margin-top: 80px;
   background-color: #1d1d1b;
+  overflow-x: hidden;
 }
 
 .kitchenItem__side__bar {
@@ -84,6 +85,7 @@
   .kitchenItem__container {
     margin-top: 60px;
     flex-direction: column-reverse;
+    overflow-x: hidden;
   }
 
   .kitchenItem__side__bar {
