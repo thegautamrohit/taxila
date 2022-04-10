@@ -43,9 +43,9 @@ const Kitchen = () => {
   }, []);
 
   return (
-    <div>
+ 
       <KitchenItem />
-    </div>
+ 
   );
 };
 
