@@ -1,0 +1,188 @@
+.natural__carousal__container__desktop {
+  height: 648px;
+  display: flex;
+  align-items: center;
+
+  padding-left: 60px;
+}
+
+.natural__carousal__image__single {
+  width: 270px;
+  height: 450px;
+}
+
+.natural__carousal__image__single > h4 {
+  font-size: 20px;
+  font-family: var(--playfair-text);
+  letter-spacing: 0.8px;
+  color: #6c6c6c;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.natural__carousal__image__single > img {
+  width: 270px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.natural__carousal__arrow {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+.natural__carousal__arrow__left {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ffffff33;
+  border: 2px solid #ddd5c9;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.natural__carousal__arrow__right {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ffffff33;
+  border: 2px solid #ddd5c9;
+  opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 5px;
+  position: absolute;
+  right: 0;
+}
+
+.natural__carousal__arrow__left > svg,
+.natural__carousal__arrow__right > svg {
+  width: 30px;
+
+  height: 30px;
+}
+
+.natural__carousal__arrow__left > svg > polyline,
+.natural__carousal__arrow__right > svg > polyline {
+  stroke: #fff;
+}
+
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+  display: flex;
+  align-items: center;
+  gap: 41px;
+}
+
+@media screen and (min-width: 500px) {
+  .natural__carousal__container__mobile {
+    display: none;
+  }
+}
+
+.carousel {
+  overflow: hidden;
+  position: relative;
+}
+
+@media screen and (max-width: 450px) {
+  .natural__carousal__container__desktop {
+    display: none;
+  }
+
+  .natural__carousal__container__mobile {
+    padding-left: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+  .inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+    display: flex;
+    align-items: center;
+    gap: 21px;
+  }
+
+  .natural__carousal__image__single {
+    width: 221px;
+  }
+
+  .natural__carousal__image__single > img {
+    width: 221px;
+    height: 327px;
+  }
+
+  .natural__carousal__image__single > h4 {
+    font-size: 16px;
+    font-family: var(--playfair-text);
+    letter-spacing: 0.8px;
+    color: #6c6c6c;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+
+  .natural__carousal__arrow__mobile {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+
+  .natural__carousal__arrow__left {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #ffffff33;
+    border: 2px solid #ddd5c9;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+
+  .natural__carousal__arrow__right {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #ffffff33;
+    border: 2px solid #ddd5c9;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 5px;
+    position: absolute;
+    right: 0;
+  }
+
+  .natural__carousal__arrow__left > svg,
+  .natural__carousal__arrow__right > svg {
+    width: 20px;
+
+    height: 20px;
+  }
+
+  .natural__carousal__arrow__left > svg > polyline,
+  .natural__carousal__arrow__right > svg > polyline {
+    stroke: #fff;
+  }
+}
