@@ -17,7 +17,7 @@ function Applications() {
           <div className="mono__application__block__image">
             <img src={CounterTop} alt="ConterTop" loading="lazy" />
           </div>
-          <p>CounterTops</p>
+          <p>Countertops</p>
         </div>
         <div className="mono__application__block">
           <div className="mono__application__block__image">
@@ -29,7 +29,7 @@ function Applications() {
           <div className="mono__application__block__image">
             <img src={Fireplace} alt="Fireplace" loading="lazy" />
           </div>
-          <p>FirePlace</p>
+          <p>Fireplace</p>
         </div>
         <div className="mono__application__block">
           <div className="mono__application__block__image">

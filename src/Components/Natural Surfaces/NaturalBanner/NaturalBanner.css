@@ -53,6 +53,10 @@
     height: 200px;
     margin: 70px 0 0 0;
   }
+
+  .natural-surface-route-indicator {
+    display: none;
+  }
   .natural-banner-container > h1 {
     position: absolute;
     top: 50%;
