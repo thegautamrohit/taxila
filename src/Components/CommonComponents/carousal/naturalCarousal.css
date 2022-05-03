@@ -97,9 +97,9 @@
 }
 
 @media screen and (max-width: 450px) {
-  .natural__carousal__container__desktop {
+  /* .natural__carousal__container__desktop {
     display: none;
-  }
+  } */
 
   .natural__carousal__container__mobile {
     padding-left: 32px;

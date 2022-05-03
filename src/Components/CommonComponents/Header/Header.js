@@ -1,10 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import Logo from "../../../Assets/images/HomePage/Taxila-logo.png";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
-import { GiHamburgerMenu } from "react-icons/gi";
 
 function Header() {
+  const [show, setShow] = useState(false);
+
+  const clickHandler = () => {
+    setShow(!show);
+  };
+
   return (
     <div>
       <nav className="navbar-wrapper-desktop">
@@ -15,7 +20,7 @@ function Header() {
         <div className="navbar-quick-links-wrapper">
           <NavLink
             className={({ isActive }) =>
-              isActive ? "active__linkss" : "mono-quick-link"
+              isActive ? "active__links" : "mono-quick-link"
             }
             to="/about"
           >
@@ -30,7 +35,14 @@ function Header() {
             Natural
           </NavLink>
           <div className="mono-quick-link">Engineered</div>
-          <div className="mono-quick-link">Tiles</div>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "active__links" : "mono-quick-link"
+            }
+            to="/product-listing"
+          >
+            Tiles
+          </NavLink>
           <NavLink
             className={({ isActive }) =>
               isActive ? "active__links" : "mono-quick-link"
@@ -50,7 +62,14 @@ function Header() {
           </NavLink>
           <div className="mono-quick-link">Resources</div>
           <div className="mono-quick-link">Shop</div>
-          <div className="mono-quick-link">Media</div>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? "active__links" : "mono-quick-link"
+            }
+            to="/media"
+          >
+            Media
+          </NavLink>
           <div className="mono-quick-link">Contact</div>
         </div>
       </nav>
@@ -60,9 +79,25 @@ function Header() {
           <img src={Logo} alt="Taxila Stone" />
         </div>
 
-        <div className="navbar-small-menu-bar">
-          <span>Menu</span>
-          <GiHamburgerMenu size={20} color={"#6C6C6C"} />
+        <div className="navbar-small-menu-bar" onClick={() => clickHandler()}>
+          <span> {!show ? "Menu" : "Close"} </span>
+
+          <div className={show ? "hamburger-icon open" : "hamburger-icon"}>
+            <div className="hamburger_btn_burger_1"></div>
+            <div className="hamburger_btn_burger_2"></div>
+          </div>
+        </div>
+
+        <div
+          className={show ? "navbar-menu-slider open" : "navbar-menu-slider"}
+        >
+          <div className="navbar_slider_content">
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+            <p>Home</p>
+          </div>
         </div>
       </nav>
     </div>

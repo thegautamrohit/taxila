@@ -13,6 +13,7 @@ import Inspiration from "./Components/Inspiration/Inspiration";
 import ProductListing from "./Components/ProductListing/ProductListing";
 import ProductDetails from "./Components/ProductDetails/ProductDetails";
 import Kitchen from "./Components/kitchen/kitchen";
+import Blogs from "./Components/Blogs/Blogs";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <Routes>
         <Route path="/inspiration" element={<Inspiration />} />
         <Route path="/kitchen" element={<Kitchen />} />
+        <Route path="/blogs" element={<Blogs />} />
       </Routes>
       <Footer />
     </BrowserRouter>
