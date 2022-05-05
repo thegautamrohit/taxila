@@ -92,11 +92,17 @@ function Header() {
           className={show ? "navbar-menu-slider open" : "navbar-menu-slider"}
         >
           <div className="navbar_slider_content">
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
-            <p>Home</p>
+            <p>About</p>
+            <p>Natural</p>
+            <p>Engineered</p>
+            <p>Tiles</p>
+            <p>Kitchen</p>
+            <p>Accessories</p>
+            <p>Inspiration</p>
+            <p>Resources</p>
+            <p>Shop</p>
+            <p>Media</p>
+            <p>Contact</p>
           </div>
         </div>
       </nav>

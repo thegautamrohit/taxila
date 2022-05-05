@@ -61,7 +61,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .navbar-wrapper-desktop {
     padding: 0 20px;
     height: 80px;
@@ -113,7 +113,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
   .navbar-wrapper-desktop {
     display: none;
   }
@@ -213,6 +213,7 @@
     bottom: 0;
     background-color: #f2f2f2;
     padding: 50px 0 0 15px;
+    overflow-y: scroll;
   }
 
   .navbar_slider_content > p {
