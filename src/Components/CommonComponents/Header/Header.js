@@ -22,7 +22,7 @@ function Header() {
             className={({ isActive }) =>
               isActive ? "active__links" : "mono-quick-link"
             }
-            to="/about"
+            to="/about-us"
           >
             About
           </NavLink>
