@@ -15,6 +15,7 @@ import ProductDetails from "./Components/ProductDetails/ProductDetails";
 import Kitchen from "./Components/kitchen/kitchen";
 import Blogs from "./Components/Blogs/Blogs";
 import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <Route path="/kitchen" element={<Kitchen />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/about-us" element={<About />} />
+        <Route path="/contact-us" element={<Contact />} />
       </Routes>
       <Footer />
     </BrowserRouter>

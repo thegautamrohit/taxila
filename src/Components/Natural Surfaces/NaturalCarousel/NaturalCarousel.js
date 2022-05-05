@@ -3,7 +3,7 @@ import Carousel, {
   CarouselItem,
 } from "../../CommonComponents/carousal/naturalCaraousal";
 import { GrNext, GrPrevious } from "react-icons/gr";
-import "../../HomePage/MarbleSection/MarbleSection.css";
+import "./NaturalCarousel.css";
 import Slider from "react-slick";
 
 import Slider1 from ".././../../Assets/images/Natural Surfaces/1.1 Marble - Aurisina Chiara Fioritello detail.webp";
@@ -37,19 +37,19 @@ function NaturalCarousel() {
     speed: 500,
     slidesToShow: width <= 500 ? 1 : 4,
     slidesToScroll: 1,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
+    nextArrow: <SamplePrevArrow />,
+    prevArrow: <SampleNextArrow />,
   };
 
   function SampleNextArrow(props) {
     const { style, onClick } = props;
     return (
       <div
-        className="arrow arrow-left"
-        style={{ ...style, left: "87%" }}
+        className="arrow_natural arrow-left_natural"
+        // style={{ ...style, left: "95%" }}
         onClick={onClick}
       >
-        <GrNext color={"white"} />
+        <GrPrevious color={"white"} />
       </div>
     );
   }
@@ -58,18 +58,18 @@ function NaturalCarousel() {
     const { style, onClick } = props;
     return (
       <div
-        className="arrow arrow-right"
-        style={{ ...style, right: "87%" }}
+        className="arrow_natural arrow-right_natural"
+        // style={{ ...style, right: "95%" }}
         onClick={onClick}
       >
-        <GrPrevious color="white" />
+        <GrNext color={"white"} />
       </div>
     );
   }
 
   return (
     <div className="natural__carousal__container__desktop">
-      <div className="carousel">
+      <div className="carousel_natural">
         <Slider {...settings}>
           {images?.map((item) => (
             <div key={item?.id} className="natural__carousal__image__single">
