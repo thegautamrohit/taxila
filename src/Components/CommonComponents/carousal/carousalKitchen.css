@@ -127,7 +127,15 @@
   display: flex;
   align-items: flex-start;
 
+  width: fit-content;
   flex-direction: column;
+}
+
+.kitchen__carousal__data__Mistri > div:nth-child(2) {
+  width: 158px;
+}
+.kitchen__carousal__data__Mistri > div:nth-child(3) {
+  width: 182px;
 }
 
 .kitchen__carousal__data__Mistri > div > h3 {
@@ -137,13 +145,14 @@
   font-weight: 600px;
   font-family: var(--open-sans-text);
   margin-bottom: 25.5px;
+  width: max-content;
 }
 
 .kitchen__carousal__data__Mistri > div > p {
   font-size: 12px;
   font-family: var(--open-sans-text);
   margin-bottom: 2px;
-
+  width: fit-content;
   font: normal normal normal 12px/20px Open Sans;
   letter-spacing: 0px;
   color: #6c6c6c;
@@ -157,6 +166,10 @@
   color: #ffffff;
   text-transform: uppercase;
   margin-top: 24px;
+}
+
+.kitchen__carousal__data__Maistri {
+  width: 90%;
 }
 
 @media screen and (min-width: 500px) {
@@ -259,6 +272,8 @@
     margin-top: 25px;
     letter-spacing: 0px;
     color: #e6e5e2;
+    min-height: 345px;
+    height: max-content;
   }
 
   .kitchen__carousal__data__show {
@@ -269,5 +284,10 @@
     color: #e6e5e2;
     margin-top: 32px;
     cursor: pointer;
+  }
+
+  .kitchen__carousal__data__Mistri {
+    gap: 63px;
+    overflow-y: scroll;
   }
 }

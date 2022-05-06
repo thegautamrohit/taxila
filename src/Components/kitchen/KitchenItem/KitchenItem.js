@@ -84,7 +84,7 @@ const KitchenItem = () => {
             className="kitchenItem__middle__bar__upper"
             style={{
               gridTemplateColumns: `repeat(${
-                kitchenItemMaistri.length + 1
+                kitchenItemMaistri.length + 2
               } , 1fr)`,
             }}
           >
@@ -114,7 +114,7 @@ const KitchenItem = () => {
               </>
             ))}
           </div>
-          <Carousel title="Maistri">
+          <Carousel title="Maistri" head={heading_Maistri}>
             {data_Maistri?.map((item, index) => {
               return (
                 <CarouselItem key={index}>
