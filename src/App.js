@@ -14,6 +14,8 @@ import ProductListing from "./Components/ProductListing/ProductListing";
 import ProductDetails from "./Components/ProductDetails/ProductDetails";
 import Kitchen from "./Components/kitchen/kitchen";
 import Blogs from "./Components/Blogs/Blogs";
+import About from "./Components/About/About";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
@@ -26,14 +28,12 @@ function App() {
         <Route path="/video" element={<Video />} />
         <Route path="/media" element={<Media />} />
         <Route path="/product-listing" element={<ProductListing />} />
-      </Routes>
-      <Routes>
         <Route path="/product-details" element={<ProductDetails />} />
-      </Routes>
-      <Routes>
         <Route path="/inspiration" element={<Inspiration />} />
         <Route path="/kitchen" element={<Kitchen />} />
         <Route path="/blogs" element={<Blogs />} />
+        <Route path="/about-us" element={<About />} />
+        <Route path="/contact-us" element={<Contact />} />
       </Routes>
       <Footer />
     </BrowserRouter>

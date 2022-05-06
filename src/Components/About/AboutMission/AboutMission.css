@@ -1,0 +1,142 @@
+@media screen and (min-width: 768px) {
+  .about__mission__desk {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__mission__upper__deck {
+    display: flex;
+    padding: 80px 5%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+  }
+
+  .about__mission__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 600px;
+  }
+
+  .about__mission__content > h1 {
+    color: #1d1d1b;
+    font-size: 40px;
+    font-family: var(--playfair-text);
+    margin: 0 0 36px 0;
+    line-height: 1.4;
+  }
+
+  .about__mission__content > h1 > span {
+    color: #ff1000;
+  }
+
+  .about__mission__content > p {
+    color: #a4a4a4;
+    font-size: 18px;
+    font-family: var(--open-sans-text);
+    margin: 0 0 40px 0;
+  }
+
+  .about__mission__content > p:last-child {
+    margin: 0 0 0 0;
+  }
+
+  .about__mission__image {
+    width: 600px;
+    height: 351px;
+  }
+
+  .about__mission__image > img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .about__mission__lower__deck {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0;
+    background-color: #fff;
+  }
+
+  .about__mission__lower__deck > h1 {
+    color: #1d1d1b;
+    font-size: 40px;
+    font-family: var(--playfair-text);
+    text-align: center;
+    line-height: 1.4;
+  }
+
+  .about__mission__lower__deck > h1 > span {
+    color: #ff1000;
+  }
+
+  .about__mission_mob {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__mission__desk {
+    display: none;
+  }
+
+  .about__mission_mob {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about__mission__upper__deck__mob {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5%;
+    background-color: #f5f5f5;
+  }
+
+  .about__mission_mob__image {
+    height: 188px;
+    width: 100%;
+    margin: 0 0 40px 0;
+  }
+
+  .about__mission_mob__image > img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .about__mission__upper__deck__mob > h1 {
+    font-size: 24px;
+    font-family: var(--playfair-text);
+    color: #1d1d1b;
+    line-height: 1.4;
+    padding: 40px 0;
+  }
+
+  .about__mission__upper__deck__mob > h1 > span {
+    color: #ff1000;
+  }
+
+  .about__mission__upper__deck__mob > p {
+    color: #a4a4a4;
+    font-size: 16px;
+    margin: 0 0 40px 0;
+    font-family: var(--open-sans-text);
+    line-height: 1.6;
+  }
+
+  .about__mission__lower__deck__mob > h1 {
+    font-family: var(--playfair-text);
+    font-size: 24px;
+    color: #1d1d1b;
+    text-align: center;
+    line-height: 1.6;
+    margin: 22px 0 44px 0;
+  }
+
+  .about__mission__lower__deck__mob > h1 > span {
+    color: #ff1000;
+  }
+}
