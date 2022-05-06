@@ -1,64 +1,119 @@
-import tera1 from "./Assets/images/kitchen/minotticucine terra 01.webp";
-import tera2 from "./Assets/images/kitchen/minotticucine terra 02.webp";
-import tera3 from "./Assets/images/kitchen/minotticucine terra 03.webp";
-import tera4 from "./Assets/images/kitchen/minotticucine terra 07.webp";
-import tera5 from "./Assets/images/kitchen/minotticucine terra 08.webp";
-import tera6 from "./Assets/images/kitchen/minotticucine terra 10.webp";
+//Minotticucine
+import tera1 from "./Assets/images/kitchen/Minotticucine/minotticucine terra 01_webp.webp";
+import tera2 from "./Assets/images/kitchen/Minotticucine/minotticucine terra 02_webp.webp";
+import tera3 from "./Assets/images/kitchen/Minotticucine/minotticucine terra 03_webp.webp";
+import tera4 from "./Assets/images/kitchen/Minotticucine/minotticucine terra 07_webp.webp";
+import tera5 from "./Assets/images/kitchen/Minotticucine/minotticucine terra 08_webp.webp";
+import tera6 from "./Assets/images/kitchen/Minotticucine/minotticucine terra 10_webp.webp";
 
-import seta1 from "./Assets/images/kitchen/minotticucine seta 01.webp";
-import seta2 from "./Assets/images/kitchen/minotticucine seta 02.webp";
-import seta3 from "./Assets/images/kitchen/minotticucine seta 03.webp";
-import seta4 from "./Assets/images/kitchen/minotticucine seta 04.webp";
-import seta5 from "./Assets/images/kitchen/minotticucine seta 05.webp";
+import seta1 from "./Assets/images/kitchen/Minotticucine/minotticucine seta 01_webp.webp";
+import seta2 from "./Assets/images/kitchen/Minotticucine/minotticucine seta 02_webp.webp";
+import seta3 from "./Assets/images/kitchen/Minotticucine/minotticucine seta 03_webp.webp";
+import seta4 from "./Assets/images/kitchen/Minotticucine/minotticucine seta 04_webp.webp";
+import seta5 from "./Assets/images/kitchen/Minotticucine/minotticucine seta 05_webp.webp";
 
-import anima1 from "./Assets/images/kitchen/minotticucine anima 01.webp";
-import anima2 from "./Assets/images/kitchen/minotticucine anima 02.webp";
-import anima3 from "./Assets/images/kitchen/minotticucine anima 03.webp";
-import anima4 from "./Assets/images/kitchen/minotticucine anima 04.webp";
-import anima5 from "./Assets/images/kitchen/minotticucine anima 05.webp";
-import anima6 from "./Assets/images/kitchen/minotticucine anima 06.webp";
-import anima7 from "./Assets/images/kitchen/minotticucine anima 07.webp";
+import anima1 from "./Assets/images/kitchen/Minotticucine/minotticucine anima 01_webp.webp";
+import anima2 from "./Assets/images/kitchen/Minotticucine/minotticucine anima 02_webp.webp";
+import anima3 from "./Assets/images/kitchen/Minotticucine/minotticucine anima 03_webp.webp";
+import anima4 from "./Assets/images/kitchen/Minotticucine/minotticucine anima 04_webp.webp";
+import anima5 from "./Assets/images/kitchen/Minotticucine/minotticucine anima 05_webp.webp";
+import anima6 from "./Assets/images/kitchen/Minotticucine/minotticucine anima 06_webp.webp";
+import anima7 from "./Assets/images/kitchen/Minotticucine/minotticucine anima 07_webp.webp";
 
-import gandhara1 from "./Assets/images/kitchen/minotticucine gandhara 01.webp";
-import gandhara2 from "./Assets/images/kitchen/minotticucine gandhara 02.webp";
-import gandhara3 from "./Assets/images/kitchen/minotticucine gandhara 03.webp";
-import gandhara4 from "./Assets/images/kitchen/minotticucine gandhara 04.webp";
-import gandhara5 from "./Assets/images/kitchen/minotticucine gandhara 05.webp";
-import gandhara6 from "./Assets/images/kitchen/minotticucine gandhara 06.webp";
-import gandhara7 from "./Assets/images/kitchen/minotticucine gandhara 07.webp";
+import gandhara1 from "./Assets/images/kitchen/Minotticucine/minotticucine gandhara 01_webp.webp";
+import gandhara2 from "./Assets/images/kitchen/Minotticucine/minotticucine gandhara 02_webp.webp";
+import gandhara3 from "./Assets/images/kitchen/Minotticucine/minotticucine gandhara 03_webp.webp";
+import gandhara4 from "./Assets/images/kitchen/Minotticucine/minotticucine gandhara 04_webp.webp";
+import gandhara5 from "./Assets/images/kitchen/Minotticucine/minotticucine gandhara 05_webp.webp";
+import gandhara6 from "./Assets/images/kitchen/Minotticucine/minotticucine gandhara 06_webp.webp";
+import gandhara7 from "./Assets/images/kitchen/Minotticucine/minotticucine gandhara 07_webp.webp";
 
-import hanami1 from "./Assets/images/kitchen/minotticucine hanami 01.webp";
-import hanami2 from "./Assets/images/kitchen/minotticucine hanami 02.webp";
-import hanami3 from "./Assets/images/kitchen/minotticucine hanami 03.webp";
-import hanami4 from "./Assets/images/kitchen/minotticucine hanami 04.webp";
-import hanami5 from "./Assets/images/kitchen/minotticucine hanami 05.webp";
-import hanami6 from "./Assets/images/kitchen/minotticucine hanami 06.webp";
-import hanami7 from "./Assets/images/kitchen/minotticucine hanami 07.webp";
+import hanami1 from "./Assets/images/kitchen/Minotticucine/minotticucine hanami 01_webp.webp";
+import hanami2 from "./Assets/images/kitchen/Minotticucine/minotticucine hanami 02_webp.webp";
+import hanami3 from "./Assets/images/kitchen/Minotticucine/minotticucine hanami 03_webp.webp";
+import hanami4 from "./Assets/images/kitchen/Minotticucine/minotticucine hanami 04_webp.webp";
+import hanami5 from "./Assets/images/kitchen/Minotticucine/minotticucine hanami 05_webp.webp";
+import hanami6 from "./Assets/images/kitchen/Minotticucine/minotticucine hanami 06_webp.webp";
+import hanami7 from "./Assets/images/kitchen/Minotticucine/minotticucine hanami 07_webp.webp";
 
-import atlier1 from "./Assets/images/kitchen/minotticucine atelier 02.webp";
-import atlier2 from "./Assets/images/kitchen/minotticucine atelier 03.webp";
-import atlier3 from "./Assets/images/kitchen/minotticucine atelier 06.webp";
-import atlier4 from "./Assets/images/kitchen/minotticucine atelier 07.webp";
+import atlier1 from "./Assets/images/kitchen/Minotticucine/minotticucine atelier 02_webp.webp";
+import atlier2 from "./Assets/images/kitchen/Minotticucine/minotticucine atelier 03_webp.webp";
+import atlier3 from "./Assets/images/kitchen/Minotticucine/minotticucine atelier 06_webp.webp";
+import atlier4 from "./Assets/images/kitchen/Minotticucine/minotticucine atelier 07_webp.webp";
 
-import inca1 from "./Assets/images/kitchen/minotticucine inca 01.webp";
-import inca2 from "./Assets/images/kitchen/minotticucine inca 02.webp";
-import inca3 from "./Assets/images/kitchen/minotticucine inca 03.webp";
-import inca4 from "./Assets/images/kitchen/minotticucine inca 04.webp";
-import inca5 from "./Assets/images/kitchen/minotticucine inca 05.webp";
-import inca6 from "./Assets/images/kitchen/minotticucine inca 07.webp";
+import inca1 from "./Assets/images/kitchen/Minotticucine/minotticucine inca 01_webp.webp";
+import inca2 from "./Assets/images/kitchen/Minotticucine/minotticucine inca 02_webp.webp";
+import inca3 from "./Assets/images/kitchen/Minotticucine/minotticucine inca 03_webp.webp";
+import inca4 from "./Assets/images/kitchen/Minotticucine/minotticucine inca 04_webp.webp";
+import inca5 from "./Assets/images/kitchen/Minotticucine/minotticucine inca 05_webp.webp";
+import inca6 from "./Assets/images/kitchen/Minotticucine/minotticucine inca 07_webp.webp";
 
-import maya1 from "./Assets/images/kitchen/2021 minotticucine maya oro24K 01.webp";
-import maya2 from "./Assets/images/kitchen/2021 minotticucine maya oro24K 02.webp";
-import maya3 from "./Assets/images/kitchen/2021 minotticucine maya oro24K 03.webp";
-import maya4 from "./Assets/images/kitchen/2021 minotticucine maya oro24K 04.webp";
-import maya5 from "./Assets/images/kitchen/2021 minotticucine maya oro24K 05.webp";
+import maya1 from "./Assets/images/kitchen/Minotticucine/2021 minotticucine maya oro24K 01_webp.webp";
+import maya2 from "./Assets/images/kitchen/Minotticucine/2021 minotticucine maya oro24K 02_webp.webp";
+import maya3 from "./Assets/images/kitchen/Minotticucine/2021 minotticucine maya oro24K 03_webp.webp";
+import maya4 from "./Assets/images/kitchen/Minotticucine/2021 minotticucine maya oro24K 04_webp.webp";
+import maya5 from "./Assets/images/kitchen/Minotticucine/2021 minotticucine maya oro24K 05_webp.webp";
 
-import incline1 from "./Assets/images/kitchen/minotticucine incline 01.webp";
-import incline2 from "./Assets/images/kitchen/minotticucine incline 02.webp";
-import incline3 from "./Assets/images/kitchen/minotticucine incline 03.webp";
-import incline4 from "./Assets/images/kitchen/minotticucine incline 04.webp";
-import incline5 from "./Assets/images/kitchen/minotticucine incline 06.webp";
-import incline6 from "./Assets/images/kitchen/minotticucine incline 07.webp";
+import incline1 from "./Assets/images/kitchen/Minotticucine/minotticucine incline 01_webp.webp";
+import incline2 from "./Assets/images/kitchen/Minotticucine/minotticucine incline 02_webp.webp";
+import incline3 from "./Assets/images/kitchen/Minotticucine/minotticucine incline 03_webp.webp";
+import incline4 from "./Assets/images/kitchen/Minotticucine/minotticucine incline 04_webp.webp";
+import incline5 from "./Assets/images/kitchen/Minotticucine/minotticucine incline 06_webp.webp";
+import incline6 from "./Assets/images/kitchen/Minotticucine/minotticucine incline 07_webp.webp";
+
+//Maistri
+
+import Maistri_2021 from "./Assets/images/kitchen/Maistri/Maistri 2021 1154_webp.webp";
+import Altea1 from "./Assets/images/kitchen/Maistri/Maistri Altea 2021 1130_webp.webp";
+import Altea2 from "./Assets/images/kitchen/Maistri/Maistri Altea 2021 1177_webp.webp";
+import Altea3 from "./Assets/images/kitchen/Maistri/Maistri Altea Viva 0395_webp.webp";
+import Altea4 from "./Assets/images/kitchen/Maistri/Maistri Altea Viva 0408_webp.webp";
+
+import Arka1 from "./Assets/images/kitchen/Maistri/Maistri Arka 2021 0257_webp.webp";
+import Arka2 from "./Assets/images/kitchen/Maistri/Maistri Arka 2021 0340_webp.webp";
+import Arka3 from "./Assets/images/kitchen/Maistri/Maistri Arka 2021 0349_webp.webp";
+import Arka4 from "./Assets/images/kitchen/Maistri/Maistri Arka 2021 0371_webp.webp";
+import Arka5 from "./Assets/images/kitchen/Maistri/Maistri Arka 2021 1194_webp.webp";
+import Arka6 from "./Assets/images/kitchen/Maistri/Maistri Arka 2021 1202_webp.webp";
+
+import Gizza1 from "./Assets/images/kitchen/Maistri/Maistri Giza 2021 68023_BIS_webp.webp";
+import Gizza2 from "./Assets/images/kitchen/Maistri/Maistri Giza 2021 68042_BIS_webp.webp";
+import Gizza3 from "./Assets/images/kitchen/Maistri/Maistri Giza 2021 68627_webp.webp";
+import Gizza4 from "./Assets/images/kitchen/Maistri/Maistri Giza 2021 68689_webp.webp";
+import Gizza5 from "./Assets/images/kitchen/Maistri/Maistri Giza 2021 68709_webp.webp";
+import Gizza6 from "./Assets/images/kitchen/Maistri/MAISTRI Giza 2375_webp.webp";
+import Gizza7 from "./Assets/images/kitchen/Maistri/MAISTRI Giza 2376_webp.webp";
+import Gizza8 from "./Assets/images/kitchen/Maistri/Maistri Giza 2021 68647_webp.webp";
+
+import NeolithAbu1 from "./Assets/images/kitchen/Maistri/Maistri Giza neolith abu dhabi white Arena 2021 0932_webp.webp";
+import NeolithAbu2 from "./Assets/images/kitchen/Maistri/Maistri Giza neolith abu dhabi white Arena 2021 0951_webp.webp";
+import NeolithAbu3 from "./Assets/images/kitchen/Maistri/Maistri Giza neolith abu dhabi white Arena 2021 0965_webp.webp";
+import NeolithAbu4 from "./Assets/images/kitchen/Maistri/Maistri Giza neolith abu dhabi white Arena 2021 0979_webp.webp";
+import NeolithAbu5 from "./Assets/images/kitchen/Maistri/Maistri Giza neolith abu dhabi white Arena 2021 0990_webp.webp";
+import NeolithAbu6 from "./Assets/images/kitchen/Maistri/Maistri Giza neolith abu dhabi white Arena 2021 0998_webp.webp";
+import NeolithAbu7 from "./Assets/images/kitchen/Maistri/Maistri Giza neolith abu dhabi white Arena 2021 1021_webp.webp";
+import NeolithAbu8 from "./Assets/images/kitchen/Maistri/Maistri Giza neolith abu dhabi white Arena 2021 1039_webp.webp";
+import NeolithAbu9 from "./Assets/images/kitchen/Maistri/Maistri Giza neolith abu dhabi white Arena 2021 1055_webp.webp";
+
+import NeolithRestrone1 from "./Assets/images/kitchen/Maistri/Maistri Giza neolith retrostone 2021 0253 1_webp.webp";
+import NeolithRestrone2 from "./Assets/images/kitchen/Maistri/Maistri Giza neolith retrostone 2021 0287_webp.webp";
+
+import GizzaViva1 from "./Assets/images/kitchen/Maistri/Maistri Giza Viva 2021 1257_webp.webp";
+import GizzaViva2 from "./Assets/images/kitchen/Maistri/Maistri Giza Viva 2021 1269_webp.webp";
+import GizzaViva3 from "./Assets/images/kitchen/Maistri/Maistri Giza Viva 2021 1276_webp.webp";
+import GizzaViva4 from "./Assets/images/kitchen/Maistri/Maistri Giza Viva 2021 1301_webp.webp";
+import GizzaViva5 from "./Assets/images/kitchen/Maistri/Maistri Giza Viva 2021 1309_webp.webp";
+import GizzaViva6 from "./Assets/images/kitchen/Maistri/Maistri Giza Viva 2021 1330_webp.webp";
+import GizzaViva7 from "./Assets/images/kitchen/Maistri/Maistri Giza Viva 2021 1349_webp.webp";
+
+import MaistriViva1 from "./Assets/images/kitchen/Maistri/MAISTRI Viva 10_webp.webp";
+import MaistriViva2 from "./Assets/images/kitchen/Maistri/MAISTRI Viva 2_webp.webp";
+import MaistriViva3 from "./Assets/images/kitchen/Maistri/MAISTRI Viva 6 dritta_webp.webp";
+import MaistriViva4 from "./Assets/images/kitchen/Maistri/MAISTRI Viva 9_webp.webp";
+
+import NovitaTable1 from "./Assets/images/kitchen/Maistri/novità 2022 MAISTRI K-Table 01_webp.webp";
+import NovitaTable2 from "./Assets/images/kitchen/Maistri/novità 2022 MAISTRI K-Table 02_webp.webp";
+import NovitaTable3 from "./Assets/images/kitchen/Maistri/novità 2022 MAISTRI K-Table 03_webp.webp";
 
 export const kitchenItem = [
   {
@@ -298,6 +353,167 @@ export const kitchenItem = [
       },
       {
         image: incline6,
+      },
+    ],
+  },
+];
+
+export const kitchenItemMaistri = [
+  {
+    RANGE: "altea",
+    IMAGE_LINKS: [
+      {
+        image: Altea1,
+      },
+      {
+        image: Altea2,
+      },
+      {
+        image: Altea3,
+      },
+      {
+        image: Altea4,
+      },
+    ],
+  },
+  {
+    RANGE: "arka",
+    IMAGE_LINKS: [
+      {
+        image: Arka1,
+      },
+      {
+        image: Arka2,
+      },
+      {
+        image: Arka3,
+      },
+      {
+        image: Arka4,
+      },
+      {
+        image: Arka5,
+      },
+      {
+        image: Arka6,
+      },
+    ],
+  },
+  {
+    RANGE: "giza",
+    IMAGE_LINKS: [
+      {
+        image: Gizza1,
+      },
+      {
+        image: Gizza2,
+      },
+      {
+        image: Gizza3,
+      },
+      {
+        image: Gizza4,
+      },
+      {
+        image: Gizza5,
+      },
+      {
+        image: Gizza6,
+      },
+      {
+        image: Gizza7,
+      },
+      {
+        image: Gizza8,
+      },
+    ],
+  },
+  {
+    RANGE: "viva",
+    IMAGE_LINKS: [
+      {
+        image: MaistriViva1,
+      },
+      {
+        image: MaistriViva2,
+      },
+      {
+        image: MaistriViva3,
+      },
+      {
+        image: MaistriViva4,
+      },
+    ],
+  },
+  {
+    RANGE: "giza / viva",
+    IMAGE_LINKS: [
+      {
+        image: GizzaViva1,
+      },
+      {
+        image: GizzaViva2,
+      },
+      {
+        image: GizzaViva3,
+      },
+      {
+        image: GizzaViva4,
+      },
+      {
+        image: GizzaViva5,
+      },
+      {
+        image: GizzaViva6,
+      },
+      {
+        image: GizzaViva7,
+      },
+    ],
+  },
+  {
+    RANGE: "giza / arena",
+    IMAGE_LINKS: [
+      {
+        image: NeolithAbu1,
+      },
+      {
+        image: NeolithAbu2,
+      },
+      {
+        image: NeolithAbu3,
+      },
+      {
+        image: NeolithAbu4,
+      },
+      {
+        image: NeolithAbu5,
+      },
+      {
+        image: NeolithAbu6,
+      },
+      {
+        image: NeolithAbu7,
+      },
+      {
+        image: NeolithAbu8,
+      },
+      {
+        image: NeolithAbu9,
+      },
+    ],
+  },
+  {
+    RANGE: "ktable / Viva",
+    IMAGE_LINKS: [
+      {
+        image: NovitaTable1,
+      },
+      {
+        image: NovitaTable2,
+      },
+      {
+        image: NovitaTable3,
       },
     ],
   },

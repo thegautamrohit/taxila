@@ -11,7 +11,7 @@ export const CarouselItem = ({ children, width }) => {
   );
 };
 
-const Carousel = ({ children, details }) => {
+const Carousel = ({ children, details, title }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [paused, setPaused] = useState(false);
   const [showDetails, setShowDetails] = useState(false);
@@ -45,21 +45,94 @@ const Carousel = ({ children, details }) => {
     onSwipedRight: () => updateIndex(activeIndex - 1),
   });
 
-  console.log(window.innerWidth);
   return (
     <>
       <div className="kitchen__carousal__container__desktop">
         {showDetails ? (
-          <div className="kitchen__carousal__data">
-            <p className="kitchen__carousal__data__heading">Introduction</p>
-            <p className="kitchen__carousal__data__details">{details}</p>
-            <p
-              className="kitchen__carousal__data__show"
-              onClick={() => setShowDetails(!showDetails)}
-            >
-              Explore Images
-            </p>
-          </div>
+          <>
+            {title === "Mini" && (
+              <div className="kitchen__carousal__data">
+                <p className="kitchen__carousal__data__heading">Introduction</p>
+                <p className="kitchen__carousal__data__details">{details}</p>
+                <p
+                  className="kitchen__carousal__data__show"
+                  onClick={() => setShowDetails(!showDetails)}
+                >
+                  Explore Images
+                </p>
+              </div>
+            )}
+            {title === "Maistri" && (
+              <div className="kitchen__carousal__data">
+                <p className="kitchen__carousal__data__heading__Maistri">
+                  FULL KITCHEN SYSTEM
+                </p>
+                <div className="kitchen__carousal__data__Mistri">
+                  <div>
+                    <h3>BASI / BASE UNITS</h3>
+                    <p>Giza basi / base units</p>
+                    <p>Viva basi / base units</p>
+                    <p>Altea basi / base units</p>
+                    <p>Arka basi / base units</p>
+                    <p>Arena basi / base units</p>
+                    <p>K-TABLE basi / base units</p>
+                  </div>
+                  <div>
+                    {" "}
+                    <h3>PENSILI / WALL UNITS </h3>
+                    <p>- pensile con gola / wall unit with grip-recessed</p>
+                    <p>- pensile con maniglia / wall unit with handle</p>
+                  </div>
+                  <div>
+                    {" "}
+                    <h3>COLONNE / TALL UNITS </h3>
+                    <p>- colonne con gola / tall unit with grip-recessed</p>
+                    <p>- colonna con maniglia / tall unit with handle</p>
+                  </div>
+                  <div>
+                    <h3>SOLUZIONI PROGETTUALI / DESIGN SOLUTIONS</h3>
+                    <p>
+                      - basi con anta neolith 12 mm / 12 mm thick neolith door
+                      for base units{" "}
+                    </p>
+                    <p>- basi composti / modular base units</p>
+                    <p>- basi living / living room base units</p>
+                    <p>- colonne libreria / bookcase tall units </p>
+                    <p>
+                      {" "}
+                      - colonne angolo ripostiglio / tall corner walk pantry
+                    </p>
+                    <p>
+                      - colonne sfioro pavimento / tall units with extended door
+                    </p>
+                    <p>
+                      {" "}
+                      - colonne anta rientrante / tall units with pocket door
+                    </p>
+                    <p>- colonne hole / “hole” tall units</p>
+                    <p>- pensili composti / modular wall units</p>
+                    <p>
+                      {" "}
+                      - elementi living e a giorno / living and open box units
+                    </p>
+                    <p>- bancone scorrevole / sliding counter</p>
+                    <p>- boisere / boiserie </p>
+                    <p>- vetrine / glass units</p>
+                    <p>
+                      - personalizzazione su richiesta / custom on requested
+                    </p>
+                    <p></p>
+                  </div>
+                </div>
+                <p
+                  className="kitchen__carousal__data__show"
+                  onClick={() => setShowDetails(!showDetails)}
+                >
+                  Explore Images
+                </p>
+              </div>
+            )}
+          </>
         ) : (
           <div
             {...handlers}

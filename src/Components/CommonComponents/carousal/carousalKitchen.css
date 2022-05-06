@@ -118,6 +118,47 @@
   gap: 41px;
 }
 
+.kitchen__carousal__data__Mistri {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.kitchen__carousal__data__Mistri > div {
+  display: flex;
+  align-items: flex-start;
+
+  flex-direction: column;
+}
+
+.kitchen__carousal__data__Mistri > div > h3 {
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600px;
+  font-family: var(--open-sans-text);
+  margin-bottom: 25.5px;
+}
+
+.kitchen__carousal__data__Mistri > div > p {
+  font-size: 12px;
+  font-family: var(--open-sans-text);
+  margin-bottom: 2px;
+
+  font: normal normal normal 12px/20px Open Sans;
+  letter-spacing: 0px;
+  color: #6c6c6c;
+}
+
+.kitchen__carousal__data__heading__Maistri {
+  font-size: 18px;
+  font-weight: 600;
+  font-family: var(--open-sans-text);
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 24px;
+}
+
 @media screen and (min-width: 500px) {
   .kitchen__carousal__container__mobile {
     display: none;
