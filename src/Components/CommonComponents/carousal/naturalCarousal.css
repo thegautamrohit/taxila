@@ -2,7 +2,7 @@
   height: 648px;
   display: flex;
   align-items: center;
-
+  background-color: #fafafa;
   padding-left: 60px;
 }
 
@@ -100,6 +100,13 @@
   /* .natural__carousal__container__desktop {
     display: none;
   } */
+
+  .natural__carousal__container__desktop {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 58px 0;
+  }
 
   .natural__carousal__container__mobile {
     padding-left: 32px;

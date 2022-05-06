@@ -21,7 +21,6 @@ const KitchenItem = () => {
 
   const [details, setDetails] = useState(kitchenItem[0].DESCRIPTION_ENGLISH);
 
-  console.log(kitchenItemMaistri);
   return (
     <div className="kitchenItem__container">
       <div className="kitchenItem__side__bar">

@@ -35,7 +35,7 @@ function NaturalCarousel() {
     autoplay: false,
     infinite: false,
     speed: 500,
-    slidesToShow: width <= 500 ? 1 : 4,
+    slidesToShow: width <= 500 ? 1.5 : 4.5,
     slidesToScroll: 1,
     nextArrow: <SamplePrevArrow />,
     prevArrow: <SampleNextArrow />,
@@ -72,7 +72,10 @@ function NaturalCarousel() {
       <div className="carousel_natural">
         <Slider {...settings}>
           {images?.map((item) => (
-            <div key={item?.id} className="natural__carousal__image__single">
+            <div
+              key={item?.id}
+              className="natural__carousal__image__single__slide"
+            >
               <img src={item.img} alt="" />
               <h4>{item?.title}</h4>
             </div>

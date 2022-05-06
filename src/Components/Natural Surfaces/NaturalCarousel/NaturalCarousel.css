@@ -1,6 +1,29 @@
 .carousel_natural {
   width: 95%;
   margin: 0 auto;
+
+  background-color: #fafafa;
+}
+
+.natural__carousal__container__desk {
+  width: 100%;
+}
+
+.natural__carousal__image__single__slide {
+  height: 400px;
+  width: 270px !important ;
+}
+
+.natural__carousal__image__single__slide > h4 {
+  font-size: 20px;
+  color: #6c6c6c;
+  font-family: var(--playfair-text);
+  margin: 23px 0 0 0;
+}
+
+.natural__carousal__image__single__slide > img {
+  height: 100%;
+  width: 100%;
 }
 
 .arrow_natural {
@@ -33,4 +56,25 @@
 }
 .arrow-left_natural {
   left: 2%;
+}
+
+@media screen and (max-width: 768px) {
+  .arrow_natural {
+    height: 33px;
+    width: 33px;
+  }
+
+  /* .arrow-right_natural {
+    right: 4%;
+  }
+  .arrow-left_natural {
+    left: -15%;
+  } */
+
+  .natural__carousal__image__single__slide {
+    width: 250px;
+    height: 327px;
+    /* border: 1px solid red; */
+    padding: 0 20px;
+  }
 }
