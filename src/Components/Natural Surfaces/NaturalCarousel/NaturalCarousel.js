@@ -20,8 +20,8 @@ function NaturalCarousel() {
     { id: 4, img: Slider4, title: "MISSORI" },
     { id: 5, img: Slider5, title: "TURATI" },
     { id: 6, img: Slider3, title: "BRERA" },
-    { id: 7, img: Slider3, title: "BRERA" },
     { id: 8, img: Slider1, title: "MONTENAPOLEONE" },
+    { id: 7, img: Slider3, title: "BRERA" },
   ];
 
   const [width, setWidth] = useState(window.innerWidth);
