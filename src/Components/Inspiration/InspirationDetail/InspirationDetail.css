@@ -64,7 +64,7 @@
   flex-direction: column;
   width: 100%;
 }
-.inspiration__image__display:nth-child(0) {
+.inspiration__all__image {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -73,12 +73,13 @@
   cursor: pointer;
 }
 
-.inspiration__image__display > div > img {
+.inspiration__all__image > img {
   width: 100%;
   height: 100%;
 }
 
 .inspiration__specific__image {
+  /* position: absolute; */
   display: flex;
   flex-direction: column;
   width: 100%;

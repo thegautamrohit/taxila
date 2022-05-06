@@ -83,6 +83,7 @@ const InspirationDetail = () => {
                     className="inspiration__image__display__container"
                   >
                     <div
+                      className="inspiration__all__image"
                       onClick={() => (
                         setOneElement(item.details),
                         setDetails(item.detailsDescription),
@@ -92,7 +93,7 @@ const InspirationDetail = () => {
                     >
                       <img key={item.id} src={item.image} alt={item.image} />
                     </div>
-                    <div
+                    {/* <div
                       className="inspiration__specific__image"
                       style={oneElement.length > 0 ? {} : { display: "none" }}
                     >
@@ -129,12 +130,13 @@ const InspirationDetail = () => {
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                   </div>
                 );
               } else {
                 return (
                   <div
+                    className="inspiration__all__image"
                     onClick={() => (
                       setOneElement(item.details),
                       setDetails(item.detailsDescription),
@@ -164,7 +166,7 @@ const InspirationDetail = () => {
                         <img key={item.id} src={item.image} alt={item.image} />
                       </div>
 
-                      <div
+                      {/* <div
                         className="inspiration__specific__image__mobile__wrapper"
                         onClick={(e) => modalHandler(e)}
                       >
@@ -204,20 +206,97 @@ const InspirationDetail = () => {
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                     </>
                   );
                 }
               }
             )}
         </div>
-        {/* {oneElement.length > 0 && (
-          
-        )} */}
+        {oneElement.length > 0 && (
+          <div
+            className="inspiration__specific__image__mobile__wrapper"
+            onClick={(e) => modalHandler(e)}
+          >
+            <div className="inspiration__specific__image__mobile">
+              <div className="inspiration__specific__image__head__mobile">
+                <div>
+                  <p>{title}</p>
 
-        {/* {oneElement.length > 0 && (
-          
-        )} */}
+                  <MdCancel onClick={() => setOneElement([])} />
+                </div>
+                <p>{oneElement.length} products in this image</p>
+              </div>
+              <div className="inspiration__specific__image__middle__mobile">
+                <div className="inspiration__specific__image__middle__left__mobile">
+                  <img src={mainImage} />
+                </div>
+                <div className="inspiration__specific__image__middle__right__mobile">
+                  <div className="inspiration__specific__image__middle__right__image__mobile">
+                    {oneElement.map((item) => {
+                      return (
+                        <div>
+                          <img src={item.detailImage} />
+                          <p>{item.title}</p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                  <p> {details}</p>
+                  <div className="inspiration__specific__image__middle__right__social__media__mobile">
+                    <AiFillFacebook />
+                    <AiOutlineTwitter />
+                    <AiOutlineWhatsApp />
+                    <AiOutlineInstagram />
+                    <FaLinkedinIn />
+                    <BsFillShareFill />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
+
+        {oneElement.length > 0 && (
+          <div
+            className="inspiration__specific__image"
+            style={oneElement.length > 0 ? {} : { display: "none" }}
+          >
+            <div className="inspiration__specific__image__head">
+              <p>{title}</p>
+              <div>
+                <p>{oneElement.length} products in this image</p>
+                <MdCancel onClick={() => setOneElement([])} />
+              </div>
+            </div>
+            <div className="inspiration__specific__image__middle">
+              <div className="inspiration__specific__image__middle__left">
+                <img src={mainImage} />
+              </div>
+              <div className="inspiration__specific__image__middle__right">
+                <div className="inspiration__specific__image__middle__right__image">
+                  {oneElement.map((item) => {
+                    return (
+                      <div>
+                        <img src={item.detailImage} />
+                        <p>{item.title}</p>
+                      </div>
+                    );
+                  })}
+                </div>
+                <p> {details}</p>
+                <div className="inspiration__specific__image__middle__right__social__media">
+                  <AiFillFacebook />
+                  <AiOutlineTwitter />
+                  <AiOutlineWhatsApp />
+                  <AiOutlineInstagram />
+                  <FaLinkedinIn />
+                  <BsFillShareFill />
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
         {/* <div className="inspiration__image__display">
           {InspirationData.slice(4, 8).map((item) => {
             return (
