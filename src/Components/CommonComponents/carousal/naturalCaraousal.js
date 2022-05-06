@@ -4,7 +4,6 @@ import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 import "./naturalCarousal.css";
 import { GrNext, GrPrevious } from "react-icons/gr";
 export const CarouselItem = ({ children }) => {
-  //   console.log(children);
   return <div className="natural__carousal__image__single">{children}</div>;
 };
 
@@ -35,12 +34,11 @@ const Carousel = ({ children, details }) => {
     setActiveIndex(newIndex);
   };
 
-    // const handlers = useSwipeable({
-    //   onSwipedLeft: () => leftSlide(activeIndex + 1),
-    //   onSwipedRight: () => rightSlide(activeIndex - 1),
-    // });
+  // const handlers = useSwipeable({
+  //   onSwipedLeft: () => leftSlide(activeIndex + 1),
+  //   onSwipedRight: () => rightSlide(activeIndex - 1),
+  // });
 
-  console.log(activeIndex);
   return (
     <>
       <div className="natural__carousal__container__desktop">
@@ -89,7 +87,7 @@ const Carousel = ({ children, details }) => {
       </div>
       <div className="natural__carousal__container__mobile">
         <div
-            // {...handlers}
+          // {...handlers}
           className="carousel"
           onMouseEnter={() => setPaused(true)}
           onMouseLeave={() => setPaused(false)}

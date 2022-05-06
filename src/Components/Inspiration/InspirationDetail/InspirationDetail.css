@@ -57,7 +57,14 @@
   gap: 24px;
   margin-bottom: 30px;
 }
-.inspiration__image__display > div {
+
+.inspiration__image__display__container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+.inspiration__image__display:nth-child(0) {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -277,7 +284,7 @@
     gap: 14px;
   }
 
-  .inspiration__image__display > div {
+  .inspiration__image__display {
     display: flex;
     align-items: center;
     justify-content: center;

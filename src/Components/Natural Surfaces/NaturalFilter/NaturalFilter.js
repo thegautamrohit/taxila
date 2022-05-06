@@ -64,19 +64,19 @@ function NaturalFilter() {
           <BsChevronDown />
         </div>
         <div className="mono-filter-title">
-          <span>MONTENAPOLEONE</span>
+          <span>DUOMO</span>
           <BsChevronDown />
         </div>
         <div className="mono-filter-title">
-          <span>MONTENAPOLEONE</span>
+          <span>BRERA</span>
           <BsChevronDown />
         </div>
         <div className="mono-filter-title">
-          <span>MONTENAPOLEONE</span>
+          <span>MISSORI</span>
           <BsChevronDown />
         </div>
         <div className="mono-filter-title">
-          <span>MONTENAPOLEONE</span>
+          <span>TURATI</span>
           <BsChevronDown />
         </div>
       </div>

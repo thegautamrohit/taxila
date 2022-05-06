@@ -8,7 +8,7 @@
 .natural-filter-tiles-filter {
   width: 360px;
   height: max-content;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   position: -webkit-sticky;
   position: sticky;
   top: 88px;
@@ -104,7 +104,7 @@
   }
 
   .natural-filter-tiles-filter {
-    background-color: #fff;
+    background-color: #fafafa;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -137,5 +137,36 @@
 
   .mono-natural-hover-state {
     opacity: 1;
+  }
+
+  .mono-filter-title > span {
+    font-size: 14px;
+    color: #a09f9d;
+    background-color: #fafafa;
+    border-right: 1px solid #c9c7c3;
+    padding: 25px 17px;
+  }
+
+  .mono-filter-title > svg {
+    display: none;
+  }
+
+  /* width */
+  .natural-filter-tiles-filter::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  /* Track */
+  .natural-filter-tiles-filter::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  .natural-filter-tiles-filter::-webkit-scrollbar-thumb {
+    background: #dddcda;
+  }
+
+  .natural-filter-tiles-filter::-webkit-scrollbar {
+    height: 7px;
   }
 }
