@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Logo from "../../../Assets/images/HomePage/Taxila-logo.png";
-import WhiteLogo from "../../../Assets/images/HomePage/whiteLogo.png";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 
@@ -19,14 +18,7 @@ function Header() {
     <div>
       <nav className="navbar-wrapper-desktop">
         <NavLink to="/" className="navbar-logo-wrapper">
-          <img
-            src={
-              window.location.pathname.split("/")[1] === "kitchen"
-                ? WhiteLogo
-                : Logo
-            }
-            alt="Taxila Stone"
-          />
+          <img src={Logo} alt="Taxila Stone" />
         </NavLink>
 
         <div className="navbar-quick-links-wrapper">
@@ -88,14 +80,7 @@ function Header() {
 
       <nav className="navbar-wrapper-small">
         <div className="navbar-small-logo-wrappper">
-          <img
-            src={
-              window.location.pathname.split("/")[1] === "kitchen"
-                ? WhiteLogo
-                : Logo
-            }
-            alt="Taxila Stone"
-          />
+          <img src={Logo} alt="Taxila Stone" />
         </div>
 
         <div className="navbar-small-menu-bar" onClick={() => clickHandler()}>
