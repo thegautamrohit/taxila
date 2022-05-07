@@ -197,6 +197,9 @@
   .kitchen__carousal__container__mobile {
     display: none;
   }
+  .kitchen__carousal__container__big__mobile {
+    display: none;
+  }
 }
 
 .carousel {
@@ -213,6 +216,9 @@
 }
 
 @media screen and (max-width: 450px) {
+  .kitchen__carousal__container__big__mobile {
+    display: none;
+  }
   .kitchen__carousal__container__desktop {
     display: none;
   }

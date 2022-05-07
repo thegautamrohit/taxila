@@ -97,17 +97,20 @@ const BigCarousal = ({ children, details, title, head }) => {
           </div>
         </div>
       </div>
-      <div className="kitchen__carousal__container__mobile">
+      <div className="kitchen__carousal__container__big__mobile">
         <div
           {...handlers}
-          className="carousel"
+          className="carousel__Big"
           onMouseEnter={() => setPaused(true)}
           onMouseLeave={() => setPaused(false)}
         >
           <div
-            className="inner"
+            className="inner__Big"
             style={{
               transform: `translateX(-${355 * activeIndex + 0.5}px)`,
+              gridTemplateColumns: `repeat(${React.Children.count(
+                children
+              )} , 90vw)`,
             }}
           >
             {React.Children.map(children, (child, index) => {
