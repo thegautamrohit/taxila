@@ -174,7 +174,6 @@ const InspirationDetail = () => {
                           <div className="inspiration__specific__image__head__mobile">
                             <div>
                               <p>{title}</p>
-
                               <MdCancel onClick={() => setOneElement([])} />
                             </div>
                             <p>{oneElement.length} products in this image</p>
