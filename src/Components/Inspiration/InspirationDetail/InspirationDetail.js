@@ -92,6 +92,7 @@ const InspirationDetail = () => {
             InspirationData.filter((item) => item.category === all).map(
               (item, index) => (
                 <div
+                  className="inspiration__all__image"
                   onClick={() => (
                     setOneElement(item.details),
                     setDetails(item.detailsDescription),
