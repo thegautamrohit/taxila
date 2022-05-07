@@ -10,12 +10,12 @@ import {
 } from "react-icons/ai";
 import { FaWhatsapp } from "react-icons/fa";
 import { BsFillShareFill } from "react-icons/bs";
-import Image1 from "../../../Assets/images/Natural Surfaces/2.1 Atlantis (Quartzite) - DECOLORES ATLANTIS QUARTZITE CLOSEUP.webp";
-import Image2 from "../../../Assets/images/Natural Surfaces/2.4 Cristal (Quartzite) - DECOLORES LUCENT QUARTIZITE BACKLIGHT CLOSEUP 2.webp";
-import Image3 from "../../../Assets/images/Natural Surfaces/2.5 Da Vinci (Quartzite) - DECOLORES DA VINCI QUARTIZITE CLOSEUP.webp";
-import Image4 from "../../../Assets/images/Natural Surfaces/2.6 Denali (Quartzite) - DECOLORES QUARTZITE DENALI CLOSEUP PADRÃO 2020.webp";
-import Image5 from "../../../Assets/images/Natural Surfaces/2.7 Explosion Rouge (Quartzite) - Rouge Slab 1.webp";
-import Image6 from "../../../Assets/images/Natural Surfaces/2.8 Fantasy Lux (Quartzite) - FantasyLux5 1.webp";
+import Image1 from "../../../Assets/images/Vinci/vinci-1.webp";
+import Image2 from "../../../Assets/images/Vinci/vinci-2.webp";
+import Image3 from "../../../Assets/images/Vinci/vinci-3.webp";
+import Image4 from "../../../Assets/images/Vinci/vinci-4.webp";
+import Image5 from "../../../Assets/images/Vinci/vinci-5.webp";
+import Image6 from "../../../Assets/images/Vinci/vinci-6.webp";
 import Pdf from "../../../Assets/Specs/pdf.pdf";
 
 function ProductSection() {
@@ -24,7 +24,7 @@ function ProductSection() {
   const Product = [
     {
       id: 1,
-      title: "Granite",
+      title: "DA VINCI QUARTZITE",
       heading: "Lorem ipsu",
       bodyText:
         "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr",

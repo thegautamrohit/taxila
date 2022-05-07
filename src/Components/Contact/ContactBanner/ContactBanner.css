@@ -66,17 +66,26 @@
   .contact-route-indicator {
     display: none;
   }
-  .contact-banner-container > h1 {
+
+  .contact-banner-head {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    width: 90%;
+  }
 
+  .contact-banner-head > h1 {
     color: #fff;
     font-family: var(--playfair-text);
     font-size: 18px;
     width: 100%;
     text-align: center;
     letter-spacing: 4px;
+  }
+
+  .contact-banner-head > p {
+    font-size: 14px;
+    text-align: center;
   }
 }

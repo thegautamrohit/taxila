@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../../../Assets/images/Natural Surfaces/2.2 Bronzite (Quartzite) - DECOLORES BRONZITE QUARTZITE POLIDO CLOSEUP.webp";
+import Image from "../../../Assets/images/Vinci/vinci-1.webp";
 import "./ProductFeatures.css";
 import { GoPrimitiveDot } from "react-icons/go";
 import "../../ProductListing/ProductListingFilter/ProductListingFilter.css";
@@ -12,7 +12,7 @@ function ProductFeatures() {
 
         <div className="product-deatils-table-section-wrapper">
           <div className="product-details-table-section-image-wraper">
-            <p> Granite </p>
+            <p> DA VINCI </p>
             <img src={Image} alt="" />
           </div>
 
@@ -54,7 +54,7 @@ function ProductFeatures() {
                   <td>
                     <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                     <GoPrimitiveDot color={"#6C6C6C"} size={12} />
-                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    {/* <GoPrimitiveDot color={"#6C6C6C"} size={12} /> */}
                   </td>
                   <td>
                     <GoPrimitiveDot color={"#6C6C6C"} size={12} />
@@ -138,7 +138,7 @@ function ProductFeatures() {
               <div className="table-right-mono-content-block">
                 <GoPrimitiveDot color={"#6C6C6C"} size={12} />
                 <GoPrimitiveDot color={"#6C6C6C"} size={12} />
-                <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                {/* <GoPrimitiveDot color={"#6C6C6C"} size={12} /> */}
               </div>
               <div className="table-right-mono-content-block">
                 <GoPrimitiveDot color={"#6C6C6C"} size={12} />

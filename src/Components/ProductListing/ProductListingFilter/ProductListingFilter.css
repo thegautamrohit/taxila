@@ -112,10 +112,36 @@
   font-family: var(--playfair-text);
 }
 
-.product-listing-features-wrapper-desktop > table {
-  /* border: 1px solid red; */
+.product-listing-features-wrapper-desktop-table-container {
+  height: 300px;
+  overflow-y: scroll;
+  position: relative;
+}
+
+/* width */
+.product-listing-features-wrapper-desktop-table-container::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.product-listing-features-wrapper-desktop-table-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.product-listing-features-wrapper-desktop-table-container::-webkit-scrollbar-thumb {
+  background: #dddcda;
+}
+
+.product-listing-features-wrapper-desktop-table-container > table {
   border-collapse: collapse;
   margin: 40px 0 0 0;
+}
+
+.table-thead-1,
+.table-thead-2 {
+  position: sticky;
+  top: -2px;
 }
 
 .table-thead-1 > tr > th:nth-child(2) {
