@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import KitchenItem from "./KitchenItem/KitchenItem";
-import WhiteLogo from "../../Assets/images/HomePage/whiteLogo.webp";
+import WhiteLogo from "../../Assets/images/HomePage/whiteLogo.png";
 import Logo from "../../Assets/images/HomePage/Taxila-logo.png";
 const Kitchen = () => {
   useEffect(() => {
