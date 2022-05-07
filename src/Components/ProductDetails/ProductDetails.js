@@ -6,6 +6,7 @@ const ProductSection = lazy(() => import("./ProductSection/ProductSection"));
 const ProductFeatures = lazy(() => import("./ProductFeatures/ProductFeatures"));
 const Specifications = lazy(() => import("./Specifications/Specifications"));
 const Applications = lazy(() => import("./Applications/Applications"));
+const SimilarCarousel = lazy(() => import("./SimilarCarousel/SimilarCarousel"));
 
 function ProductDetails() {
   return (
@@ -46,6 +47,15 @@ function ProductDetails() {
         }
       >
         <Specifications />
+      </Suspense>
+      <Suspense
+        fallback={
+          <div className="loader">
+            <img src={Loader} alt="Loader" />
+          </div>
+        }
+      >
+        <SimilarCarousel />
       </Suspense>
     </div>
   );

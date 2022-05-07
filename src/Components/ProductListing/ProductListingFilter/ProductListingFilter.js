@@ -100,123 +100,218 @@ function ProductListingFilter() {
 
         <div className="product-listing-features-wrapper-desktop">
           <h4>Features</h4>
-          <table>
-            <thead className="table-thead-1">
-              <tr>
-                <th colSpan={"1"}></th>
-                <th colSpan={"6"}>Resistance</th>
-                <th colSpan={"1"}></th>
-              </tr>
-            </thead>
-            <thead className="table-thead-2">
-              <tr>
-                <th>Category</th>
-                <th>Chips</th>
-                <th>Heat</th>
-                <th>Stain</th>
-                <th>Scratch</th>
-                <th>Water</th>
-                <th>Frost</th>
-                <th>Pros</th>
-              </tr>
-            </thead>
 
-            <tbody>
-              <tr>
-                <td>Granite</td>
-                <td>
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+          <div className="product-listing-features-wrapper-desktop-table-container">
+            <table>
+              <thead className="table-thead-1">
+                <tr>
+                  <th colSpan={"1"}></th>
+                  <th colSpan={"6"}>Resistance</th>
+                  <th colSpan={"1"}></th>
+                </tr>
+              </thead>
+              <thead className="table-thead-2">
+                <tr>
+                  <th>Category</th>
+                  <th>Chips</th>
+                  <th>Heat</th>
+                  <th>Stain</th>
+                  <th>Scratch</th>
+                  <th>Water</th>
+                  <th>Frost</th>
+                  <th>Pros</th>
+                </tr>
+              </thead>
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+              <tbody>
+                <tr>
+                  <td>Granite</td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
-                </td>
-                <td>
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
-                </td>
-                <td>
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
-                </td>
-                <td>
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
-                </td>
-                <td>
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
-                </td>
-                <td>
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
-                </td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                <td> Hard Surface Easy Maintenance Affordable </td>
-              </tr>
-              <tr>
-                <td>Granite</td>
-                <td>
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  <td> Hard Surface Easy Maintenance Affordable </td>
+                </tr>
+                <tr>
+                  <td>Granite</td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
-                </td>
-                <td>
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
-                </td>
-                <td>
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
-                </td>
-                <td>
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
-                </td>
-                <td>
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
-                </td>
-                <td>
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
 
-                  <GoPrimitiveDot color={"#6C6C6C"} size={12} />
-                </td>
-                <td> Hard Surface Easy Maintenance Affordable </td>
-              </tr>
-            </tbody>
-          </table>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td> Hard Surface Easy Maintenance Affordable </td>
+                </tr>
+                <tr>
+                  <td>Granite</td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td> Hard Surface Easy Maintenance Affordable </td>
+                </tr>
+                <tr>
+                  <td>Granite</td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td>
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+
+                    <GoPrimitiveDot color={"#6C6C6C"} size={12} />
+                  </td>
+                  <td> Hard Surface Easy Maintenance Affordable </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
           <div className="table-footer-scale">
             <div className="mono-footer-scale-mark">
