@@ -143,3 +143,44 @@
   z-index: 10;
   bottom: -60px;
 }
+
+@media screen and (max-width: 768px) {
+  .contact__team__container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 55px 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .contact__team__container > h2,
+  .contact__team__container > h2 > span {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+  }
+
+  .team__slider__wrapper {
+    height: unset;
+    border: 1px solid blue;
+  }
+
+  .team_member_card {
+    width: 90% !important;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid red;
+    margin: 0;
+  }
+
+  .team_member_card_upper_deck {
+    flex-direction: column;
+  }
+
+  .team_member_profile {
+    margin: 20px 0 0 0;
+  }
+  .team_member_profile > p {
+    margin: 0 0 20px 0;
+  }
+}

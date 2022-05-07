@@ -36,7 +36,7 @@ function Contact() {
         </div>
       </Suspense>
 
-      {/* <Suspense
+      <Suspense
         fallback={
           <div className="loader">
             <img src={Loader} alt="Loader" />
@@ -44,7 +44,7 @@ function Contact() {
         }
       >
         <Team />
-      </Suspense> */}
+      </Suspense>
     </>
   );
 }

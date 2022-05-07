@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Team.css";
 import Slider from "react-slick";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -8,6 +8,8 @@ import { GrNext, GrPrevious } from "react-icons/gr";
 import Image from "../../../Assets/images/Vinci/vinci-5.webp";
 
 function Team() {
+  const [width, setWidth] = useState(window.innerWidth);
+
   const team = [
     {
       id: 1,
@@ -111,8 +113,8 @@ function Team() {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToShow: width > 500 ? 3 : 1,
+    slidesToScroll: 1,
     nextArrow: <SamplePrevArrow />,
     prevArrow: <SampleNextArrow />,
   };
