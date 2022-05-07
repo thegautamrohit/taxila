@@ -7,6 +7,9 @@ function ContactSection() {
     <div className="contact__section__container">
       <div className="contact__section__section">
         <div className="contact__section__left__slab">
+          <div className="contact__section_mob_image_wrapper">
+            <img src={Image1} alt="" />
+          </div>
           <h4>SHOWROOM / SLAB WAREHOUSE</h4>
           <div className="contact___address">
             <p>Address</p>
@@ -47,6 +50,9 @@ function ContactSection() {
       </div>
       <div className="contact__section__section_2">
         <div className="contact__section__left__slab_2">
+          <div className="contact__section_mob_image_wrapper">
+            <img src={Image1} alt="" />
+          </div>
           <h4>OPENING SUMMER 2022</h4>
           <div className="contact___address">
             <p>Address</p>
@@ -89,6 +95,9 @@ function ContactSection() {
 
       <div className="contact__section__section">
         <div className="contact__section__left__slab">
+          <div className="contact__section_mob_image_wrapper">
+            <img src={Image1} alt="" />
+          </div>
           <h4>OPENING SUMMER 2022 - MINOTTICUCINE STORE</h4>
           <div className="contact___address">
             <p>Address</p>

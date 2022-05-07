@@ -2,6 +2,7 @@ import React, { Suspense, lazy } from "react";
 import Loader from "../../Assets/images/Loader/loader.gif";
 import ContactBanner from "./ContactBanner/ContactBanner";
 const ContactSection = lazy(() => import("./ContactSection/ContactSection"));
+const Team = lazy(() => import("./Team/Team"));
 const ContactForm = lazy(() =>
   import("../CommonComponents/ContactForm/ContactForm")
 );
@@ -34,6 +35,16 @@ function Contact() {
           <ContactForm />
         </div>
       </Suspense>
+
+      {/* <Suspense
+        fallback={
+          <div className="loader">
+            <img src={Loader} alt="Loader" />
+          </div>
+        }
+      >
+        <Team />
+      </Suspense> */}
     </>
   );
 }
