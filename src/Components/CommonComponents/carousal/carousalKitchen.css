@@ -23,13 +23,14 @@
 .kitchen__carousal__image__single > img {
   width: 911px;
   height: 398px;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .inner__Big {
   display: grid;
   width: 100vw;
   gap: 41px;
+  transition: transform 0.3s;
 }
 
 .kitchen__carousal__image__single__big {
@@ -135,6 +136,7 @@
   display: flex;
   align-items: center;
   gap: 41px;
+  margin-top: 40px;
 }
 
 .kitchen__carousal__data__Mistri {
