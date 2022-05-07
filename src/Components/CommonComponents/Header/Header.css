@@ -188,7 +188,8 @@
   }
 
   .navbar-menu-slider {
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: rgba(0, 0, 0, 0.6);
     position: fixed;
     height: 100%;
     top: 70px;
