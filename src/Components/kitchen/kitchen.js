@@ -1,12 +1,14 @@
 import React, { useEffect } from "react";
 import KitchenItem from "./KitchenItem/KitchenItem";
-
+import WhiteLogo from "../../Assets/images/HomePage/whiteLogo.webp";
+import Logo from "../../Assets/images/HomePage/Taxila-logo.png";
 const Kitchen = () => {
   useEffect(() => {
     const headerBackground = document.getElementsByClassName(
       "navbar-wrapper-desktop"
     )[0];
-
+    const logo = document.getElementsByClassName("navbar-logo-wrapper")[0];
+    console.log(logo);
     const headerLink = document.getElementsByClassName("mono-quick-link")[0];
 
     const mobileHeaderLink = document.getElementsByClassName(
@@ -17,7 +19,7 @@ const Kitchen = () => {
       document.getElementsByClassName("active__links")[0];
 
     const footer = document.getElementsByClassName("footer-container")[0];
-
+    logo.innerHTML = `<img src=${WhiteLogo} alt="Taxila Stone" />`;
     footer.style.backgroundColor = "#1D1D1B";
     headerBackground.style.borderBottom = "0.5600000023841858px solid #CDCDCD";
     footer.style.borderTop = "0.5600000023841858px solid #CDCDCD";
@@ -39,14 +41,11 @@ const Kitchen = () => {
       footer.style.backgroundColor = "";
       footer.style.borderTop = "";
       mobileHeaderLink.style.borderBottom = "";
+      logo.innerHTML = `<img src=${Logo} alt="Taxila Stone" />`;
     };
   }, []);
 
-  return (
- 
-      <KitchenItem />
- 
-  );
+  return <KitchenItem />;
 };
 
 export default Kitchen;
