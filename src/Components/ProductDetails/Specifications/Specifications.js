@@ -34,7 +34,7 @@ function Specifications() {
               </div>
               <div className="product__specification__mono__detail">
                 <p>Country of Origin - </p>
-                <p> Italy </p>
+                <p> Brazil </p>
               </div>
               <div className="product__specification__mono__detail">
                 <p>Finish - </p>
@@ -71,15 +71,15 @@ function Specifications() {
             <div className="product__specification__content">
               <div className="product__specification__mono__detail">
                 <p>PETROGRAPHIC DENOMINATION – </p>
-                <p> Granada Leuco Granite </p>
+                <p> Quartzite</p>
               </div>
               <div className="product__specification__mono__detail">
                 <p>Hardness - </p>
-                <p> 6-7 Mohs </p>
+                <p> 7 Mohs </p>
               </div>
               <div className="product__specification__mono__detail">
                 <p>Apparent Density - </p>
-                <p> N/A </p>
+                <p> 2640 Kg/m3 </p>
               </div>
               <div className="product__specification__mono__detail">
                 <p>Open Porosity - </p>
@@ -87,15 +87,15 @@ function Specifications() {
               </div>
               <div className="product__specification__mono__detail">
                 <p>Flexural Strength - </p>
-                <p> N/A </p>
+                <p> 14.4 Mpa</p>
               </div>
               <div className="product__specification__mono__detail">
                 <p>Abrasion Strength - </p>
-                <p> N/A </p>
+                <p> 40.73 mm</p>
               </div>
               <div className="product__specification__mono__detail">
                 <p>Compressive Strength - </p>
-                <p> N/A </p>
+                <p> 92 Mpa </p>
               </div>
             </div>
           </div>
@@ -124,14 +124,17 @@ function Specifications() {
             <div className="product__specification__content">
               <div className="product__specification__content__data">
                 <p>
-                  <span>Lorem Ipsum</span>
-                  dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-                  eirmod tempor invidunt ut labore et dolore magna aliquyam
-                  erat, sed diam voluptua. At vero eos et accusam et justo duo
-                  dolores et ea rebum.onumy
+                  We recommend you clean your quartzite countertops once daily.
+                  Opt for a cleaner intended for use on quartzite. When you are
+                  cleaning your quartzite, avoid using acidic cleaners like
+                  vinegar, ammonia, or other harsh chemicals. The quartzite is
+                  sealed during manufacturing, but those cleaners remove the
+                  sealing, leaving the quartzite susceptible to etching,
+                  staining, and bacteria growth. If food or liquid is spilled on
+                  your countertop, wipe the area with a soft dishcloth.
                 </p>
               </div>
-              <div className="product__specification__content__data">
+              {/* <div className="product__specification__content__data">
                 <p>
                   <span>Lorem Ipsum</span>
                   dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -139,7 +142,7 @@ function Specifications() {
                   erat, sed diam voluptua. At vero eos et accusam et justo duo
                   dolores et ea rebum.onumy
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         ) : (
