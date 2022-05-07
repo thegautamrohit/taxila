@@ -38,10 +38,13 @@
     cursor: pointer;
   }
   .maistri__Carousal__big {
-    position: absolute;
-    top: 82px;
-    width: 1600px;
-    margin-left: -247px;
+    position: fixed;
+    top: 50px;
+    /* width: 1600px; */
+    /* margin-left: -247px; */
+    left: 0;
+    right: 0;
+    bottom: 0;
     height: 100vh;
     background-color: rgba(29, 29, 27, 0.9);
     display: flex;
@@ -169,5 +172,3 @@
     font-size: 18px;
   }
 }
-
-
