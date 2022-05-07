@@ -41,6 +41,8 @@
   .maistri__Carousal__big {
     position: fixed;
     top: 50px;
+    max-width: 1600px;
+    margin: 0 auto;
     /* width: 1600px; */
     /* margin-left: -247px; */
     left: 0;
