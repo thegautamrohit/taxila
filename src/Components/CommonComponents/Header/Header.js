@@ -79,9 +79,9 @@ function Header() {
       </nav>
 
       <nav className="navbar-wrapper-small">
-        <div className="navbar-small-logo-wrappper">
+        <NavLink to="/" className="navbar-small-logo-wrappper">
           <img src={Logo} alt="Taxila Stone" />
-        </div>
+        </NavLink>
 
         <div className="navbar-small-menu-bar" onClick={() => clickHandler()}>
           <span> {!show ? "Menu" : "Close"} </span>
