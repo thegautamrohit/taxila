@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Logo from "../../../Assets/images/HomePage/Taxila-logo.png";
-import WhiteLogo from "../../../Assets/images/HomePage/whiteLogo.webp";
+import WhiteLogo from "../../../Assets/images/HomePage/whiteLogo.png";
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 
