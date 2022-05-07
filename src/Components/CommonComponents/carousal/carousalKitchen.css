@@ -26,6 +26,25 @@
   object-fit: cover;
 }
 
+.inner__Big {
+  display: grid;
+  width: 100vw;
+  gap: 41px;
+}
+
+.kitchen__carousal__image__single__big {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 508px;
+}
+
+.kitchen__carousal__image__single__big > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .kitchen__carousal__arrow {
   margin-top: 24px;
   width: 911px;
@@ -182,8 +201,20 @@
   overflow: hidden;
 }
 
+.carousel__Big {
+  overflow: hidden;
+}
+
+.kitchen__carousal__container__Big__desktop {
+  margin-left: 80px;
+  width: 94%;
+}
+
 @media screen and (max-width: 450px) {
   .kitchen__carousal__container__desktop {
+    display: none;
+  }
+  .kitchen__carousal__container__Big__desktop {
     display: none;
   }
   .kitchen__carousal__image__single {

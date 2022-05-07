@@ -3,7 +3,13 @@ import { kitchenItem, kitchenItemMaistri } from "../../../kitchenItem";
 import Carousel, {
   CarouselItem,
 } from "../../CommonComponents/carousal/carousalKitchen";
+
+import CarouselBig, {
+  CarouselItemBig,
+} from "../../CommonComponents/carousal/BigCarausal";
 import "./KitchenItem.css";
+import { RiCloseFill } from "react-icons/ri";
+
 const KitchenItem = () => {
   const [select, setSelect] = useState("MAISTRI");
 
@@ -19,6 +25,8 @@ const KitchenItem = () => {
     ...kitchenItemMaistri[0].IMAGE_LINKS,
   ]);
 
+  const [maistriBig, setMaistriBig] = useState(1000);
+  const [mintBig, setMintBig] = useState();
   const [details, setDetails] = useState(kitchenItem[0].DESCRIPTION_ENGLISH);
 
   return (
@@ -118,11 +126,30 @@ const KitchenItem = () => {
             {data_Maistri?.map((item, index) => {
               return (
                 <CarouselItem key={index}>
-                  <img src={item.image} />
+                  <img src={item.image} onClick={() => setMaistriBig(index)} />
                 </CarouselItem>
               );
             })}
           </Carousel>
+          {maistriBig !== 1000 && (
+            <div className="maistri__Carousal__big">
+              <div
+                className="maistri__Carousal__big__close"
+                onClick={() => setMaistriBig(1000)}
+              >
+                <RiCloseFill size={25} /> Close
+              </div>
+              <CarouselBig title="Maistri" head={heading_Maistri}>
+                {data_Maistri?.map((item, index) => {
+                  return (
+                    <CarouselItemBig key={index}>
+                      <img src={item.image} />
+                    </CarouselItemBig>
+                  );
+                })}
+              </CarouselBig>
+            </div>
+          )}
         </div>
       )}
     </div>
