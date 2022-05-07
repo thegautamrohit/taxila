@@ -46,14 +46,14 @@ function SimilarCarousel() {
     // speed: 500,
     // slidesToShow: width <= 500 ? 1.5 : 3.5,
     // slidesToScroll: 1,
-    // nextArrow: <SamplePrevArrow />,
-    // prevArrow: <SampleNextArrow />,
+    nextArrow: <SamplePrevArrow />,
+    prevArrow: <SampleNextArrow />,
     className: "similarCarousalBottom",
     dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
   };
 
   function SampleNextArrow(props) {
@@ -101,7 +101,7 @@ function SimilarCarousel() {
             <div
               key={slide?.id}
               className="product_simlar_carousel_prdct_slide"
-              style={{ margin: "0px 18px 0px 18px" , width:"200px" }}
+              style={{ margin: "0px 18px 0px 18px", width: "200px" }}
             >
               <img src={slide.image} alt="" />
             </div>
