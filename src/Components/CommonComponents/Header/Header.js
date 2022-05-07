@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Logo from "../../../Assets/images/HomePage/Taxila-logo.png";
-
 import { NavLink } from "react-router-dom";
 import "./Header.css";
 
