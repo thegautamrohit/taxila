@@ -11,6 +11,10 @@ function Header() {
     setShow(!show);
   };
 
+  const closeHandler = (e) => {
+    console.log(e.target.className);
+  };
+
   return (
     <div>
       <nav className="navbar-wrapper-desktop">
@@ -105,6 +109,7 @@ function Header() {
 
         <div
           className={show ? "navbar-menu-slider open" : "navbar-menu-slider"}
+          onClick={(e) => closeHandler(e)}
         >
           <div className="navbar_slider_content">
             <p>About</p>
