@@ -25,9 +25,9 @@ function ProductSection() {
     {
       id: 1,
       title: "DA VINCI QUARTZITE",
-      heading: "Lorem ipsu",
+      heading: "Da Vinci",
       bodyText:
-        "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+        "Taxila Stone features Da Vinci, one-of-a-kind quartzite representing the magic and unfiltered beauty of natural surfaces. The green-colored stone adds a sense of allure and wonder with its translucent visual and exudes an attractive and unique aesthetic.",
 
       images: [
         { id: 1, image: Image1 },
