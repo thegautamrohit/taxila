@@ -23,7 +23,7 @@
 .kitchen__carousal__image__single > img {
   width: 911px;
   height: 100%;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .inner__Big {
