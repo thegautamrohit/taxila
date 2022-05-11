@@ -37,13 +37,33 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 508px;
+  height: 545px;
+  width: 100vw;
+  max-width: 1600px;
 }
 
 .kitchen__carousal__image__single__big > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.kitchen__carousal__arrow__maistri {
+  margin-top: 24px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  max-width: 1600px;
+  top: 45%;
+}
+
+.kitchen__carousal__arrow__maistri > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
 }
 
 .kitchen__carousal__arrow {
@@ -77,6 +97,16 @@
   cursor: pointer;
 }
 
+.kitchen__carousal__arrow__maistri > div > svg {
+  color: #e6e5e2;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border: 2px solid #e6e5e2;
+  border-radius: 50%;
+  padding: 10px;
+}
+
 .kitchen__carousal__details {
   margin-left: 810px;
   margin-top: 20px;
@@ -85,6 +115,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100px;
+  padding-bottom: 100px;
 }
 
 .kitchen__carousal__details > p {
@@ -212,9 +243,7 @@
 }
 
 .kitchen__carousal__container__Big__desktop {
-  margin-left: 80px;
-  width: 94%;
-
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;

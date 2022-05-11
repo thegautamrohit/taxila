@@ -55,7 +55,7 @@ const BigCarousal = ({ children, details, title, head }) => {
           <div
             className="inner__Big"
             style={{
-              transform: `translateX(-${93 * activeIndex + 0}vw)`,
+              transform: `translateX(-${92.5 * activeIndex + 0}vw)`,
               gridTemplateColumns: `repeat(${React.Children.count(
                 children
               )} , 90vw)`,
@@ -65,7 +65,7 @@ const BigCarousal = ({ children, details, title, head }) => {
               return React.cloneElement(child, { width: "911px" });
             })}
           </div>
-          <div className="kitchen__carousal__arrow">
+          <div className="kitchen__carousal__arrow__maistri">
             <p onClick={() => setShowDetails(!showDetails)}></p>
             <div>
               <BsArrowLeft
@@ -90,10 +90,6 @@ const BigCarousal = ({ children, details, title, head }) => {
                 }}
               />
             </div>
-          </div>
-          <div className="kitchen__carousal__details">
-            <p>0{activeIndex + 1}</p> <p>-</p>{" "}
-            <p>0{React.Children.count(children)}</p>
           </div>
         </div>
       </div>
