@@ -26,9 +26,10 @@ const KitchenItem = () => {
   ]);
 
   const [maistriBig, setMaistriBig] = useState(1000);
-  const [mintBig, setMintBig] = useState();
+  const [active, setActive] = useState(0);
   const [details, setDetails] = useState(kitchenItem[0].DESCRIPTION_ENGLISH);
 
+  console.log(maistriBig);
   return (
     <div className="kitchenItem__container">
       <div className="kitchenItem__side__bar">
@@ -122,7 +123,11 @@ const KitchenItem = () => {
               </>
             ))}
           </div>
-          <Carousel title="Maistri" head={heading_Maistri}>
+          <Carousel
+            title="Maistri"
+            head={heading_Maistri}
+            Index={(val) => setActive(val)}
+          >
             {data_Maistri?.map((item, index) => {
               return (
                 <CarouselItem key={index}>
@@ -139,7 +144,11 @@ const KitchenItem = () => {
               >
                 <RiCloseFill size={25} /> Close
               </div>
-              <CarouselBig title="Maistri" head={heading_Maistri}>
+              <CarouselBig
+                title="Maistri"
+                head={heading_Maistri}
+                Index={maistriBig}
+              >
                 {data_Maistri?.map((item, index) => {
                   return (
                     <CarouselItemBig key={index}>

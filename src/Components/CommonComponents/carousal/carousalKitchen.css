@@ -63,7 +63,18 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 60%;
+  width: 72%;
+}
+@media screen and (max-width: 1404px) {
+  .kitchen__carousal__arrow__maistri > div {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1196px) {
+  .kitchen__carousal__arrow__maistri > div {
+    width: 90%;
+  }
 }
 
 .kitchen__carousal__arrow {

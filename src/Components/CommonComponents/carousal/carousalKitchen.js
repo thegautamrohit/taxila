@@ -11,7 +11,7 @@ export const CarouselItem = ({ children, width }) => {
   );
 };
 
-const Carousel = ({ children, details, title, head }) => {
+const Carousel = ({ children, details, title, head, Index }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const [paused, setPaused] = useState(false);
   const [showDetails, setShowDetails] = useState(false);
@@ -25,6 +25,7 @@ const Carousel = ({ children, details, title, head }) => {
     }
 
     setActiveIndex(newIndex);
+    Index(newIndex);
   };
 
   useEffect(() => {

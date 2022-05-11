@@ -57,8 +57,8 @@
 
   .maistri__Carousal__big__close {
     position: absolute;
-    top: 40px;
-    right: 80px;
+    top: 100px;
+    right: 100px;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -9,8 +9,8 @@ export const CarouselItemBig = ({ children, width }) => {
   );
 };
 
-const BigCarousal = ({ children, details, title, head }) => {
-  const [activeIndex, setActiveIndex] = useState(0);
+const BigCarousal = ({ children , Index }) => {
+  const [activeIndex, setActiveIndex] = useState(Index);
   const [paused, setPaused] = useState(false);
   const [showDetails, setShowDetails] = useState(false);
   const [isMobile, setisMobile] = useState(false);
