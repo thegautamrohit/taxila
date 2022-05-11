@@ -245,6 +245,20 @@
     position: sticky;
   }
 
+  .inspiration__all__image {
+    display: flex;
+    grid: 14px;
+    flex-wrap: wrap;
+    width: 100%;
+
+    cursor: pointer;
+  }
+
+  .inspiration__all__image > img {
+    width: 164px;
+    height: 238px;
+  }
+
   /* width */
   .inspiration__head::-webkit-scrollbar {
     width: 10px;
