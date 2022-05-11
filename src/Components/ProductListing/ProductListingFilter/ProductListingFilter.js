@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import "./ProductListingFilter.css";
+import "../../Natural Surfaces/NaturalFilter/NaturalFilter.css";
 import { FiChevronDown } from "react-icons/fi";
-import { IoChevronForwardSharp } from "react-icons/io5";
+import { IoChevronForwardOutline } from "react-icons/io5";
+
 import { GoPrimitiveDot } from "react-icons/go";
 
 import Image from "../../../Assets/images/HomePage/Marble-5.webp";
@@ -547,18 +549,16 @@ function ProductListingFilter() {
 
           <div className="product-listing-explore-products-results">
             {tiles?.map((tile) => (
-              <div
-                key={tile.id}
-                className="product-listing-explore-products-mono-result"
-              >
-                <div className="product-listing-explore-products-mono-result-img">
-                  <img src={tile.Image} alt="" />
+              <div key={tile.id} className="mono-natural-tile-card">
+                <div className="mono-natural-tile-card-image">
+                  <img src={tile.Image} alt={tile?.title} />
                 </div>
-                <div className="product-listing-explore-products-mono-result-desc">
-                  <h4>{tile?.title}</h4>
+                <p className="mono-natural-card-title"> {tile?.title} </p>
+
+                <div className="mono-natural-hover-state">
+                  <p>view product</p>
                   <span>
-                    view product
-                    <IoChevronForwardSharp size={22} color={"#cdcdcd"} />
+                    <IoChevronForwardOutline />
                   </span>
                 </div>
               </div>

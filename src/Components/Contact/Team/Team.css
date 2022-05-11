@@ -162,14 +162,14 @@
 
   .team__slider__wrapper {
     height: unset;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
   }
 
   .team_member_card {
     width: 90% !important;
     height: 100%;
     padding: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0;
   }
 

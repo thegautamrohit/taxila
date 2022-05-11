@@ -299,7 +299,7 @@
     gap: 14px;
   }
 
-  .inspiration__image__display {
+  /* .inspiration__image__display {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -307,6 +307,10 @@
     height: 238px;
 
     cursor: pointer;
+  } */
+
+  .inspiration__all__image {
+    height: 238px;
   }
 
   .inspiration__specific__image {

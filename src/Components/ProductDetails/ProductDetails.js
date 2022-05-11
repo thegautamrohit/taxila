@@ -11,7 +11,7 @@ const SimilarCarousel = lazy(() => import("./SimilarCarousel/SimilarCarousel"));
 function ProductDetails() {
   return (
     <div>
-      <Banner BackGround={BackGroundImage} Heading="GRANITE" />
+      <Banner BackGround={BackGroundImage} Heading="QUARTZITE" />
       <Suspense
         fallback={
           <div className="loader">

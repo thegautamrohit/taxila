@@ -5,7 +5,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 import { IoCall } from "react-icons/io5";
 import { GrNext, GrPrevious } from "react-icons/gr";
-import Image from "../../../Assets/images/Vinci/vinci-5.webp";
+import Image from "../../../Assets/images/About/avatar.webp";
 
 function Team() {
   const [width, setWidth] = useState(window.innerWidth);

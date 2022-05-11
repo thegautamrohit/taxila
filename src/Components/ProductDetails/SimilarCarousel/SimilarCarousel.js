@@ -46,14 +46,25 @@ function SimilarCarousel() {
     // speed: 500,
     // slidesToShow: width <= 500 ? 1.5 : 3.5,
     // slidesToScroll: 1,
-    // nextArrow: <SamplePrevArrow />,
-    // prevArrow: <SampleNextArrow />,
+    nextArrow: <SamplePrevArrow />,
+    prevArrow: <SampleNextArrow />,
     className: "similarCarousalBottom",
-    dots: true,
-    infinite: true,
+    dots: false,
+    infinite: false,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
+  };
+
+  const sett = {
+    nextArrow: <SamplePrevArrow />,
+    prevArrow: <SampleNextArrow />,
+    className: "similarCarousalBottom",
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 1.2,
+    slidesToScroll: 1,
   };
 
   function SampleNextArrow(props) {
@@ -83,32 +94,55 @@ function SimilarCarousel() {
   }
 
   return (
-    <div className="product__similar__carousel__container__desk">
-      <div>
-        <Slider {...settings}>
-          <div
-            className="product_simlar_carousel_prdct_slide"
-            style={{ width: 900, margin: "0px 18px 0px 18px" }}
-          >
-            <h4>View Similar Products</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod
-            </p>
-          </div>
-
-          {slides?.map((slide) => (
+    <>
+      <div className="product__similar__carousel__container__desk">
+        <div>
+          <Slider {...settings}>
             <div
-              key={slide?.id}
               className="product_simlar_carousel_prdct_slide"
-              style={{ margin: "0px 18px 0px 18px" , width:"200px" }}
+              style={{ width: 900, margin: "0px 18px 0px 18px" }}
             >
-              <img src={slide.image} alt="" />
+              <h4>View Similar Products</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod
+              </p>
             </div>
-          ))}
-        </Slider>
+
+            {slides?.map((slide) => (
+              <div
+                key={slide?.id}
+                className="product_simlar_carousel_prdct_slide"
+                style={{ margin: "0px 18px 0px 18px", width: "200px" }}
+              >
+                <img src={slide.image} alt="" />
+              </div>
+            ))}
+          </Slider>
+        </div>
       </div>
-    </div>
+
+      <div className="product__similar__carousel__container__mob">
+        <h4>View Similar Products</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+          nonumy eirmod
+        </p>
+        <div>
+          <Slider {...sett}>
+            {slides?.map((slide) => (
+              <div
+                key={slide?.id}
+                className="product_simlar_carousel_prdct_slide"
+                style={{ margin: "0px 18px 0px 18px", width: "200px" }}
+              >
+                <img src={slide.image} alt="" />
+              </div>
+            ))}
+          </Slider>
+        </div>
+      </div>
+    </>
   );
 }
 

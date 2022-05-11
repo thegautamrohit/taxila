@@ -17,13 +17,13 @@
 
 .kitchen__carousal__image__single {
   width: 911px;
-  height: 398px;
+  height: 450px;
 }
 
 .kitchen__carousal__image__single > img {
   width: 911px;
-  height: 398px;
-  object-fit: fill;
+  height: 100%;
+  object-fit: cover;
 }
 
 .inner__Big {
@@ -79,7 +79,8 @@
 
 .kitchen__carousal__details {
   margin-left: 810px;
-  margin-top: 49px;
+  margin-top: 20px;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -213,6 +214,10 @@
 .kitchen__carousal__container__Big__desktop {
   margin-left: 80px;
   width: 94%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 450px) {

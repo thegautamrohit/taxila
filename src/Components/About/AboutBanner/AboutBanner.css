@@ -17,7 +17,7 @@
 
   color: #fff;
   font-family: var(--playfair-text);
-  font-size: 40px;
+  font-size: 80px;
   /* font-weight: 600; */
   width: 100%;
   /* border: 1px solid #fff; */
@@ -65,7 +65,7 @@
 
     color: #fff;
     font-family: var(--playfair-text);
-    font-size: 18px;
+    font-size: 24px;
     width: 100%;
     text-align: center;
     letter-spacing: 4px;

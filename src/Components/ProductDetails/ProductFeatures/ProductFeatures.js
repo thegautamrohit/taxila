@@ -12,7 +12,7 @@ function ProductFeatures() {
 
         <div className="product-deatils-table-section-wrapper">
           <div className="product-details-table-section-image-wraper">
-            <p> DA VINCI </p>
+            <p> Quartzite</p>
             <img src={Image} alt="" />
           </div>
 
@@ -123,7 +123,7 @@ function ProductFeatures() {
           </div>
           <div className="product-listing-table-data-container">
             <div className="product-listing-table-right">
-              <div className="product-listing-table-right-head">Granite</div>
+              <div className="product-listing-table-right-head">Quartzite</div>
 
               <div className="table-right-mono-content-block">
                 <GoPrimitiveDot color={"#6C6C6C"} size={12} />

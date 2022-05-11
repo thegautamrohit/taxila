@@ -51,6 +51,7 @@
 .product__images__active__image > img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .product__section__details__container {

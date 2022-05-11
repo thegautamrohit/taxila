@@ -14,12 +14,13 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 100%;
 }
 
 .contact-banner-head > h1 {
   color: #fff;
   font-family: var(--playfair-text);
-  font-size: 40px;
+  font-size: 80px;
   /* font-weight: 600; */
   width: 100%;
   /* border: 1px solid #fff; */
@@ -32,6 +33,7 @@
   color: #a09f9d;
   font-family: var(--open-sans-text);
   margin: 10px 0 0 0;
+  text-align: center;
 }
 
 .contact-route-indicator {
@@ -78,7 +80,7 @@
   .contact-banner-head > h1 {
     color: #fff;
     font-family: var(--playfair-text);
-    font-size: 18px;
+    font-size: 24px;
     width: 100%;
     text-align: center;
     letter-spacing: 4px;
