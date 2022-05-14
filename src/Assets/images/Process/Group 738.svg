@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600.499" height="217" viewBox="0 0 600.499 217">
+  <g id="Group_738" data-name="Group 738" transform="translate(-80.001 -1340)">
+    <g id="Rectangle_457" data-name="Rectangle 457" transform="translate(138 1340)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="542" height="217" stroke="none"/>
+      <rect x="0.5" y="0.5" width="541" height="216" fill="none"/>
+    </g>
+    <g id="Group_680" data-name="Group 680" transform="translate(-13.746 820.5)">
+      <g id="Group_669" data-name="Group 669" transform="translate(133.625 526)">
+        <path id="Path_285" data-name="Path 285" d="M4563.854-5588H4902.7v204.944H4342.577" transform="translate(-4342.577 5592.854)" fill="none" stroke="#ddd5c9" stroke-width="1"/>
+        <g id="Ellipse_44" data-name="Ellipse 44" transform="translate(216.121)" fill="#e6e5e2" stroke="#ddd5c9" stroke-width="1">
+          <circle cx="5" cy="5" r="5" stroke="none"/>
+          <circle cx="5" cy="5" r="4.5" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <path id="Path_1722" data-name="Path 1722" d="M931.364,187V171.112h23.653V187.9c0,17.983,7.991,29.073,26.53,29.073,17.9,0,26.21-9.891,26.21-31.171V167.515c0-21.58-9.269-31.171-28.128-31.171H966.2v-21.28h14.064c16.621,0,26.849-9.291,26.849-28.473V72.8c0-19.182-9.27-29.073-25.571-29.073-17.58,0-25.251,9.891-25.251,28.174V84.193H932.642V73.7c0-32.07,15.982-51.252,49.863-51.252,32.6,0,49.544,18.583,49.544,50.952V81.8c0,22.479-8.631,37.165-26.21,42.56v.6c19.178,5.695,26.849,20.98,26.849,42.56V187c0,32.07-15.982,51.252-50.5,51.252-35.16,0-50.822-20.381-50.822-51.252" transform="translate(-851.363 1318.049)" fill="#ddd5c9"/>
+  </g>
+</svg>

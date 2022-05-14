@@ -1,0 +1,118 @@
+.process__section__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.process__section__main__text {
+  margin: 70px 0 0 0;
+}
+
+.process__section__main__text > h1 {
+  font-size: 40px;
+  font-family: var(--playfair-text);
+  color: #1d1d1b;
+  line-height: 1.6;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.process__section__main__text > h1 > span {
+  color: #ff1000;
+}
+
+.process__section__process__flow__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 65px 0;
+}
+
+.process__section__single__process {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+
+  /* border: 1px solid red; */
+}
+
+.process__section__single__process > img {
+  height: 100px;
+  width: 100px;
+}
+
+.process__section__single__process > p {
+  color: #1d1d1b;
+  font-family: var(--playfair-text);
+  font-size: 18px;
+  margin: 24px 0 20px 0;
+}
+
+.process__section__single__process:last-child > .process__section__dot::after {
+  display: none;
+}
+
+.process__section__dot {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 3px solid #ddd5c9;
+}
+
+.process__section__dot::after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translate(1%, -50%);
+  width: 200px;
+  height: 4px;
+  background-color: #e6e5e2;
+}
+
+@media screen and (max-width: 768px) {
+  .process__section__container {
+    /* width: 90%; */
+    margin: 0 auto;
+    align-items: unset;
+    justify-content: unset;
+  }
+
+  .process__section__main__text {
+    margin: 45px auto 0 auto;
+    width: 90%;
+  }
+
+  .process__section__main__text > h1 {
+    text-align: left;
+    font-size: 24px;
+  }
+
+  .process_section_process_flow_wrapper_parent {
+    overflow-x: scroll;
+  }
+
+  .process__section__process__flow__wrapper {
+    width: 700px;
+    margin: 40px 0;
+  }
+
+  .process__section__single__process > img {
+    width: 64px;
+    height: 64px;
+  }
+
+  .process__section__dot::after {
+    width: 120px;
+  }
+
+  .process__section__single__process > p {
+    font-size: 12px;
+  }
+}

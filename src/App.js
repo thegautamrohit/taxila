@@ -16,6 +16,7 @@ import Kitchen from "./Components/kitchen/kitchen";
 import Blogs from "./Components/Blogs/Blogs";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
+import Process from "./Components/Process/Process";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/contact-us" element={<Contact />} />
+        <Route path="/process" element={<Process />} />
       </Routes>
       <Footer />
     </BrowserRouter>
