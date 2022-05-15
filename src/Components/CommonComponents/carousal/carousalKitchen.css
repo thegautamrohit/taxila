@@ -24,6 +24,7 @@
   width: 911px;
   height: 100%;
   object-fit: cover;
+  cursor: pointer;
 }
 
 .inner__Big {
