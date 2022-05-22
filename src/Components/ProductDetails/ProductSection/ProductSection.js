@@ -17,10 +17,13 @@ import Image4 from "../../../Assets/images/Vinci/vinci-4.webp";
 import Image5 from "../../../Assets/images/Vinci/vinci-5.webp";
 import Image6 from "../../../Assets/images/Vinci/vinci-6.webp";
 import Pdf from "../../../Assets/Specs/pdf.pdf";
-
+import CarouselBig, {
+  CarouselItemBig,
+} from "../../CommonComponents/carousal/BigCarausal";
+import { RiCloseFill } from "react-icons/ri";
 function ProductSection() {
   const [active, setActive] = useState(0);
-
+  const [miniBig, setMiniBig] = useState(1000);
   const Product = [
     {
       id: 1,
@@ -48,7 +51,7 @@ function ProductSection() {
           {Product[0]?.images.map((img, index) => (
             <div
               key={img.id}
-              onClick={() => setActive(index)}
+              onClick={() => (setActive(index), setMiniBig(index))}
               style={{
                 opacity: active === index ? 1 : 0.3,
               }}
@@ -124,6 +127,26 @@ function ProductSection() {
           </div>
         </div>
       </div>
+
+      {miniBig !== 1000 && (
+        <div className="maistri__Carousal__big">
+          <div
+            className="maistri__Carousal__big__close"
+            onClick={() => setMiniBig(1000)}
+          >
+            <RiCloseFill size={25} /> Close
+          </div>
+          <CarouselBig title="MINOTTICUCINE" Index={miniBig}>
+            {Product[0]?.images?.map((item, index) => {
+              return (
+                <CarouselItemBig key={index}>
+                  <img src={item.image} />
+                </CarouselItemBig>
+              );
+            })}
+          </CarouselBig>
+        </div>
+      )}
     </div>
   );
 }

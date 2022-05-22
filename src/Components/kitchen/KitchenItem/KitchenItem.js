@@ -26,6 +26,7 @@ const KitchenItem = () => {
   ]);
 
   const [maistriBig, setMaistriBig] = useState(1000);
+  const [miniBig, setMiniBig] = useState(1000);
   const [active, setActive] = useState(0);
   const [details, setDetails] = useState(kitchenItem[0].DESCRIPTION_ENGLISH);
 
@@ -75,15 +76,39 @@ const KitchenItem = () => {
               </div>
             ))}
           </div>
-          <Carousel details={details} title="Mini">
+          <Carousel
+            details={details}
+            title="Mini"
+            Index={(val) => setActive(val)}
+          >
             {data?.map((item, index) => {
               return (
                 <CarouselItem key={index}>
-                  <img src={item.image} />
+                  <img src={item.image} onClick={() => setMiniBig(index)} />
                 </CarouselItem>
               );
             })}
           </Carousel>
+
+          {miniBig !== 1000 && (
+            <div className="maistri__Carousal__big">
+              <div
+                className="maistri__Carousal__big__close"
+                onClick={() => setMiniBig(1000)}
+              >
+                <RiCloseFill size={25} /> Close
+              </div>
+              <CarouselBig title="MINOTTICUCINE" head={heading} Index={miniBig}>
+                {data?.map((item, index) => {
+                  return (
+                    <CarouselItemBig key={index}>
+                      <img src={item.image} />
+                    </CarouselItemBig>
+                  );
+                })}
+              </CarouselBig>
+            </div>
+          )}
         </div>
       )}
 
